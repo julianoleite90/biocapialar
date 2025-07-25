@@ -123,11 +123,11 @@ const Footer = () => {
 
         <LinksSection>
           <FooterLinks>
-            <FooterLink href="https://www.definamaxoficial.com/termos" target="_blank" rel="noopener noreferrer">Termos de Garantia</FooterLink>
+            <FooterLink href="https://www.phynamaxoficial.com/phynamax" target="_blank" rel="noopener noreferrer">Termos de Garantia</FooterLink>
             <LinkSeparator>|</LinkSeparator>
-            <FooterLink href="https://www.definamaxoficial.com/faq" target="_blank" rel="noopener noreferrer">Perguntas Frequentes</FooterLink>
+            <FooterLink href="https://www.phynamaxoficial.com/phynamax" target="_blank" rel="noopener noreferrer">Perguntas Frequentes</FooterLink>
             <LinkSeparator>|</LinkSeparator>
-            <FooterLink href="https://www.definamaxoficial.com/privacidade" target="_blank" rel="noopener noreferrer">Política de Privacidade</FooterLink>
+            <FooterLink href="https://www.phynamaxoficial.com/phynamax" target="_blank" rel="noopener noreferrer">Política de Privacidade</FooterLink>
           </FooterLinks>
         </LinksSection>
 

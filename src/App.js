@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 // Importar páginas
 import HomePage from './pages/HomePage';
+import HomePage2 from './pages/HomePage2';
 import ProductPage from './pages/ProductPage';
 import RemarketingPage from './pages/RemarketingPage';
 import ThankYouPage from './pages/ThankYouPage';
@@ -22,6 +23,9 @@ function App() {
         <Routes>
           {/* Página inicial - Landing Page */}
           <Route path="/" element={<HomePage />} />
+          
+          {/* Página inicial versão 2 - TRC */}
+          <Route path="/phynamax-2" element={<HomePage2 />} />
           
           {/* Página de produto */}
           <Route path="/produto" element={<ProductPage />} />

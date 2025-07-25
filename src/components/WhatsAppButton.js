@@ -63,7 +63,7 @@ const WhatsAppIcon = styled(FaWhatsapp)`
 
 const WhatsAppButton = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Definamax.');
+  const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Phynamax.');
 
   useEffect(() => {
     const handleScroll = () => {

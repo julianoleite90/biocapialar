@@ -1,7 +1,7 @@
 {
-  "name": "lp-definamax",
+  "name": "lp-phynamax",
   "version": "1.0.0",
-  "description": "Landing page para produto emagrecedor Definamax",
+  "description": "Landing page para produto emagrecedor Phynamax",
   "main": "index.js",
   "scripts": {
     "dev": "react-scripts start",

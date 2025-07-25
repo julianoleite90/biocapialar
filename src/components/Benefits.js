@@ -131,7 +131,7 @@ const Benefits = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Por Que Escolher o DEFINAMAX?
+            Por Que Escolher o PHYNAMAX?
           </SectionTitle>
           
           <SectionSubtitle

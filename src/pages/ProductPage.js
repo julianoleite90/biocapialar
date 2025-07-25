@@ -8,12 +8,12 @@ import Footer from '../components/Footer';
 const structuredData = {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Definamax - Kit 5 Meses (5 Frascos)",
+          "name": "Phynamax - Kit 5 Meses (5 Frascos)",
   "image": [
     "https://definamaxoficial.com/kit-5-frascos.png",
     "https://definamaxoficial.com/definamax-frasco.png"
   ],
-  "description": "Kit avançado com 5 frascos de Definamax para 5 meses de uso (300 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.",
+          "description": "Kit avançado com 5 frascos de Phynamax para 5 meses de uso (300 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.",
   "sku": "DEFMAX-5M",
   "mpn": "DEFMAX-5M",
   "brand": {
@@ -811,7 +811,7 @@ const ProductPage = () => {
 
   // Função para abrir o WhatsApp
   const openWhatsApp = () => {
-    const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Definamax.');
+    const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Phynamax.');
     window.open(`https://wa.me/5541984549172?text=${message}`, '_blank');
   };
 
@@ -819,8 +819,8 @@ const ProductPage = () => {
   const kits = {
     kit1: {
       id: 'DEFMAX-1M',
-      title: 'Definamax - Kit 1 Mês (1 Frasco)',
-      description: 'Kit básico com 1 frasco de Definamax para 1 mês de uso (60 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
+              title: 'Phynamax - Kit 1 Mês (1 Frasco)',
+              description: 'Kit básico com 1 frasco de Phynamax para 1 mês de uso (60 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
       regularPrice: 279.00,
       salePrice: 237.00,
       image: '/1frasco.png',
@@ -833,8 +833,8 @@ const ProductPage = () => {
     },
     kit3: {
       id: 'DEFMAX-3M',
-      title: 'Definamax - Kit 3 Meses (3 Frascos)',
-      description: 'Kit intermediário com 3 frascos de Definamax para 3 meses de uso (180 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
+              title: 'Phynamax - Kit 3 Meses (3 Frascos)',
+              description: 'Kit intermediário com 3 frascos de Phynamax para 3 meses de uso (180 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
       regularPrice: 579.00,
       salePrice: 349.00,
       image: '/2frascos.png',
@@ -847,8 +847,8 @@ const ProductPage = () => {
     },
     kit5: {
       id: 'DEFMAX-5M',
-      title: 'Definamax - Kit 5 Meses (5 Frascos)',
-      description: 'Kit avançado com 5 frascos de Definamax para 5 meses de uso (300 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
+              title: 'Phynamax - Kit 5 Meses (5 Frascos)',
+              description: 'Kit avançado com 5 frascos de Phynamax para 5 meses de uso (300 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
       regularPrice: 879.00,
       salePrice: 379.00,
       image: '/5frascos.png',
@@ -861,8 +861,8 @@ const ProductPage = () => {
     },
     kit8: {
       id: 'DEFMAX-8M',
-      title: 'Definamax - Kit 8 Meses (8 Frascos)',
-      description: 'Kit completo com 8 frascos de Definamax para 8 meses de uso (480 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
+              title: 'Phynamax - Kit 8 Meses (8 Frascos)',
+              description: 'Kit completo com 8 frascos de Phynamax para 8 meses de uso (480 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
       regularPrice: 1079.00,
       salePrice: 449.00,
       image: '/8frascos.png',
@@ -912,7 +912,7 @@ const ProductPage = () => {
             "mpn": kit.mpn,
             "brand": {
               "@type": "Brand",
-              "name": "Definamax"
+              "name": "Phynamax"
             },
             "category": "Saúde > Suplementos > Suplementos Alimentares",
             "offers": {
@@ -969,7 +969,7 @@ const ProductPage = () => {
                   "name": "Joana"
                 },
                 "datePublished": "2025-04-15",
-                "reviewBody": "Após meses usando Definamax, senti mais disposição e bem-estar no meu dia a dia. O suplemento me ajudou a manter uma rotina mais saudável!"
+                "reviewBody": "Após meses usando Phynamax, senti mais disposição e bem-estar no meu dia a dia. O suplemento me ajudou a manter uma rotina mais saudável!"
               }
             ],
             "gtin": "7898489348755",
@@ -1026,7 +1026,7 @@ const ProductPage = () => {
       <Header>
         <HeaderContent>
           <a href="/">
-            <Logo src="/logo-phynamax.png" alt="Definamax - Suplemento Natural" />
+            <Logo src="/logo-phynamax.png" alt="Phynamax - Suplemento Natural" />
           </a>
                   <CTAButton href={addUtmToUrl('https://full.sale/8mYNoQ')}>
           Comprar Agora
@@ -1075,7 +1075,7 @@ const ProductPage = () => {
                     color: '#166534',
                     fontWeight: '500'
                   }}>
-                    5 Frascos Definamax + 1 Frasco de Colágeno
+                    5 Frascos Phynamax + 1 Frasco de Colágeno
                   </div>
                 )}
               </MainImageContainer>
@@ -1191,7 +1191,7 @@ const ProductPage = () => {
           <ContentSection>
             <SectionTitle>Por que o Phynamax é tão eficaz no emagrecimento?</SectionTitle>
             <ProductDescription style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '1.125rem' }}>
-              <strong>ATENÇÃO:</strong> A fórmula DEFINAMAX contém fibras bioativas exclusivas que agem como uma ESPONJA no seu organismo, absorvendo gorduras e açúcares ANTES que sejam transformados em peso extra! Este é o SEGREDO por trás de mais de 45 MIL TRANSFORMAÇÕES reais!
+              <strong>ATENÇÃO:</strong> A fórmula PHYNAMAX contém fibras bioativas exclusivas que agem como uma ESPONJA no seu organismo, absorvendo gorduras e açúcares ANTES que sejam transformados em peso extra! Este é o SEGREDO por trás de mais de 45 MIL TRANSFORMAÇÕES reais!
             </ProductDescription>
             <CardsGrid>
               <InfoCard>
@@ -1210,7 +1210,7 @@ const ProductPage = () => {
           </ContentSection>
 
           <ContentSection>
-            <SectionTitle>POR QUE MAIS DE 45 MIL PESSOAS ESCOLHERAM DEFINAMAX?</SectionTitle>
+            <SectionTitle>POR QUE MAIS DE 45 MIL PESSOAS ESCOLHERAM PHYNAMAX?</SectionTitle>
             <BenefitsList>
               <BenefitItemLarge>
                 <BenefitIconLarge>
@@ -1328,7 +1328,7 @@ const ProductPage = () => {
               <tbody>
                 <SpecsRow>
                   <SpecsLabel>Marca</SpecsLabel>
-                  <SpecsValue>Definamax</SpecsValue>
+                  <SpecsValue>Phynamax</SpecsValue>
                 </SpecsRow>
                 <SpecsRow>
                   <SpecsLabel>GTIN/EAN</SpecsLabel>
@@ -1508,7 +1508,7 @@ const ProductPage = () => {
                     </ReviewerInfo>
                   </ReviewHeader>
                   <ReviewText>
-                    "INACREDITÁVEL! Em 45 dias perdi 12 kg e nunca mais tive compulsão por doces! O Definamax MUDOU minha vida completamente! Minha autoestima voltou e me sinto uma mulher nova!"
+                    "INACREDITÁVEL! Em 45 dias perdi 12 kg e nunca mais tive compulsão por doces! O Phynamax MUDOU minha vida completamente! Minha autoestima voltou e me sinto uma mulher nova!"
                   </ReviewText>
                   <VerifiedPurchase>
                     <FaCheckCircle />
@@ -1550,7 +1550,7 @@ const ProductPage = () => {
                     </ReviewerInfo>
                   </ReviewHeader>
                   <ReviewText>
-                    "Perdi 25 kg em 4 meses! Minha esposa não para de me elogiar e recuperei minha confiança. Definamax é REVOLUCIONÁRIO - funciona MESMO sem academia!"
+                    "Perdi 25 kg em 4 meses! Minha esposa não para de me elogiar e recuperei minha confiança. Phynamax é REVOLUCIONÁRIO - funciona MESMO sem academia!"
                   </ReviewText>
                   <VerifiedPurchase>
                     <FaCheckCircle />
@@ -1566,11 +1566,11 @@ const ProductPage = () => {
             <FAQContainer>
               <FAQItem>
                 <FAQQuestion onClick={() => setOpenFAQ(openFAQ === 'q1' ? null : 'q1')}>
-                  <span>Por que o Definamax é TÃO EFICAZ?</span>
+                  <span>Por que o Phynamax é TÃO EFICAZ?</span>
                   <ChevronIcon open={openFAQ === 'q1'} />
                 </FAQQuestion>
                 <FAQAnswer open={openFAQ === 'q1'}>
-                  Definamax contém uma fórmula EXCLUSIVA com 6 ingredientes queima-gordura que agem como uma ESPONJA no seu organismo! As fibras bioativas absorvem gorduras e açúcares ANTES que virem peso extra. É por isso que mais de 45 MIL pessoas já se transformaram - os resultados são GARANTIDOS!
+                  Phynamax contém uma fórmula EXCLUSIVA com 6 ingredientes queima-gordura que agem como uma ESPONJA no seu organismo! As fibras bioativas absorvem gorduras e açúcares ANTES que virem peso extra. É por isso que mais de 45 MIL pessoas já se transformaram - os resultados são GARANTIDOS!
                 </FAQAnswer>
               </FAQItem>
               <FAQItem>
@@ -1588,7 +1588,7 @@ const ProductPage = () => {
                   <ChevronIcon open={openFAQ === 'q3'} />
                 </FAQQuestion>
                 <FAQAnswer open={openFAQ === 'q3'}>
-                  O Definamax é composto por ingredientes naturais e é geralmente bem tolerado. No entanto, como qualquer suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você tiver alguma condição médica específica.
+                  O Phynamax é composto por ingredientes naturais e é geralmente bem tolerado. No entanto, como qualquer suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você tiver alguma condição médica específica.
                 </FAQAnswer>
               </FAQItem>
               <FAQItem>

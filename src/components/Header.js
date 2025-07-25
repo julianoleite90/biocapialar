@@ -88,7 +88,7 @@ const Header = () => {
       transition={{ duration: 0.6 }}
     >
       <Nav>
-        <Logo>DEFINAMAX</Logo>
+        <Logo>PHYNAMAX</Logo>
         
         <NavLinks>
           <NavLink href="#benefits">Benefícios</NavLink>
