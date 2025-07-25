@@ -11,8 +11,8 @@ interface ExitPopupProps {
 
 export default function ExitPopup({
   vimeoVideoId = "1082333298",
-  ctaLink = "https://full.sale/DmNQj1",
-  ctaText = "QUERO EXPERIMENTAR DEFINAMAX",
+  ctaLink = "https://full.sale/k0E9wK",
+  ctaText = "EU QUERO EMAGRECER",
 }: ExitPopupProps) {
   const [showPopup, setShowPopup] = useState(false)
   const [hasShownPopup, setHasShownPopup] = useState(false)

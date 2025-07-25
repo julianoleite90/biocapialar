@@ -10,21 +10,21 @@ interface VideoTestimonialsCarouselProps {
 const videoTestimonials = [
   {
     id: 1,
-    vimeoId: '1092606215',
+    vimeoId: '1104572615',
     name: 'Luana',
     city: 'São Paulo - SP',
     weightLoss: '30kg em 9 meses'
   },
   {
     id: 2,
-    vimeoId: '1092323500',
+    vimeoId: '1104573150',
     name: 'Paula',
     city: 'Colombo - PR',
     weightLoss: '6kg em apenas 30 dias'
   },
   {
     id: 3,
-    vimeoId: '1092323559',
+    vimeoId: '1104574046',
     name: 'Joana',
     city: 'Recife - PE',
     weightLoss: '9kg em 2 meses'
@@ -71,7 +71,7 @@ export default function VideoTestimonialsCarousel({ scrollToKits }: VideoTestimo
           {/* Main Video Display */}
           <div className="flex justify-center mb-8">
             <div className="relative w-full max-w-2xl">
-              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <div className="h-80 sm:aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <iframe
                   key={videoTestimonials[currentIndex].id}
                   src={`https://player.vimeo.com/video/${videoTestimonials[currentIndex].vimeoId}?loop=1&title=0&byline=0&portrait=0`}
@@ -138,7 +138,7 @@ export default function VideoTestimonialsCarousel({ scrollToKits }: VideoTestimo
           <div className="grid grid-cols-2 gap-8">
             {videoTestimonials.map((testimonial, index) => (
               <div key={testimonial.id} className="text-center">
-                <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black mb-6">
+                <div className="h-64 sm:aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black mb-6">
                   <iframe
                     src={`https://player.vimeo.com/video/${testimonial.vimeoId}?loop=1&title=0&byline=0&portrait=0`}
                     className="w-full h-full"

@@ -138,7 +138,7 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'Definamax',
   url: 'https://www.definamaxoficial.com',
-  logo: 'https://www.definamaxoficial.com/logo2.png',
+  logo: 'https://www.definamaxoficial.com/logo-phynamax.png',
   sameAs: [
     'https://www.instagram.com/definamax',
     'https://www.facebook.com/definamax'

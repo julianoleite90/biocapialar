@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 const FlexibilityContainer = styled.section`
-  background: #e8f5e8;
+  background: #f5e8f0;
   padding: 80px 20px 0 20px;
   color: #333;
   text-align: center;
@@ -102,7 +102,7 @@ const FlexibilitySection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Quando foi a última vez que você se sentiu confiante com seu peso e o seu corpo?
+            Chega de evitar a balança ou sentir vergonha do seu corpo
           </MainTitle>
           
           <Description
@@ -111,7 +111,7 @@ const FlexibilitySection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Recupere a sua confiança em seu corpo e conquiste uma vida mais plena com um emagrecedor que transforma seu peso em bem-estar. Definamax foi criado para que cada quilo perdido signifique mais autoestima, mais confiança e mais amor próprio em seu dia a dia - naturalmente, sem sacrifícios, com resultados que vão muito além da balança.
+            Recupere a sua confiança em seu corpo e conquiste uma vida mais plena com uma fórmula que transforma seu peso em bem-estar. Phynamax foi criado para que cada quilo perdido signifique mais autoestima, mais confiança e mais amor próprio em seu dia a dia - naturalmente, sem sacrifícios, com resultados que vão muito além da balança.
           </Description>
         </ContentArea>
 
@@ -122,7 +122,7 @@ const FlexibilitySection = () => {
           viewport={{ once: true }}
         >
           <DeviceMockup>
-            <img src="/jeans.png" alt="Mulher magra vestindo calça jeans após emagrecer com Definamax" />
+            <img src="/fundo-emagreceu.png" alt="Mulher magra vestindo calça jeans após emagrecer com Definamax" />
           </DeviceMockup>
         </DeviceArea>
       </Container>

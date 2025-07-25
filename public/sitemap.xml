@@ -12,7 +12,7 @@
     
     <!-- Images -->
     <image:image>
-      <image:loc>https://www.definamaxoficial.com/logo-definamax.png</image:loc>
+      <image:loc>https://www.definamaxoficial.com/logo-phynamax.png</image:loc>
       <image:title>Logo Definamax - Emagrecedor Natural</image:title>
       <image:caption>Logo oficial do Definamax, emagrecedor natural aprovado pela ANVISA</image:caption>
     </image:image>
@@ -67,7 +67,7 @@
     
     <!-- Videos -->
     <video:video>
-      <video:thumbnail_loc>https://www.definamaxoficial.com/logo-definamax.png</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.definamaxoficial.com/logo-phynamax.png</video:thumbnail_loc>
       <video:title>Processo de Fabricação Definamax</video:title>
       <video:description>Vídeo exclusivo mostrando o processo de fabricação do Definamax em laboratório certificado</video:description>
       <video:content_loc>https://www.definamaxoficial.com/fabricacao.mp4</video:content_loc>

@@ -138,7 +138,7 @@ export default function LandingPage() {
           <div className="flex flex-row items-center justify-between gap-2 md:gap-8 py-0.5">
             <div className="flex justify-start items-center">
               <Image 
-                src="/logo2.png" 
+                src="/logo-phynamax.png" 
                 alt="Definamax" 
                 width={400} 
                 height={120} 
@@ -279,9 +279,9 @@ export default function LandingPage() {
           {/* Grid de Depoimentos */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
             {[
-              { name: "Débora", age: 31, loss: 23, months: 7, image: "/dep01.png", profession: "Professora", location: "São Paulo, SP" },
-              { name: "Arnaldo", age: 34, loss: 25, months: 6, image: "/dep02.png", profession: "Auxiliar Administrativo", location: "Salvador, BA" },
-              { name: "Sara", age: 32, loss: 11, months: 2, image: "/dep03.png", profession: "Dona de casa", location: "Rio de Janeiro, RJ" }
+              { name: "Letícia", age: 25, loss: 19, months: 4, image: "/10.png", profession: "Enfermeira", location: "Teresina, PI" },
+              { name: "Gustavo", age: 30, loss: 22, months: 5, image: "/11.png", profession: "Advogado", location: "Aracaju, SE" },
+              { name: "Fernanda", age: 28, loss: 15, months: 3, image: "/12.png", profession: "Professora", location: "Cuiabá, MT" }
             ].map((item, index) => (
               <div key={index} className="w-full">
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
@@ -309,8 +309,8 @@ export default function LandingPage() {
             {showMoreReviews && (
               <>
                 {[
-                  { name: "Rosimari", age: 34, loss: 14, months: 3, image: "/dep04.png", profession: "Vendedora", location: "Pinhais, PR" },
-                  { name: "Laura", age: 37, loss: 24, months: 6, image: "/dep05.png", profession: "Designer", location: "Guarulhos, SP" },
+                                          { name: "Carla", age: 31, loss: 23, months: 6, image: "/13.png", profession: "Dentista", location: "Palmas, TO" },
+       { name: "Eduardo", age: 39, loss: 27, months: 7, image: "/14.png", profession: "Médico", location: "Boa Vista, RR" },
                   { name: "Victor", age: 29, loss: 31, months: 10, image: "/dep06.png", profession: "Motorista de aplicativo", location: "Belo Horizonte, MG" }
                 ].map((item, index) => (
                   <div key={index} className="w-full">
@@ -1086,7 +1086,7 @@ export default function LandingPage() {
                   <div className="flex flex-col gap-2">
                     <div className="flex items-center gap-2">
                       <Image
-                        src="/logo2.png"
+                        src="/logo-phynamax.png"
                         alt="Garantia"
                         width={24}
                         height={24}
@@ -1401,28 +1401,28 @@ export default function LandingPage() {
           <div className="space-y-4">
             {[
               {
-                question: "Como devo tomar o Definamax?",
+                question: "Como devo tomar o Phynamax?",
                 answer: "Recomenda-se tomar 2 cápsulas por dia, preferencialmente antes das principais refeições. Para melhores resultados, tome uma cápsula 30 minutos antes do almoço e outra 30 minutos antes do jantar, sempre com um copo de água."
               },
               {
                 question: "Quanto tempo demora para ver resultados?",
-                answer: "Os resultados podem variar de pessoa para pessoa, mas a maioria dos usuários começa a notar mudanças significativas após 30 dias de uso contínuo. Para resultados mais expressivos, recomendamos o tratamento completo de 3 a 6 meses."
+                answer: "Os resultados começam a aparecer nas primeiras semanas de uso. É importante fazer o uso corretamente para obter os melhores resultados."
               },
               {
-                question: "O Definamax tem efeitos colaterais?",
-                answer: "Por ser um produto 100% natural, o Definamax não apresenta efeitos colaterais significativos. No entanto, como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico."
+                question: "O Phynamax tem efeitos colaterais?",
+                answer: "Por ser um produto 100% natural, o Phynamax não apresenta efeitos colaterais. Caso você tenha alergia a crustáceos, é recomendado consultar um médico antes de tomar."
               },
               {
-                question: "Preciso fazer dieta enquanto tomo Definamax?",
-                answer: "O Definamax funciona mesmo sem dietas restritivas, pois age reduzindo naturalmente seu apetite e a absorção de gorduras. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e praticar atividades físicas regularmente."
+                question: "Preciso fazer dieta enquanto tomo Phynamax?",
+                answer: "O Phynamax funciona mesmo sem dietas restritivas, pois age reduzindo naturalmente seu apetite e a absorção de gorduras. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e praticar atividades físicas regularmente."
               },
               {
                 question: "Como funciona a garantia de satisfação?",
-                answer: "Oferecemos 30 dias de garantia incondicional. Se você não ficar satisfeito com os resultados, basta entrar em contato com nosso atendimento e solicitar o reembolso total do seu investimento, sem questionamentos."
+                answer: "Oferecemos 30 dias de garantia incondicional. Se você não ficar satisfeito com os resultados, basta entrar em contato com nosso atendimento e solicitar o reembolso total do seu investimento, conforme os nossos termos de garantia. Você não tem riscos."
               },
               {
                 question: "Qual o prazo de entrega?",
-                answer: "O prazo médio de entrega é de 5 a 7 dias úteis para todo Brasil. Após a confirmação do pagamento, você receberá o código de rastreamento para acompanhar sua encomenda."
+                answer: "O prazo médio de entrega é de 5 a 10 dias úteis para todo Brasil. Após a confirmação do pagamento, você receberá o código de rastreamento para acompanhar sua encomenda."
               }
             ].map((faq, index) => (
                               <div 
@@ -1466,12 +1466,12 @@ export default function LandingPage() {
 
 
       {/* Footer */}
-      <footer className="w-full bg-green-800">
+      <footer className="w-full bg-pink-800">
         <div className="w-full border-b border-white/10">
           <div className="mx-auto max-w-6xl px-4 py-8">
             <div className="text-center">
               <Image 
-                src="/logo2.png" 
+                src="/logo-phynamax.png" 
                 alt="Definamax" 
                 width={200} 
                 height={60} 
@@ -1479,31 +1479,19 @@ export default function LandingPage() {
                 quality={100}
               />
               <p className="text-white/90 text-sm mb-4">
-                Definamax - O seu aliado natural para o emagrecimento saudável e eficaz.
+                Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
               </p>
               <p className="text-white/70 text-xs mb-6 max-w-3xl mx-auto">
-                *Resultados podem variar de pessoa para pessoa. Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de emagrecimento.
+                *Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença.
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
-                <Link href="https://www.definamaxoficial.com/avaliacao" className="text-white/90 hover:text-white">
-                  Avaliação de IMC
-                </Link>
-                <span className="text-white/30">|</span>
                 <Link href="https://www.definamaxoficial.com/termos" className="text-white/90 hover:text-white">
                   Termos de Garantia
                 </Link>
                 <span className="text-white/30">|</span>
                 <Link href="https://www.definamaxoficial.com/perguntas-frequentes" className="text-white/90 hover:text-white">
                   Perguntas Frequentes
-                </Link>
-                <span className="text-white/30">|</span>
-                <Link href="https://www.definamaxoficial.com/produto" className="text-white/90 hover:text-white">
-                  Produtos
-                </Link>
-                <span className="text-white/30">|</span>
-                <Link href="https://www.definamaxoficial.com/remarketing" className="text-white/90 hover:text-white">
-                  Depoimentos em Vídeo
                 </Link>
                 <span className="text-white/30">|</span>
                 <Link href="https://www.definamaxoficial.com/termos" className="text-white/90 hover:text-white">
@@ -1515,7 +1503,7 @@ export default function LandingPage() {
         </div>
         <div className="mx-auto max-w-6xl px-4 py-4">
           <div className="text-center text-white/70 text-xs">
-            <p className="mb-1">Copyright © 2025 Definamax. Todos os direitos reservados.</p>
+            <p className="mb-1">Copyright © 2025 Phynamax. Todos os direitos reservados.</p>
             <p>Bourjun Nature Health, Florianópolis Santa Catarina</p>
           </div>
         </div>

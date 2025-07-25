@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import VideoPlayer from './VideoPlayer';
 
-// Barra superior verde escura com desconto
+// Barra superior rosa com desconto
 const TopBanner = styled.div`
-  background: #1a4d2e;
+  background: #be185d;
   color: white;
   padding: 8px 0;
   text-align: center;
@@ -143,7 +142,7 @@ const PromoSection = styled.div`
 
 const PromoHighlight = styled.div`
   background: white;
-  color: #1a4d2e;
+  color: black;
   padding: 3px 8px;
   border-radius: 4px;
   font-size: 0.8rem;
@@ -174,7 +173,7 @@ const PromoText = styled.div`
 // Hero Section Principal
 const HeroSection = styled.section`
   min-height: 100vh;
-  background: var(--very-dark) url('/fundo.png') center/cover no-repeat;
+  background: var(--very-dark) url('/background-phynamax.png') center/cover no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -190,7 +189,7 @@ const HeroSection = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0.9) 30%, rgba(5, 5, 5, 0.92) 60%, rgba(2, 15, 2, 0.93) 100%);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.93) 30%, rgba(20, 20, 20, 0.92) 60%, rgba(10, 10, 10, 0.93) 100%);
     z-index: 1;
   }
 `;
@@ -214,11 +213,12 @@ const Logo = styled.div`
   margin: 0;
   
   img {
-    height: 90px;
+    height: 60px;
     width: auto;
     
     @media (max-width: 768px) {
-      height: 75px;
+      height: 45px;
+      margin-top: 20px;
     }
   }
 `;
@@ -295,17 +295,17 @@ const Subtitle = styled(motion.p)`
   }
 `;
 
-// Seção de vídeo será renderizada pelo componente VideoPlayer
+// Imagem do produto mockup
 
 // CTA Button
 const CTAButton = styled(motion.button)`
-  background: linear-gradient(135deg, #1a4d2e 0%, #22c55e 50%, #16a34a 100%);
+  background: linear-gradient(135deg, #be185d 0%, #ec4899 50%, #db2777 100%);
   color: white;
   font-size: 1.4rem;
   font-weight: 900;
   padding: 20px 50px;
   border-radius: 8px;
-  border: 3px solid #1a4d2e;
+  border: 3px solid #be185d;
   cursor: pointer;
   box-shadow: 
     0 20px 40px rgba(0, 0, 0, 0.6),
@@ -333,7 +333,7 @@ const CTAButton = styled(motion.button)`
   
   &:hover {
     transform: translateY(-5px) scale(1.05);
-    background: linear-gradient(135deg, #15402a 0%, #1d8f47 50%, #14803d 100%);
+    background: linear-gradient(135deg, #9d174d 0%, #db2777 50%, #be185d 100%);
     box-shadow: 
       0 25px 50px rgba(0, 0, 0, 0.7),
       0 15px 30px rgba(0, 0, 0, 0.5),
@@ -369,9 +369,10 @@ const CTAButton = styled(motion.button)`
   }
 `;
 
+
 // Barra inferior com animação
 const BottomBanner = styled.div`
-  background: #1a4d2e;
+  background: #be185d;
   color: white;
   padding: 15px 0;
   position: relative;
@@ -469,7 +470,7 @@ const Hero = () => {
           
           <PromoSection>
             <PromoHighlight>5 MESES. 1 NOVA VERSÃO DE VOCÊ</PromoHighlight>
-            <PromoText>Você faz a escolha.<br/>A DEFINAMAX te entrega o plano.</PromoText>
+            <PromoText>Você faz a escolha.<br/>O Phynamax te entrega o resultado.</PromoText>
           </PromoSection>
         </DesktopContent>
 
@@ -494,14 +495,14 @@ const Hero = () => {
 
         <MobileBottomRow>
           <PromoHighlight>5 MESES. 1 NOVA VERSÃO DE VOCÊ</PromoHighlight>
-          <PromoText>Você faz a escolha. A DEFINAMAX te entrega o plano.</PromoText>
+          <PromoText>Você faz a escolha. O Phynamax te entrega o resultado.</PromoText>
         </MobileBottomRow>
       </TopBanner>
 
       <HeroSection>
         <HeaderSection>
           <Logo>
-            <img src="/logo-definamax.png" alt="Definamax - Emagrecedor Natural Aprovado pela ANVISA" />
+            <img src="/logo-phynamax.png" alt="Definamax - Emagrecedor Natural Aprovado pela ANVISA" />
           </Logo>
         </HeaderSection>
 
@@ -512,8 +513,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <h1>
-              <TitleMain>TRANSFORME O SEU CORPO</TitleMain>
-              <TitleSub>E RECUPERE A AUTOESTIMA</TitleSub>
+                          <TitleMain>EMAGREÇA COM SAÚDE</TitleMain>
+            <TitleSub>E RECUPERE SUA CONFIANÇA</TitleSub>
             </h1>
           </MainTitle>
 
@@ -522,10 +523,21 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            A forma mais prática e eficiente de emagrecer a qualquer hora, em qualquer lugar — mais de 45 mil pessoas já transformaram suas vidas com o DEFINAMAX®
+            A forma mais rápida e segura para perder peso em 2025. Conquiste mais energia e recupere a confiança que você tanto quer, e merece, para viver mais disposta, confiante e feliz.
           </Subtitle>
 
-          <VideoPlayer />
+          <img 
+            src="/mock-phyna.png" 
+            alt="Phynamax - Mockup do Produto" 
+            style={{
+              maxWidth: '550px',
+              width: '100%',
+              height: 'auto',
+              borderRadius: '12px',
+              boxShadow: '0 10px 30px rgba(0, 0, 0, 0.3)',
+              margin: '20px 0'
+            }}
+          />
 
           <CTAButton
             initial={{ opacity: 0, y: 30 }}
@@ -540,7 +552,7 @@ const Hero = () => {
               }
             }}
           >
-            EXPERIMENTE DEFINAMAX
+            EXPERIMENTE PHYNAMAX
           </CTAButton>
         </MainContent>
 

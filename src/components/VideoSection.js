@@ -51,17 +51,17 @@ const SectionSubtitle = styled(motion.p)`
 const VideosGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 60px;
+  gap: 40px;
   justify-items: center;
   
   @media (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 30px;
   }
   
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 25px;
     padding: 0 10px;
   }
   
@@ -74,26 +74,16 @@ const VideosGrid = styled.div`
 
 const PhoneMockup = styled(motion.div)`
   position: relative;
-  width: 280px;
+  width: 100%;
+  max-width: 350px;
   transition: all 0.3s ease;
-  background: white;
   
   &:hover {
     transform: translateY(-10px);
   }
   
   @media (max-width: 768px) {
-    width: 100%;
-    max-width: 350px;
-    background: white;
-    border-radius: 0;
-  }
-  
-  @media (max-width: 480px) {
-    width: 100%;
     max-width: 100%;
-    background: white;
-    border-radius: 0;
   }
 `;
 
@@ -101,46 +91,36 @@ const VideoContainer = styled.div`
   position: relative;
   width: 100%;
   height: 500px;
-  border-radius: 20px;
+  border-radius: 24px;
   overflow: hidden;
-  box-shadow: none;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   
   @media (max-width: 768px) {
-    height: 400px;
-    border-radius: 0;
-    background: white;
-    box-shadow: none;
+    height: 450px;
+    border-radius: 20px;
   }
   
   @media (max-width: 480px) {
-    height: 450px;
-    border-radius: 0;
-    width: 100%;
-    background: white;
-    box-shadow: none;
+    height: 400px;
+    border-radius: 16px;
   }
 `;
 
 const VideoSection = () => {
   const videos = [
     {
-      vimeoId: "1100433801",
+      vimeoId: "1104572615",
       title: "Perdi 15kg em 3 meses"
     },
     {
-      vimeoId: "1100433922", 
+      vimeoId: "1104573150", 
       title: "Voltei a usar M novamente"
     },
     {
-      vimeoId: "1100433861",
+      vimeoId: "1104574046",
       title: "Minha autoestima voltou"
     },
     {
-      vimeoId: "1100433969",
+      vimeoId: "1104578342",
       title: "Resultado em 30 dias"
     }
   ];
@@ -154,7 +134,7 @@ const VideoSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          RESULTADOS QUE VOCÊ NÃO ENCONTRA EM <span className="highlight">NENHUM OUTRO LUGAR</span>
+          Phynamax não transforma apenas o seu corpo! <span className="highlight">Transforma a sua autoestima.</span>
         </SectionTitle>
         
         <SectionSubtitle
@@ -163,7 +143,7 @@ const VideoSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Depoimentos reais de pessoas que mudaram suas vidas com o DEFINAMAX
+          Depoimentos reais de pessoas que mudaram que tiveram suas vidas transformadas com o Phynamax.
         </SectionSubtitle>
         
         <VideosGrid>

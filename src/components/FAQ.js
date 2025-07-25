@@ -104,28 +104,28 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "Como devo tomar o Definamax?",
+      question: "Como devo tomar o Phynamax?",
       answer: "Recomenda-se tomar 2 cápsulas por dia, preferencialmente antes das principais refeições. Para melhores resultados, tome uma cápsula 30 minutos antes do almoço e outra 30 minutos antes do jantar, sempre com um copo de água."
     },
     {
       question: "Quanto tempo demora para ver resultados?",
-      answer: "Os resultados podem variar de pessoa para pessoa, mas a maioria dos usuários começa a notar mudanças significativas após 30 dias de uso contínuo. Para resultados mais expressivos, recomendamos o tratamento completo de 3 a 6 meses."
+      answer: "Os resultados começam a aparecer nas primeiras semanas de uso. É importante fazer o uso corretamente para obter os melhores resultados."
     },
     {
-      question: "O Definamax tem efeitos colaterais?",
-      answer: "Por ser um produto 100% natural, o Definamax não apresenta efeitos colaterais significativos. No entanto, como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico."
+      question: "O Phynamax tem efeitos colaterais?",
+      answer: "Por ser um produto 100% natural, o Phynamax não apresenta efeitos colaterais. Caso você tenha alergia a crustáceos, é recomendado consultar um médico antes de tomar."
     },
     {
-      question: "Preciso fazer dieta enquanto tomo Definamax?",
-      answer: "O Definamax funciona mesmo sem dietas restritivas, pois age reduzindo naturalmente seu apetite e a absorção de gorduras. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e praticar atividades físicas regularmente."
+      question: "Preciso fazer dieta enquanto tomo Phynamax?",
+      answer: "O Phynamax funciona mesmo sem dietas restritivas, pois age reduzindo naturalmente seu apetite e a absorção de gorduras. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e praticar atividades físicas regularmente."
     },
     {
       question: "Como funciona a garantia de satisfação?",
-      answer: "Oferecemos 30 dias de garantia incondicional. Se você não ficar satisfeito com os resultados, basta entrar em contato com nosso atendimento e solicitar o reembolso total do seu investimento, sem questionamentos."
+      answer: "Oferecemos 30 dias de garantia incondicional. Se você não ficar satisfeito com os resultados, basta entrar em contato com nosso atendimento e solicitar o reembolso total do seu investimento, conforme os nossos termos de garantia. Você não tem riscos."
     },
     {
       question: "Qual o prazo de entrega?",
-      answer: "O prazo médio de entrega é de 5 a 14 dias úteis para todo Brasil. Após a confirmação do pagamento, você receberá o código de rastreamento para acompanhar sua encomenda."
+      answer: "O prazo médio de entrega é de 5 a 10 dias úteis para todo Brasil. Após a confirmação do pagamento, você receberá o código de rastreamento para acompanhar sua encomenda."
     }
   ];
 
@@ -138,7 +138,7 @@ const FAQ = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          DÚVIDAS FREQUENTES
+          Dúvidas frequentes
         </SectionTitle>
         
         <FAQGrid>

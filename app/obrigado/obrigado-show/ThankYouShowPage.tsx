@@ -11,7 +11,7 @@ export default function ThankYouShowPage() {
       <header className="w-full bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 py-4 shadow-xl relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-center">
-          <Image src="/logo2.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
+          <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
         </div>
       </header>
 
@@ -239,11 +239,11 @@ export default function ThankYouShowPage() {
       <footer className="w-full bg-gradient-to-r from-purple-900 via-pink-900 to-red-900 text-white">
         <div className="mx-auto max-w-5xl px-4 py-8">
           <div className="text-center">
-            <Image src="/logo2.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4 mx-auto" />
+            <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4 mx-auto" />
             <p className="text-purple-100 mb-4 text-lg font-medium">
               ✨ Definamax - Sua parceira para brilhar
             </p>
-            <p className="text-xs text-purple-200 mb-2">© {new Date().getFullYear()} Definamax. Todos os direitos reservados.</p>
+            <p className="text-xs text-purple-200 mb-2">© {new Date().getFullYear()} Phynamax. Todos os direitos reservados.</p>
             <p className="text-xs text-purple-200">🌟 Você merece se sentir especial todos os dias.</p>
           </div>
         </div>

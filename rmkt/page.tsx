@@ -225,7 +225,7 @@ export default function LandingPage() {
       <header className="w-full bg-gradient-to-r from-green-800 via-green-700 to-green-800 py-4 shadow-md relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-center">
-          <Image src="/logo2.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
+          <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
         </div>
       </header>
 
@@ -564,7 +564,7 @@ export default function LandingPage() {
               </div>
 
               <Link
-                href={addUtmToUrl("https://full.sale/ytA47b?src=rmkt")}
+                href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
                 className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-3 text-base font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all"
               >
                 COMPRAR AGORA
@@ -606,7 +606,7 @@ export default function LandingPage() {
               </div>
 
               <Link
-                href={addUtmToUrl("https://full.sale/DmNQj1?src=rmkt")}
+                href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
                 className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-3 text-base font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all animate-pulse-border"
               >
                 COMPRAR AGORA
@@ -644,7 +644,7 @@ export default function LandingPage() {
               </div>
 
               <Link
-                href={addUtmToUrl("https://full.sale/eMbtHp/src=rmkt")}
+                href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
                 className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-3 text-base font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all"
               >
                 COMPRAR AGORA
@@ -1139,7 +1139,7 @@ export default function LandingPage() {
                 onClick={() => toggleFaq("faq1")}
                 className="w-full p-6 text-left flex justify-between items-center focus:outline-none"
               >
-                <h3 className="font-semibold text-lg">O Definamax tem efeitos colaterais?</h3>
+                <h3 className="font-semibold text-lg">O Phynamax tem efeitos colaterais?</h3>
                 <svg
                   className={`w-6 h-6 transform transition-transform duration-300 ${openFaqs.faq1 ? "rotate-180" : ""}`}
                   fill="none"
@@ -1187,7 +1187,7 @@ export default function LandingPage() {
                 <p className="text-gray-700">
                   A maioria dos usuários percebe redução no apetite e na compulsão por doces já na primeira semana.
                   Resultados visíveis na balança geralmente começam a partir de 15 dias de uso contínuo, com melhores
-                  resultados entre 30-90 dias. Para resultados ótimos, recomendamos o tratamento completo de 3 meses.
+                  resultados entre 30 dias a 3 meses. Para resultados ótimos, recomendamos o tratamento completo de 3 meses.
                 </p>
               </div>
             </div>
@@ -1324,13 +1324,13 @@ export default function LandingPage() {
       </section>
 
       {/* Rodapé expandido */}
-      <footer className="w-full bg-green-800 text-white">
+      <footer className="w-full bg-pink-800 text-white">
         <div className="mx-auto max-w-5xl px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <Image src="/logo2.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4" />
+              <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4" />
               <p className="text-sm text-green-100 mb-4">
-                Definamax é um suplemento 100% natural para emagrecimento saudável e duradouro.
+                Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-green-100 hover:text-white">
@@ -1455,7 +1455,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-green-700 mt-8 pt-8 text-center">
-            <p className="text-sm mb-4">© {new Date().getFullYear()} Definamax. Todos os direitos reservados.</p>
+            <p className="text-sm mb-4">© {new Date().getFullYear()} Phynamax. Todos os direitos reservados.</p>
             <p className="text-xs mb-2">Este produto não substitui o acompanhamento de profissionais de saúde.</p>
             <p className="text-xs mb-2"> *Resultados podem variar de pessoa para pessoa.</p>
           </div>

@@ -14,7 +14,7 @@ const RemarketingContainer = styled.div`
 
 const Header = styled.header`
   width: 100%;
-  background: linear-gradient(to right, #1a4d2e, #22c55e, #1a4d2e);
+  background: linear-gradient(to right, #be185d, #ec4899, #be185d);
   padding: 0.875rem 0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -73,7 +73,7 @@ const HeaderButton = styled.button`
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  background: #4CAF50;
+  background: #db2777;
   padding: 0.625rem 1.5rem;
   font-size: 1rem;
   font-weight: 500;
@@ -83,12 +83,12 @@ const HeaderButton = styled.button`
   transition: background-color 0.2s;
 
   &:hover {
-    background: #45A049;
+    background: #be185d;
   }
 `;
 
 const LimitSection = styled.div`
-  background: linear-gradient(to bottom, #f0fdf4, white);
+  background: linear-gradient(to bottom, #fdf2f8, white);
   border-bottom: 1px solid #e5e7eb;
   width: 100%;
 `;
@@ -107,10 +107,10 @@ const LimitInner = styled.div`
 `;
 
 const LimitBadge = styled.div`
-  background: #f0fdf4;
+  background: #fdf2f8;
   padding: 0.75rem 2rem;
   border-radius: 9999px;
-  border: 1px solid #bbf7d0;
+  border: 1px solid #f9a8d4;
   width: 100%;
   text-align: center;
 
@@ -365,6 +365,10 @@ const PromoCard = styled.div`
 const PromoImageMobile = styled.div`
   position: relative;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 `;
 
 const PromoTitleMobile = styled.h2`
@@ -601,8 +605,9 @@ const GuaranteeTitle = styled.h2`
   line-height: 1.2;
   
   .highlight {
-    color: #1a4d2e;
-    font-size: 0.7em;
+    color: #333;
+    font-size: 0.5em;
+    font-style: italic;
   }
 `;
 
@@ -618,7 +623,7 @@ const GuaranteeDescription = styled.p`
 `;
 
 const GuaranteeCTAButton = styled.button`
-  background: #1a4d2e;
+  background: #be185d;
   color: white;
   border: none;
   padding: 18px 40px;
@@ -629,12 +634,12 @@ const GuaranteeCTAButton = styled.button`
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 8px 20px rgba(26, 77, 46, 0.4);
+  box-shadow: 0 8px 20px rgba(190, 24, 93, 0.4);
   
   &:hover {
-    background: #0f2c1a;
+    background: #9d174d;
     transform: translateY(-2px);
-    box-shadow: 0 12px 30px rgba(26, 77, 46, 0.6);
+    box-shadow: 0 12px 30px rgba(190, 24, 93, 0.6);
   }
   
   @media (max-width: 768px) {
@@ -654,8 +659,8 @@ const GuaranteeBadgeContainer = styled.div`
 `;
 
 const GuaranteeBadge = styled.div`
-  width: 450px;
-  height: 450px;
+  width: 550px;
+  height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -663,15 +668,15 @@ const GuaranteeBadge = styled.div`
   img {
     width: 100%;
     height: auto;
-    max-width: 450px;
+    max-width: 550px;
   }
   
   @media (max-width: 768px) {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     
     img {
-      max-width: 350px;
+      max-width: 400px;
     }
   }
 `;
@@ -690,13 +695,13 @@ const RemarketingPage = () => {
 
   const scrollToKits = () => {
     // Redirecionar para o link de compra principal com UTMs preservados
-    const finalUrl = addUtmToUrl('https://full.sale/45BmdK?src=rmkt');
+    const finalUrl = addUtmToUrl('https://full.sale/FWHefK?src=remarketing');
     window.open(finalUrl, '_blank');
   };
 
   const scrollToKitsSmooth = () => {
     // Redirecionar para o link de compra principal com UTMs preservados
-    const finalUrl = addUtmToUrl('https://full.sale/45BmdK?src=rmkt');
+    const finalUrl = addUtmToUrl('https://full.sale/FWHefK?src=remarketing');
     window.open(finalUrl, '_blank');
   };
 
@@ -745,7 +750,7 @@ const RemarketingPage = () => {
       <Header>
         <HeaderContent>
           <LogoContainer>
-            <Logo src="/logo2.png" alt="Definamax" />
+            <Logo src="/logo-phynamax.png" alt="Phynamax" />
           </LogoContainer>
           <div>
             <HeaderButton onClick={scrollToKits}>
@@ -789,7 +794,7 @@ const RemarketingPage = () => {
             <PromoImageContainer>
               <PromoImage
                 src="/1gratis.png"
-                alt="Definamax - Pote Extra Grátis"
+                alt="Phynamax - Pote Extra Grátis"
                 width={450}
                 height={450}
               />
@@ -805,7 +810,7 @@ const RemarketingPage = () => {
               </PromoSubtitle>
 
               <PromoText>
-                Na compra do kit de 3 frascos de Definamax você receberá GRATUITAMENTE 
+                Na compra do kit de 3 frascos de Phynamax você receberá GRATUITAMENTE 
                 um pote extra para potencializar seus resultados com mais um mês de 
                 tratamento ou para presentear alguém que gostaria de perder peso.
               </PromoText>
@@ -855,10 +860,15 @@ const RemarketingPage = () => {
             <PromoImageMobile>
               <img
                 src="/1gratis.png"
-                alt="Definamax - Pote Extra Grátis"
-                width={280}
-                height={280}
-                style={{margin: '0 auto', display: 'block'}}
+                alt="Phynamax - Pote Extra Grátis"
+                style={{
+                  width: '100%',
+                  maxWidth: '280px',
+                  height: 'auto',
+                  margin: '0 auto',
+                  display: 'block',
+                  objectFit: 'contain'
+                }}
               />
             </PromoImageMobile>
 
@@ -870,7 +880,7 @@ const RemarketingPage = () => {
             </PromoSubtitleMobile>
 
             <PromoTextMobile>
-              Na compra do kit de 3 frascos de Definamax você receberá GRATUITAMENTE 
+              Na compra do kit de 3 frascos de Phynamax você receberá GRATUITAMENTE 
               um pote extra para potencializar seus resultados com mais um mês de 
               tratamento ou para presentear alguém que gostaria de perder peso.
             </PromoTextMobile>
@@ -934,31 +944,27 @@ const RemarketingPage = () => {
           <GuaranteeContent>
             <div className="text-content">
               <GuaranteeTitle>
-                30 DIAS DE GARANTIA<br />
-                <span className="highlight">EXPERIMENTE SEM RISCOS</span>
+                30 dias de garantia<br />
+                <span className="highlight">Se você não gostar, pode devolver</span>
               </GuaranteeTitle>
               
               <GuaranteeDescription>
-                Fazer o uso do Definamax® é uma experiência única que só vivenciando você conseguirá entender 
-                porque mais de 45 mil pessoas tiveram suas vidas transformadas. Por isso, após a sua compra, você 
-                terá 30 dias para experimentar. Você poderá testar sem riscos e se por qualquer 
-                razão não gostar ou se adaptar, basta enviar um simples email para nossa atenciosa equipe de atendimento 
-                dentro desse período, que reembolsaremos 100% do valor pago. É super simples. Conforme nossos termos de garantia*.
+                Com a nossa Garantia de Satisfação de 30 Dias, você pode experimentar o Phynamax sem nenhum risco. Teste, sinta a diferença e, se por qualquer motivo não estiver completamente satisfeito, é só entrar em contato com nossa equipe de atendimento, que está pronta para ajudar. Envie um simples e-mail dentro de 30 dias, e nós reembolsaremos 100% do valor pago — sem complicações, sem perguntas. É assim que confiamos no poder do Phynamax! Conforme nossos termos de garantia*
               </GuaranteeDescription>
             </div>
             
             <div className="mobile-image">
               <div style={{ width: '300px', height: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <img 
-                  src="/garantia-definamax.png" 
-                  alt="30 Dias de Garantia Incondicional Definamax - 100% Satisfação Garantida ou Dinheiro de Volta" 
+                                src="/garantia-definamax.png"
+              alt="30 Dias de Garantia Incondicional Phynamax - 100% Satisfação Garantida ou Dinheiro de Volta" 
                   style={{ width: '100%', height: 'auto', maxWidth: '300px' }}
                 />
               </div>
             </div>
             
             <GuaranteeCTAButton onClick={scrollToKitsSmooth}>
-              Quero experimentar por 30 dias
+              EU QUERO EMAGRECER
             </GuaranteeCTAButton>
           </GuaranteeContent>
           

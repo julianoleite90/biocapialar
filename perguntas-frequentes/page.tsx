@@ -200,7 +200,7 @@ export default function DefinamaxFAQ() {
           <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
           <div className="mx-auto max-w-5xl px-4 flex justify-center">
             <Link href="/">
-              <Image src="/logo2.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
+              <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
             </Link>
           </div>
         </div>
@@ -649,9 +649,9 @@ export default function DefinamaxFAQ() {
                     <div className="flex justify-center mt-6">
                       <Link
                         href={addUtmToUrl("https://full.sale/DmNQj1")}
-                        className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
+                        className="inline-flex items-center justify-center rounded-lg bg-pink-600 px-6 py-3 text-base font-medium text-white hover:bg-pink-700 hover:scale-105 transition-all"
                       >
-                        QUERO EXPERIMENTAR <ArrowRight className="ml-2 h-5 w-5" />
+                        EU QUERO EMAGRECER <ArrowRight className="ml-2 h-5 w-5" />
                       </Link>
                     </div>
                   </div>
@@ -769,10 +769,10 @@ export default function DefinamaxFAQ() {
 
                       <div className="bg-white border border-gray-200 rounded-lg p-4">
                         <h4 className="font-semibold text-gray-800 mb-2">
-                          Preciso fazer dieta enquanto tomo Definamax?
+                          Preciso fazer dieta enquanto tomo Phynamax?
                         </h4>
                         <p className="text-sm">
-                          O Definamax funciona mesmo sem dietas restritivas. No entanto, para maximizar os resultados,
+                          O Phynamax funciona mesmo sem dietas restritivas. No entanto, para maximizar os resultados,
                           recomenda-se manter uma alimentação equilibrada e evitar o consumo excessivo de alimentos
                           ultraprocessados e bebidas alcoólicas.
                         </p>
@@ -1882,14 +1882,12 @@ export default function DefinamaxFAQ() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-8 bg-green-800 text-white">
+      <footer className="w-full py-8 bg-pink-800 text-white">
         <div className="mx-auto max-w-5xl px-4 text-center">
-          <Image src="/logo2.png" alt="Definamax" width={150} height={45} className="h-9 w-auto mx-auto mb-4" />
-          <p className="text-sm mb-2">Definamax - O seu aliado natural para o emagrecimento saudável e eficaz.</p>
+          <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={45} className="h-9 w-auto mx-auto mb-4" />
+          <p className="text-sm mb-2">Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.</p>
           <p className="text-xs text-gray-300 mb-4">
-            *Resultados podem variar de pessoa para pessoa. Este produto não se destina a diagnosticar, tratar, curar ou
-            prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer
-            programa de emagrecimento.
+            *Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença.
           </p>
           <div className="flex justify-center space-x-4 mb-4">
             <Link href="/termos" className="text-sm hover:text-green-200">
@@ -1903,7 +1901,7 @@ export default function DefinamaxFAQ() {
             </Link>
           </div>
           <p className="text-xs text-gray-300">
-            Copyright © {new Date().getFullYear()} Definamax. Todos os direitos reservados.
+            Copyright © {new Date().getFullYear()} Phynamax. Todos os direitos reservados.
           </p>
           <p className="text-xs text-gray-300 mt-2">Bourjun Nature Health, Florianópolis Santa Catarina</p>
         </div>

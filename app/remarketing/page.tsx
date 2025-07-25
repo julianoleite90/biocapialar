@@ -235,16 +235,16 @@ export default function ReMarketingPage() {
     <main className="flex min-h-screen flex-col items-center bg-white">
       <style jsx global>{vibrationKeyframes}</style>
       <Head>
-        <title>Definamax - Vídeos Exclusivos | Descubra Como Emagrecer Naturalmente</title>
+        <title>Phynamax - Vídeos Exclusivos | Descubra Como Emagrecer Naturalmente</title>
         <meta
           name="description"
           content="Assista a vídeos exclusivos sobre o Definamax e descubra como emagrecer de forma natural e eficaz sem dietas restritivas ou injeções perigosas."
         />
         <meta
           name="keywords"
-          content="Definamax, vídeos emagrecimento, como emagrecer, suplemento natural, perda de peso, depoimentos emagrecimento"
+          content="Phynamax, vídeos emagrecimento, como emagrecer, suplemento natural, perda de peso, depoimentos emagrecimento"
         />
-        <meta name="author" content="Definamax" />
+        <meta name="author" content="Phynamax" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
@@ -280,14 +280,14 @@ export default function ReMarketingPage() {
       </Head>
 
       {/* Header */}
-      <header className="w-full bg-gradient-to-r from-green-800 to-green-700 py-3.5 md:py-3 shadow-md relative overflow-hidden">
+      <header className="w-full bg-gradient-to-r from-pink-800 to-pink-700 py-3.5 md:py-3 shadow-md relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4">
           <div className="flex flex-row items-center justify-between gap-2 md:gap-8 py-0.5">
             <div className="flex justify-start items-center">
               <Image 
-                src="/logo2.png" 
-                alt="Definamax" 
+                src="/logo-phynamax.png" 
+                alt="Phynamax" 
                 width={400} 
                 height={120} 
                 className="h-[2.4rem] md:h-[3.2rem] w-auto" 
@@ -298,7 +298,7 @@ export default function ReMarketingPage() {
             <div className="flex justify-end items-center">
               <button
                 onClick={scrollToKits}
-                className="inline-flex items-center justify-center rounded-[12px] bg-[#4CAF50] px-6 py-2.5 text-[1rem] font-medium text-white hover:bg-[#45A049] transition-all"
+                className="inline-flex items-center justify-center rounded-[12px] bg-[#db2777] px-6 py-2.5 text-[1rem] font-medium text-white hover:bg-[#be185d] transition-all"
               >
                 Comprar Agora
               </button>
@@ -308,11 +308,11 @@ export default function ReMarketingPage() {
       </header>
 
       {/* Seção de Limite de Compra */}
-      <div className="bg-gradient-to-b from-green-50 to-white border-b border-gray-100">
+      <div className="bg-gradient-to-b from-pink-50 to-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex flex-col items-center space-y-3">
-            <div className="bg-green-50 px-8 py-3 rounded-full border border-green-100 w-full md:w-auto text-center">
-              <h2 className="text-green-800 font-bold text-base md:text-lg">
+            <div className="bg-pink-50 px-8 py-3 rounded-full border border-pink-100 w-full md:w-auto text-center">
+              <h2 className="text-pink-800 font-bold text-base md:text-lg">
                 LIMITADO A UMA COMPRA POR CLIENTE
               </h2>
             </div>
@@ -424,7 +424,7 @@ export default function ReMarketingPage() {
             <div className="flex justify-center">
               <Image
                 src="/1gratis.png"
-                alt="Definamax - Pote Extra Grátis"
+                alt="Phynamax - Pote Extra Grátis"
                 width={450}
                 height={450}
                 className="object-contain"
@@ -501,13 +501,13 @@ export default function ReMarketingPage() {
           {/* Container da Promoção */}
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
             {/* Imagem dos Frascos */}
-            <div className="relative mb-4">
+            <div className="relative mb-4 flex justify-center">
               <Image
                 src="/1gratis.png"
-                alt="Definamax - Pote Extra Grátis"
+                alt="Phynamax - Pote Extra Grátis"
                 width={280}
                 height={280}
-                className="mx-auto"
+                className="w-full max-w-[280px] h-auto object-contain"
               />
             </div>
 
@@ -681,11 +681,11 @@ export default function ReMarketingPage() {
       </section>
 
       {/* Products Section */}
-      <section className="w-full py-8 bg-gradient-to-b from-white to-green-50">
+      <section className="w-full py-8 bg-gradient-to-b from-white to-pink-50">
         <div className="mx-auto max-w-6xl px-4">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Seu corpo dos sonhos com <span className="text-green-700">Definamax!</span>
+              Seu corpo dos sonhos com <span className="text-pink-700">Phynamax!</span>
             </h2>
             <div className="inline-block bg-white rounded-full px-6 py-2 shadow-sm">
               <p className="text-gray-700">
@@ -722,7 +722,7 @@ export default function ReMarketingPage() {
                     <span className="text-gray-400 line-through text-xl">De R$1.079,00</span>
                   </div>
                   <p className="text-lg font-medium">Por apenas 12x</p>
-                  <p className="text-green-700 text-5xl font-bold">R$45<span className="text-[70%]">,08</span></p>
+                  <p className="text-pink-700 text-5xl font-bold">R$45<span className="text-[70%]">,08</span></p>
                   <p className="text-base font-medium">Ou R$449,00 à vista!</p>
                 </div>
 
@@ -732,7 +732,7 @@ export default function ReMarketingPage() {
 
                 <div className="mt-8">
                   <Link
-                    href={addUtmToUrl("https://full.sale/XONObQ?src=rmkt-1")}
+                    href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
                     className="block w-full bg-[#15803D] text-white font-bold py-3 text-xl rounded-xl hover:bg-[#166534] transition-all text-center shadow-lg relative overflow-hidden group animate-[pulseAndScale_2s_ease-in-out_infinite]"
                   >
                     <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -789,7 +789,7 @@ export default function ReMarketingPage() {
 
                 <div className="mt-8">
                   <Link
-                    href={addUtmToUrl("https://full.sale/ytA47b?src=rmkt-1")}
+                    href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
                     className="block w-full bg-[#15803D] text-white font-bold py-3 text-xl rounded-xl hover:bg-[#166534] transition-all text-center shadow-lg relative overflow-hidden group animate-[pulseAndScale_2s_ease-in-out_infinite]"
                   >
                     <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -836,7 +836,7 @@ export default function ReMarketingPage() {
                     <span className="text-gray-400 line-through text-xl">De R$589,00</span>
                   </div>
                   <p className="text-lg font-medium">Por apenas 12x</p>
-                  <p className="text-green-700 text-5xl font-bold">R$35<span className="text-[70%]">,04</span></p>
+                  <p className="text-pink-700 text-5xl font-bold">R$35<span className="text-[70%]">,04</span></p>
                   <p className="text-base font-medium">Ou R$349,00 à vista!</p>
                 </div>
 
@@ -846,7 +846,7 @@ export default function ReMarketingPage() {
 
                 <div className="mt-8">
                   <Link
-                    href={addUtmToUrl("https://full.sale/DmNQj1?src=rmkt-1")}
+                    href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
                     className="block w-full bg-[#15803D] text-white font-bold py-3 text-xl rounded-xl hover:bg-[#166534] transition-all text-center shadow-lg relative overflow-hidden group animate-[pulseAndScale_2s_ease-in-out_infinite]"
                   >
                     <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -893,7 +893,7 @@ export default function ReMarketingPage() {
                     <span className="text-gray-400 line-through text-xl">De R$289,00</span>
                   </div>
                   <p className="text-lg font-medium">Por apenas 12x</p>
-                  <p className="text-green-700 text-5xl font-bold">R$23<span className="text-[70%]">,79</span></p>
+                  <p className="text-pink-700 text-5xl font-bold">R$23<span className="text-[70%]">,79</span></p>
                   <p className="text-base font-medium">Ou R$237,00 à vista!</p>
                 </div>
 
@@ -903,7 +903,7 @@ export default function ReMarketingPage() {
 
                 <div className="mt-8">
                   <Link
-                    href={addUtmToUrl("https://full.sale/eMbtHp?src=rmkt-1")}
+                    href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
                     className="block w-full bg-[#15803D] text-white font-bold py-3 text-xl rounded-xl hover:bg-[#166534] transition-all text-center shadow-lg relative overflow-hidden group animate-[pulseAndScale_2s_ease-in-out_infinite]"
                   >
                     <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -1391,25 +1391,24 @@ export default function ReMarketingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-8 bg-green-800 text-white">
+      <footer className="w-full py-8 bg-pink-800 text-white">
         <div className="mx-auto max-w-5xl px-4">
           <div className="text-center mb-4">
-            <p className="text-white text-base">Definamax - O seu aliado natural para o emagrecimento saudável e eficaz.</p>
+            <p className="text-white text-base">Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.</p>
           </div>
           
           <div className="text-center text-sm text-gray-300 mb-6">
-            <p>*Resultados podem variar de pessoa para pessoa. Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de emagrecimento.</p>
+            <p>*Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença.</p>
           </div>
 
           <div className="flex justify-center space-x-6 text-gray-300 text-sm mb-8">
             <Link href="/termos" className="hover:text-white">Termos de Garantia</Link>
             <Link href="/perguntas-frequentes" className="hover:text-white">Perguntas Frequentes</Link>
-            <Link href="/produto" className="hover:text-white">Produtos</Link>
-            <Link href="/remarketing" className="hover:text-white">Depoimentos</Link>
+            <Link href="/politica-privacidade" className="hover:text-white">Política de Privacidade</Link>
           </div>
 
           <div className="text-center text-sm text-gray-300">
-            <p className="mb-2">Copyright © 2025 Definamax. Todos os direitos reservados.</p>
+            <p className="mb-2">Copyright © 2025 Phynamax. Todos os direitos reservados.</p>
             <p>Bourjun Nature Health, Florianópolis Santa Catarina</p>
           </div>
         </div>

@@ -176,10 +176,10 @@ export default function ReMarketingPageV2() {
       <header className="w-full bg-green-800">
         <div className="mx-auto max-w-7xl px-4 py-4 flex justify-between items-center">
           <Link href="/" className="flex-shrink-0">
-            <Image src="/logo2.png" alt="Definamax" width={200} height={40} className="h-8 w-auto" />
+            <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={40} className="h-8 w-auto" />
           </Link>
           <Link
-            href="https://full.sale/ytA47b?rmkt1"
+            href="https://full.sale/FWHefK?src=remarketing"
             className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-2 rounded-lg transition-all duration-300"
           >
             COMPRAR
@@ -491,7 +491,7 @@ export default function ReMarketingPageV2() {
                   FRETE GRÁTIS
                 </div>
                 <Link
-                  href="https://full.sale/ytA47b"
+                  href="https://full.sale/FWHefK?src=remarketing"
                   className="block w-full bg-green-600 text-white text-center py-4 rounded-xl font-bold hover:bg-green-700 transition-all mb-4"
                 >
                   COMPRAR AGORA
@@ -545,7 +545,7 @@ export default function ReMarketingPageV2() {
                   FRETE GRÁTIS
                 </div>
                 <Link
-                  href="https://full.sale/DmNQj1"
+                  href="https://full.sale/FWHefK?src=remarketing"
                   className="block w-full bg-green-600 text-white text-center py-4 rounded-xl font-bold hover:bg-green-700 transition-all mb-4"
                 >
                   COMPRAR AGORA
@@ -730,27 +730,24 @@ export default function ReMarketingPageV2() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-8 bg-green-800 text-white">
+      <footer className="w-full py-8 bg-pink-800 text-white">
         <div className="mx-auto max-w-5xl px-4">
           <div className="text-center mb-4">
-            <p className="text-white text-base">Definamax - O seu aliado natural para o emagrecimento saudável e eficaz.</p>
+            <p className="text-white text-base">Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.</p>
           </div>
           
           <div className="text-center text-sm text-gray-300 mb-6">
-            <p>*Resultados podem variar de pessoa para pessoa. Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de emagrecimento.</p>
+            <p>*Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença.</p>
           </div>
 
           <div className="flex justify-center space-x-6 text-gray-300 text-sm mb-8">
-            <Link href="/analise-imc" className="hover:text-white">Avaliação de IMC</Link>
             <Link href="/termos-garantia" className="hover:text-white">Termos de Garantia</Link>
             <Link href="/perguntas-frequentes" className="hover:text-white">Perguntas Frequentes</Link>
-            <Link href="/produtos" className="hover:text-white">Produtos</Link>
-            <Link href="/depoimentos" className="hover:text-white">Depoimentos em Vídeo</Link>
             <Link href="/politica-privacidade" className="hover:text-white">Política de Privacidade</Link>
           </div>
 
           <div className="text-center text-sm text-gray-300">
-            <p className="mb-2">Copyright © 2025 Definamax. Todos os direitos reservados.</p>
+            <p className="mb-2">Copyright © 2025 Phynamax. Todos os direitos reservados.</p>
             <p>Bourjun Nature Health, Florianópolis Santa Catarina</p>
           </div>
         </div>

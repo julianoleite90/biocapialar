@@ -242,7 +242,7 @@ const ThumbnailButton = styled.button`
 
 const ThumbnailImage = styled.img`
   width: 100%;
-  height: 60px;
+  height: 50px;
   object-fit: contain;
 `;
 
@@ -1026,11 +1026,11 @@ const ProductPage = () => {
       <Header>
         <HeaderContent>
           <a href="/">
-            <Logo src="/logo-definamax.png" alt="Definamax - Suplemento Natural" />
+            <Logo src="/logo-phynamax.png" alt="Definamax - Suplemento Natural" />
           </a>
-          <CTAButton href={addUtmToUrl('https://full.sale/ytA47b')}>
-            Comprar Agora
-          </CTAButton>
+                  <CTAButton href={addUtmToUrl('https://full.sale/8mYNoQ')}>
+          Comprar Agora
+        </CTAButton>
         </HeaderContent>
       </Header>
 
@@ -1176,9 +1176,9 @@ const ProductPage = () => {
               </BenefitsContainer>
 
               <ActionButtons>
-                <BuyButton href={addUtmToUrl('https://full.sale/ytA47b')}>
-                  <FaShoppingCart /> Comprar Agora <FaArrowRight />
-                </BuyButton>
+                        <BuyButton href={addUtmToUrl('https://full.sale/8mYNoQ')}>
+          <FaShoppingCart /> Comprar Agora <FaArrowRight />
+        </BuyButton>
 
                 <WhatsAppButton onClick={openWhatsApp}>
                   <FaWhatsapp /> Tirar Dúvidas
@@ -1189,7 +1189,7 @@ const ProductPage = () => {
 
           {/* Content Sections */}
           <ContentSection>
-            <SectionTitle>DESCUBRA O PODER DAS FIBRAS QUE ABSORVEM GORDURA! ✨</SectionTitle>
+            <SectionTitle>Por que o Phynamax é tão eficaz no emagrecimento?</SectionTitle>
             <ProductDescription style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '1.125rem' }}>
               <strong>ATENÇÃO:</strong> A fórmula DEFINAMAX contém fibras bioativas exclusivas que agem como uma ESPONJA no seu organismo, absorvendo gorduras e açúcares ANTES que sejam transformados em peso extra! Este é o SEGREDO por trás de mais de 45 MIL TRANSFORMAÇÕES reais!
             </ProductDescription>
@@ -1314,8 +1314,8 @@ const ProductPage = () => {
                 <StepItem>
                   <StepNumber>3</StepNumber>
                   <StepContent>
-                    <StepTitle>USE POR 90 DIAS PARA TRANSFORMAÇÃO COMPLETA</StepTitle>
-                    <StepDescription>Em 30 dias: PRIMEIROS RESULTADOS | 60 dias: TRANSFORMAÇÃO VISÍVEL | 90 dias: CORPO DOS SONHOS! Não pare antes dos 90 dias!</StepDescription>
+                    <StepTitle>USE POR 3 MESES PARA TRANSFORMAÇÃO COMPLETA</StepTitle>
+                    <StepDescription>Em 30 dias: PRIMEIROS RESULTADOS | 60 dias: TRANSFORMAÇÃO VISÍVEL | 3 meses: CORPO DOS SONHOS! Não pare antes dos 3 meses!</StepDescription>
                   </StepContent>
                 </StepItem>
               </StepsList>
@@ -1575,7 +1575,7 @@ const ProductPage = () => {
               </FAQItem>
               <FAQItem>
                 <FAQQuestion onClick={() => setOpenFAQ(openFAQ === 'q2' ? null : 'q2')}>
-                  <span>Como devo tomar o Definamax?</span>
+                  <span>Como devo tomar o Phynamax?</span>
                   <ChevronIcon open={openFAQ === 'q2'} />
                 </FAQQuestion>
                 <FAQAnswer open={openFAQ === 'q2'}>
@@ -1584,7 +1584,7 @@ const ProductPage = () => {
               </FAQItem>
               <FAQItem>
                 <FAQQuestion onClick={() => setOpenFAQ(openFAQ === 'q3' ? null : 'q3')}>
-                  <span>O Definamax tem efeitos colaterais?</span>
+                  <span>O Phynamax tem efeitos colaterais?</span>
                   <ChevronIcon open={openFAQ === 'q3'} />
                 </FAQQuestion>
                 <FAQAnswer open={openFAQ === 'q3'}>
@@ -1597,7 +1597,7 @@ const ProductPage = () => {
                   <ChevronIcon open={openFAQ === 'q4'} />
                 </FAQQuestion>
                 <FAQAnswer open={openFAQ === 'q4'}>
-                  PREPARE-SE para se surpreender! 7 DIAS: Menos inchaço e mais disposição | 30 DIAS: Roupas folgando e barriga diminuindo | 60 DIAS: Transformação VISÍVEL que todo mundo vai notar | 90 DIAS: Corpo dos seus SONHOS! Muitos clientes perdem até 15kg nos primeiros 60 dias!
+                  PREPARE-SE para se surpreender! 7 DIAS: Menos inchaço e mais disposição | 30 DIAS: Roupas folgando e barriga diminuindo | 60 DIAS: Transformação VISÍVEL que todo mundo vai notar | 3 MESES: Corpo dos seus SONHOS! Muitos clientes perdem até 15kg nos primeiros 60 dias!
                 </FAQAnswer>
               </FAQItem>
               <FAQItem>

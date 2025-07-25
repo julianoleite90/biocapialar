@@ -249,7 +249,7 @@ export default function ProdutoDefinamax() {
             {/* Logo */}
             <Link href="/" className="flex-shrink-0">
               <Image 
-                src="/logo2.png" 
+                src="/logo-phynamax.png" 
                 alt="Definamax" 
                 width={200} 
                 height={60} 
@@ -283,7 +283,7 @@ export default function ProdutoDefinamax() {
                     alt={kit.title}
                     width={500}
                     height={500}
-                    className="w-full h-auto object-contain max-h-[300px] sm:max-h-[500px]"
+                    className="w-full h-auto object-contain max-h-[250px] sm:max-h-[400px]"
                     priority
                   />
                 {kit.bonus.length > 0 && (
@@ -302,13 +302,13 @@ export default function ProdutoDefinamax() {
                       selectedKit === "kit1" ? "border-green-500 bg-green-50" : "border-gray-200"
                     }`}
                   >
-                    <div className="relative h-24 w-full flex items-center justify-center">
+                    <div className="relative h-20 w-full flex items-center justify-center">
                       <Image 
                         src="/1fraso.png" 
                         alt="Kit 1 Mês" 
                         width={60} 
                         height={120} 
-                        className="object-contain max-h-24" 
+                        className="object-contain max-h-20" 
                       />
                     </div>
                     <p className="text-xs font-medium text-center mt-1">1 Frasco</p>
@@ -320,13 +320,13 @@ export default function ProdutoDefinamax() {
                       selectedKit === "kit3" ? "border-green-500 bg-green-50" : "border-gray-200"
                     }`}
                   >
-                    <div className="relative h-24 w-full flex items-center justify-center">
+                    <div className="relative h-20 w-full flex items-center justify-center">
                       <Image 
                         src="/2frascos.png" 
                         alt="Kit 3 Meses" 
                         width={80} 
                         height={120} 
-                        className="object-contain max-h-24" 
+                        className="object-contain max-h-20" 
                       />
                     </div>
                     <p className="text-xs font-medium text-center mt-1">3 Frascos</p>
@@ -338,13 +338,13 @@ export default function ProdutoDefinamax() {
                       selectedKit === "kit5" ? "border-green-500 bg-green-50" : "border-gray-200"
                     }`}
                   >
-                    <div className="relative h-24 w-full flex items-center justify-center">
+                    <div className="relative h-20 w-full flex items-center justify-center">
                       <Image 
                         src="/5frascos.png" 
                         alt="Kit 5 Meses" 
                         width={90} 
                         height={120} 
-                        className="object-contain max-h-24" 
+                        className="object-contain max-h-20" 
                       />
                     </div>
                     <p className="text-xs font-medium text-center mt-1">5 Frascos</p>
@@ -850,7 +850,7 @@ export default function ProdutoDefinamax() {
                     if (content) content.classList.toggle('hidden');
                   }}
                 >
-                  <span className="font-medium">Como devo tomar o Definamax?</span>
+                  <span className="font-medium">Como devo tomar o Phynamax?</span>
                   <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                   </svg>
@@ -870,14 +870,14 @@ export default function ProdutoDefinamax() {
                     if (content) content.classList.toggle('hidden');
                   }}
                 >
-                  <span className="font-medium">O Definamax tem efeitos colaterais?</span>
+                  <span className="font-medium">O Phynamax tem efeitos colaterais?</span>
                   <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
                 <div id="faq3" className="hidden p-4 bg-gray-50 border-t border-gray-200">
                   <p className="text-gray-600">
-                    O Definamax é composto por ingredientes 100% naturais e é geralmente bem tolerado. Como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico.
+                    Por ser um produto 100% natural, o Phynamax não apresenta efeitos colaterais. Caso você tenha alergia a crustáceos, é recomendado consultar um médico antes de tomar.
                   </p>
                 </div>
               </div>
@@ -897,7 +897,7 @@ export default function ProdutoDefinamax() {
                 </button>
                 <div id="faq4" className="hidden p-4 bg-gray-50 border-t border-gray-200">
                   <p className="text-gray-600">
-                    Os resultados podem variar de pessoa para pessoa, mas geralmente os usuários começam a notar mudanças após 30 dias de uso contínuo. Para resultados mais significativos, recomendamos o uso por pelo menos 3 meses, combinado com uma alimentação equilibrada e hábitos saudáveis.
+                    Os resultados começam a aparecer nas primeiras semanas de uso. É importante fazer o uso corretamente para obter os melhores resultados.
                   </p>
                 </div>
               </div>
@@ -927,9 +927,9 @@ export default function ProdutoDefinamax() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-8 bg-green-800 text-white">
+      <footer className="w-full py-8 bg-pink-800 text-white">
         <div className="mx-auto max-w-5xl px-4 text-center">
-          <Image src="/logo2.png" alt="Definamax" width={150} height={45} className="h-9 w-auto mx-auto mb-4" />
+          <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={45} className="h-9 w-auto mx-auto mb-4" />
           <div className="flex justify-center space-x-4 mb-4">
             <Link href="/termos" className="text-sm hover:text-green-200">
               Termos de Uso
@@ -942,7 +942,7 @@ export default function ProdutoDefinamax() {
             </Link>
           </div>
           <p className="text-xs text-gray-300">
-            Copyright © {new Date().getFullYear()} Definamax. Todos os direitos reservados.
+            Copyright © {new Date().getFullYear()} Phynamax. Todos os direitos reservados.
           </p>
           <p className="text-xs text-gray-300 mt-2">Bourjun Nature Health, Florianópolis Santa Catarina</p>
         </div>

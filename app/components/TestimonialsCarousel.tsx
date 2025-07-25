@@ -6,31 +6,27 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 const testimonials = [
   {
     id: 1,
-    image: '/apaula2.png',
+    image: '/10.png',
   },
   {
     id: 2,
-    image: '/luana.png',
+    image: '/11.png',
   },
   {
     id: 3,
-    image: '/chintia.png',
+    image: '/12.png',
   },
   {
     id: 4,
-    image: '/dep01.png',
+    image: '/13.png',
   },
   {
     id: 5,
-    image: '/dep03.png',
+    image: '/14.png',
   },
   {
     id: 6,
-    image: '/dep04.png',
-  },
-  {
-    id: 7,
-    image: '/dep05.png',
+    image: '/15.png',
   },
 ]
 

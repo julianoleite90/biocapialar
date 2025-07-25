@@ -58,12 +58,12 @@ const LeftContent = styled.div`
 `;
 
 const DiscountBanner = styled.div`
-  background: linear-gradient(135deg, #1a4d2e 0%, #15402a 100%);
+  background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);
   color: white;
   padding: 40px 30px;
   border-radius: 12px;
   margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(26, 77, 46, 0.3);
+  box-shadow: 0 10px 30px rgba(190, 24, 93, 0.3);
   text-align: center;
 `;
 
@@ -95,9 +95,9 @@ const BenefitsList = styled.div`
   gap: 20px;
   margin-bottom: 30px;
   padding: 25px;
-  border: 2px solid #1a4d2e;
+  border: 2px solid #be185d;
   border-radius: 12px;
-  background: rgba(26, 77, 46, 0.05);
+  background: rgba(190, 24, 93, 0.05);
 `;
 
 const BenefitItem = styled.div`
@@ -114,7 +114,7 @@ const BenefitItem = styled.div`
 const CheckIcon = styled.div`
   width: 24px;
   height: 24px;
-  background: #28a745;
+  background: #be185d;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -187,7 +187,7 @@ const PromoText = styled(motion.div)`
   
   .discount {
     font-weight: 700;
-    color: #1a4d2e;
+    color: #be185d;
   }
 `;
 
@@ -200,7 +200,7 @@ const UrgencyText = styled(motion.div)`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: linear-gradient(135deg, #1a4d2e 0%, #15402a 100%);
+  background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);
   color: white;
   font-size: 1.4rem;
   font-weight: 700;
@@ -208,16 +208,18 @@ const CTAButton = styled(motion.button)`
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 10px 30px rgba(26, 77, 46, 0.3);
+  box-shadow: 0 15px 40px rgba(190, 24, 93, 0.4), 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
   
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(26, 77, 46, 0.4);
+    box-shadow: 0 20px 50px rgba(190, 24, 93, 0.5), 0 12px 25px rgba(0, 0, 0, 0.4);
   }
 `;
+
+
 
 const WhatsAppFloat = styled.div`
   position: fixed;
@@ -271,8 +273,8 @@ const ResponsiveVideo = () => {
     return () => window.removeEventListener('resize', checkDevice);
   }, []);
 
-  // Vimeo IDs: mobile = 1100433009, desktop = 1100432285
-  const vimeoId = isMobile ? '1100433009' : '1100432285';
+  // Vimeo IDs: mobile = 1104562194, desktop = 1104561420
+  const vimeoId = isMobile ? '1104562194' : '1104561420';
   const vimeoSrc = `https://player.vimeo.com/video/${vimeoId}?badge=0&autopause=0&autoplay=1&muted=0&controls=0&loop=1&responsive=1`;
 
   return (
@@ -339,19 +341,19 @@ const OfferSection = () => {
 
   const benefits = [
     {
-      text: "Emagreça sem recorrer a dietas extremas ou exercícios exaustivos."
+                      text: "Controle a vontade de comer doces e pare de beliscar fora de hora."
     },
     {
-      text: "Método natural e seguro para perder peso, sem efeitos colaterais."
+              text: "Sinta-se saciada por mais tempo e domine sua compulsão alimentar."
     },
     {
-      text: "Fórmula eficaz para controlar a compulsão alimentar e controlar o apetite."
+              text: "Perca peso sem passar fome e sem dietas rigorosas."
     },
     {
-      text: "Solução pratica que se encaixa a sua rotina agitada."
+              text: "Apenas 2 cápsulas diárias para controlar seus impulsos e conquistar o peso ideal."
     },
     {
-      text: "Resultados rápidos e duradouros que melhoram a sua saúde em geral."
+              text: "Resultado rápido e totalmente seguro."
     }
   ];
 
@@ -365,8 +367,8 @@ const OfferSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            DESCUBRA O PODER DAS<br />
-            <span className="highlight">FIBRAS QUE ABSORVEM GORDURA</span> ✨
+            Por que o Phynamax<br />
+            <span className="highlight">é tão eficaz no emagrecimento?</span>
           </MainTitle>
           
           <Subtitle
@@ -387,8 +389,8 @@ const OfferSection = () => {
                 viewport={{ once: true }}
               >
                 <DiscountBanner>
-                  <DiscountTitle>MENOS GORDURA</DiscountTitle>
-                  <DiscountSubtitle>MAIS EMAGRECIMENTO</DiscountSubtitle>
+                  <DiscountTitle>CONTROLE A COMPULSÃO</DiscountTitle>
+                  <DiscountSubtitle>EMAGREÇA MAIS RÁPIDO</DiscountSubtitle>
                 </DiscountBanner>
                 
                 <BenefitsList>
@@ -411,17 +413,10 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            Uma fórmula exclusiva com fibras bioativas que agem como uma esponja no seu organismo, absorvendo gorduras e açúcares para reduzir a absorção calórica, controlar a fome e acelerar a perda de peso de forma natural e eficaz.
+            Uma fórmula revolucionária com fibras bioativas, extratos naturais potentes e minerais de alta performance que agem como uma barreira imbatível no seu organismo, absorvendo gorduras e açúcares, promovendo saciedade prolongada, dominando a compulsão alimentar e acelerando seu emagrecimento de forma rápida, natural e segura.
           </PromoText>
 
-          <UrgencyText
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            viewport={{ once: true }}
-          >
-            Mas corra, essa oferta acaba em breve.
-          </UrgencyText>
+
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -439,7 +434,7 @@ const OfferSection = () => {
                 }
               }}
             >
-              QUERO EMAGRECER COM DEFINAMAX
+                              EU QUERO CONTROLAR A COMPULSÃO
             </CTAButton>
           </motion.div>
         </Container>

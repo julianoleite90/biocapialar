@@ -112,40 +112,40 @@ const ResultHighlight = styled.span`
 
 const testimonials = [
   {
-    text: "Perdi 15kg em 2 meses! Nunca imaginei que pudesse ser tão fácil. O DEFINAMAX mudou completamente minha relação com a comida e meu corpo.",
-    author: "Maria Silva",
-    details: "Perdeu 15kg em 2 meses",
-    avatar: "M"
+    text: "Perdi 19kg em 3 meses! Nunca imaginei que pudesse ser tão fácil. O PHYNAMAX mudou completamente minha relação com a comida e meu corpo.",
+    author: "Beatriz Almeida",
+    details: "Perdeu 19kg em 3 meses",
+    avatar: "B"
   },
   {
-    text: "Finalmente encontrei algo que funciona! Já tentei várias dietas e nada dava certo. Com o DEFINAMAX consegui resultados incríveis em 30 dias.",
-    author: "João Santos",
-    details: "Perdeu 12kg em 1 mês",
-    avatar: "J"
+    text: "Finalmente encontrei algo que funciona! Já tentei várias dietas e nada dava certo. Com o PHYNAMAX consegui resultados incríveis em 45 dias.",
+    author: "Ricardo Souza",
+    details: "Perdeu 16kg em 45 dias",
+    avatar: "R"
   },
   {
     text: "Além de emagrecer, me sinto muito mais disposta e com energia. Minha autoestima voltou e agora me sinto confiante novamente!",
-    author: "Ana Costa",
-    details: "Perdeu 18kg em 3 meses",
-    avatar: "A"
+    author: "Gabriela Mendes",
+    details: "Perdeu 21kg em 4 meses",
+    avatar: "G"
   },
   {
     text: "O método é simples e fácil de seguir. Não passei fome e ainda assim perdi todo o peso que queria. Recomendo para todos!",
-    author: "Pedro Lima",
-    details: "Perdeu 10kg em 1 mês",
-    avatar: "P"
-  },
-  {
-    text: "Estava desesperada para emagrecer para meu casamento. O DEFINAMAX me salvou! Consegui chegar ao meu peso ideal a tempo.",
-    author: "Carla Ferreira",
-    details: "Perdeu 20kg em 4 meses",
+    author: "Carlos Ribeiro",
+    details: "Perdeu 14kg em 2 meses",
     avatar: "C"
   },
   {
-    text: "Resultados surpreendentes! Em apenas 3 semanas já estava vendo diferença no espelho. Agora uso roupas que não usava há anos.",
-    author: "Roberto Oliveira",
-    details: "Perdeu 8kg em 3 semanas",
-    avatar: "R"
+    text: "Estava desesperada para emagrecer para meu casamento. O PHYNAMAX me salvou! Consegui chegar ao meu peso ideal a tempo.",
+    author: "Juliana Martins",
+    details: "Perdeu 23kg em 5 meses",
+    avatar: "J"
+  },
+  {
+    text: "Resultados surpreendentes! Em apenas 4 semanas já estava vendo diferença no espelho. Agora uso roupas que não usava há anos.",
+    author: "André Tavares",
+    details: "Perdeu 12kg em 4 semanas",
+    avatar: "A"
   }
 ];
 

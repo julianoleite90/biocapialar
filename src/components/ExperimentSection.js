@@ -73,8 +73,9 @@ const SectionTitle = styled(motion.h2)`
   line-height: 1.2;
   
   .highlight {
-    color: #1a4d2e;
-    font-size: 0.7em;
+    color: #333;
+    font-size: 0.5em;
+    font-style: italic;
   }
 `;
 
@@ -90,7 +91,7 @@ const Description = styled(motion.p)`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: #1a4d2e;
+  background: #be185d;
   color: white;
   border: none;
   padding: 18px 40px;
@@ -101,12 +102,12 @@ const CTAButton = styled(motion.button)`
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 8px 20px rgba(26, 77, 46, 0.4);
+  box-shadow: 0 12px 30px rgba(190, 24, 93, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
   
   &:hover {
-    background: #0f2c1a;
+    background: #9d174d;
     transform: translateY(-2px);
-    box-shadow: 0 12px 30px rgba(26, 77, 46, 0.6);
+    box-shadow: 0 18px 40px rgba(190, 24, 93, 0.6), 0 8px 20px rgba(0, 0, 0, 0.4);
   }
   
   @media (max-width: 768px) {
@@ -114,6 +115,8 @@ const CTAButton = styled(motion.button)`
     font-size: 1.1rem;
   }
 `;
+
+
 
 const BadgeContainer = styled.div`
   display: flex;
@@ -126,8 +129,8 @@ const BadgeContainer = styled.div`
 `;
 
 const GuaranteeBadge = styled(motion.div)`
-  width: 450px;
-  height: 450px;
+  width: 550px;
+  height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,15 +138,15 @@ const GuaranteeBadge = styled(motion.div)`
   img {
     width: 100%;
     height: auto;
-    max-width: 450px;
+    max-width: 550px;
   }
   
   @media (max-width: 768px) {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     
     img {
-      max-width: 350px;
+      max-width: 400px;
     }
   }
 `;
@@ -162,8 +165,8 @@ const ExperimentSection = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              30 DIAS DE GARANTIA<br />
-              <span className="highlight">EXPERIMENTE SEM RISCOS</span>
+              30 dias de garantia<br />
+              <span className="highlight">Se você não gostar, pode devolver</span>
             </SectionTitle>
             
             <Description
@@ -172,20 +175,16 @@ const ExperimentSection = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Fazer o uso do Definamax® é uma experiência única que só vivenciando você conseguirá entender 
-              porque mais de 45 mil pessoas tiveram suas vidas transformadas. Por isso, após a sua compra, você 
-              terá 30 dias para experimentar. Você poderá testar sem riscos e se por qualquer 
-              razão não gostar ou se adaptar, basta enviar um simples email para nossa atenciosa equipe de atendimento 
-              dentro desse período, que reembolsaremos 100% do valor pago. É super simples. Conforme nossos termos de garantia*.
+              Com a nossa Garantia de Satisfação de 30 Dias, você pode experimentar o Phynamax sem nenhum risco. Teste, sinta a diferença e, se por qualquer motivo não estiver completamente satisfeito, é só entrar em contato com nossa equipe de atendimento, que está pronta para ajudar. Envie um simples e-mail dentro de 30 dias, e nós reembolsaremos 100% do valor pago — sem complicações, sem perguntas. É assim que confiamos no poder do Phynamax! Conforme nossos termos de garantia*
             </Description>
           </div>
           
           <div className="mobile-image">
-            <div style={{ width: '300px', height: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div style={{ width: '350px', height: '350px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <img 
                 src="/garantia-definamax.png" 
                 alt="30 Dias de Garantia Incondicional Definamax - 100% Satisfação Garantida ou Dinheiro de Volta" 
-                style={{ width: '100%', height: 'auto', maxWidth: '300px' }}
+                style={{ width: '100%', height: 'auto', maxWidth: '350px' }}
               />
             </div>
           </div>
@@ -198,7 +197,7 @@ const ExperimentSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Quero experimentar por 30 dias
+            EU QUERO EMAGRECER
           </CTAButton>
         </ContentArea>
         

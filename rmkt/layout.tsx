@@ -5,7 +5,7 @@ import "../globals.css"
 export const metadata: Metadata = {
   title: "Remarketing Definamax - Suplemento Natural para Emagrecimento",
   description:
-    "Definamax é um suplemento 100% natural para emagrecimento saudável e duradouro. Resultados em até 30 dias ou seu dinheiro de volta.",
+    "Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil. Resultados em até 30 dias ou seu dinheiro de volta.",
 }
 
 export default function RootLayout({

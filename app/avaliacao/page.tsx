@@ -414,7 +414,7 @@ export default function AvaliacaoPage() {
                     <span className="text-green-800">3</span>
                   </div>
                   <div>
-                    <p className="font-medium text-green-800">Fase 3: Transformação (61-90 dias)</p>
+                    <p className="font-medium text-green-800">Fase 3: Transformação (61 dias a 3 meses)</p>
                     <p className="text-green-700">
                       • Resultados visíveis<br />
                       • Redução de medidas<br />
@@ -602,7 +602,7 @@ export default function AvaliacaoPage() {
       <header className="w-full bg-[#15803D] shadow-sm">
         <div className="max-w-5xl mx-auto px-4 py-4">
           <Image 
-            src="/logo2.png" 
+            src="/logo-phynamax.png" 
             alt="Definamax" 
             width={180} 
             height={50} 

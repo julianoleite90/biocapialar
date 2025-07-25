@@ -41,7 +41,7 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-between items-center">
           <Image 
-            src="/logo2.png" 
+            src="/logo-phynamax.png" 
             alt="Definamax" 
             width={400} 
             height={120} 
@@ -144,7 +144,7 @@ export default function LandingPage() {
                   <div className="relative group">
                     <div className="absolute -inset-1 bg-gradient-to-r from-green-600 to-green-400 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
                     <Link
-                      href="https://full.sale/DmNQj1"
+                      href="https://full.sale/FWHefK?src=remarketing"
                       className="relative w-full inline-flex items-center justify-center rounded-lg bg-green-600 px-4 md:px-6 py-4 text-base md:text-xl font-bold text-white hover:bg-green-500 transition-all shadow-lg text-center"
                     >
                       <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -180,9 +180,9 @@ export default function LandingPage() {
           {/* Grid de Depoimentos */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
             {[
-              { name: "Débora S.", age: 31, loss: 23, months: 7, image: "/dep01.png", profession: "Professora", location: "São Paulo, SP" },
-              { name: "Arnaldo M.", age: 34, loss: 25, months: 6, image: "/dep02.png", profession: "Empresário", location: "Rio de Janeiro, RJ" },
-              { name: "Sara O.", age: 32, loss: 11, months: 2, image: "/dep03.png", profession: "Enfermeira", location: "Curitiba, PR" }
+              { name: "Beatriz L.", age: 28, loss: 18, months: 5, image: "/10.png", profession: "Designer", location: "Florianópolis, SC" },
+              { name: "Rafael P.", age: 35, loss: 29, months: 8, image: "/11.png", profession: "Contador", location: "Brasília, DF" },
+              { name: "Larissa M.", age: 30, loss: 14, months: 3, image: "/12.png", profession: "Farmacêutica", location: "Campinas, SP" }
             ].map((item, index) => (
               <div key={index} className="w-full">
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
@@ -210,8 +210,8 @@ export default function LandingPage() {
             {showMoreReviews && (
               <>
                 {[
-                  { name: "Marina L.", age: 28, loss: 15, months: 4, image: "/dep04.png", profession: "Designer", location: "Belo Horizonte, MG" },
-                  { name: "Carla M.", age: 39, loss: 18, months: 6, image: "/dep05.png", profession: "Advogada", location: "Salvador, BA" },
+                                          { name: "Thais R.", age: 26, loss: 21, months: 6, image: "/13.png", profession: "Nutricionista", location: "Natal, RN" },
+       { name: "Lucas A.", age: 33, loss: 26, months: 7, image: "/14.png", profession: "Engenheiro", location: "Vitória, ES" },
                   { name: "Roberto C.", age: 45, loss: 20, months: 5, image: "/dep06.png", profession: "Engenheiro", location: "Porto Alegre, RS" }
                 ].map((item, index) => (
                   <div key={index} className="w-full">
@@ -856,7 +856,7 @@ export default function LandingPage() {
                 <div className="relative group">
                   <div className="absolute -inset-1 bg-gradient-to-r from-green-600 to-green-400 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
                   <Link
-                    href="https://full.sale/ytA47b"
+                    href="https://full.sale/FWHefK?src=remarketing"
                     className="relative block w-full bg-green-600 text-white font-bold py-3 md:py-4 rounded-lg hover:bg-green-500 transition-all text-center shadow-lg"
                   >
                     <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -974,7 +974,7 @@ export default function LandingPage() {
                 <div className="relative group">
                   <div className="absolute -inset-1 bg-gradient-to-r from-green-600 to-green-400 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
                   <Link
-                    href="https://full.sale/eMbtHp"
+                    href="https://full.sale/FWHefK?src=remarketing"
                     className="relative block w-full bg-green-600 text-white font-bold py-3 md:py-4 rounded-lg hover:bg-green-500 transition-all text-center shadow-lg"
                   >
                     <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -1326,12 +1326,12 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full bg-green-800">
+      <footer className="w-full bg-pink-800">
         <div className="w-full border-b border-white/10">
           <div className="mx-auto max-w-6xl px-4 py-8">
             <div className="text-center">
               <Image 
-                src="/logo2.png" 
+                src="/logo-phynamax.png" 
                 alt="Definamax" 
                 width={200} 
                 height={60} 
@@ -1339,31 +1339,19 @@ export default function LandingPage() {
                 quality={100}
               />
               <p className="text-white/90 text-sm mb-4">
-                Definamax - O seu aliado natural para o emagrecimento saudável e eficaz.
+                Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
               </p>
               <p className="text-white/70 text-xs mb-6 max-w-3xl mx-auto">
-                *Resultados podem variar de pessoa para pessoa. Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de emagrecimento.
+                *Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença.
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
-                <Link href="https://www.definamaxoficial.com/avaliacao" className="text-white/90 hover:text-white">
-                  Avaliação de IMC
-                </Link>
-                <span className="text-white/30">|</span>
                 <Link href="https://www.definamaxoficial.com/termos" className="text-white/90 hover:text-white">
                   Termos de Garantia
                 </Link>
                 <span className="text-white/30">|</span>
                 <Link href="https://www.definamaxoficial.com/perguntas-frequentes" className="text-white/90 hover:text-white">
                   Perguntas Frequentes
-                </Link>
-                <span className="text-white/30">|</span>
-                <Link href="https://www.definamaxoficial.com/produto" className="text-white/90 hover:text-white">
-                  Produtos
-                </Link>
-                <span className="text-white/30">|</span>
-                <Link href="https://www.definamaxoficial.com/remarketing" className="text-white/90 hover:text-white">
-                  Depoimentos em Vídeo
                 </Link>
                 <span className="text-white/30">|</span>
                 <Link href="https://www.definamaxoficial.com/termos" className="text-white/90 hover:text-white">
@@ -1375,7 +1363,7 @@ export default function LandingPage() {
         </div>
         <div className="mx-auto max-w-6xl px-4 py-4">
           <div className="text-center text-white/70 text-xs">
-            <p className="mb-1">Copyright © 2025 Definamax. Todos os direitos reservados.</p>
+            <p className="mb-1">Copyright © 2025 Phynamax. Todos os direitos reservados.</p>
             <p>Bourjun Nature Health, Florianópolis Santa Catarina</p>
           </div>
         </div>

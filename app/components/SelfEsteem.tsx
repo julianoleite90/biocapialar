@@ -7,7 +7,7 @@ export default function SelfEsteem() {
           <div className="space-y-6 order-1 lg:order-1 flex flex-col justify-center text-center lg:text-left">
             {/* Main Headline */}
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-700 leading-tight">
-              Quando foi a última vez que você se sentiu confiante com seu peso e o seu corpo?
+              Chega de evitar a balança ou sentir vergonha do seu corpo
             </h2>
 
             {/* Subheadline */}
@@ -17,7 +17,7 @@ export default function SelfEsteem() {
 
             {/* Description */}
             <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-              Recupere a sua confiança em seu corpo e conquiste uma vida mais plena com um emagrecedor que transforma seu peso em bem-estar. Definamax foi criado para que cada quilo perdido signifique mais autoestima, mais confiança e mais amor próprio em seu dia a dia - naturalmente, sem sacrifícios, com resultados que vão muito além da balança.
+              Recupere a sua confiança em seu corpo e conquiste uma vida mais plena com uma fórmula que transforma seu peso em bem-estar. Phynamax foi criado para que cada quilo perdido signifique mais autoestima, mais confiança e mais amor próprio em seu dia a dia - naturalmente, sem sacrifícios, com resultados que vão muito além da balança.
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function SelfEsteem() {
           <div className="relative order-2 lg:order-2 flex items-end">
             <div className="flex justify-center w-full">
               <img 
-                src="/jeans.png" 
+                src="/fundo-emagreceu.png" 
                 alt="Jeans que não entram mais" 
                 className="max-w-full h-auto"
                 style={{ maxHeight: '600px' }}

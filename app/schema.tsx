@@ -133,7 +133,7 @@ export const organizationSchema = {
   '@type': 'Organization',
   name: 'Definamax',
   url: 'https://www.definamaxoficial.com',
-  logo: 'https://www.definamaxoficial.com/logo2.png',
+  logo: 'https://www.definamaxoficial.com/logo-phynamax.png',
   sameAs: [
     'https://www.instagram.com/definamax',
     'https://www.facebook.com/definamax'
@@ -164,7 +164,7 @@ export const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'Como devo tomar o Definamax?',
+              name: 'Como devo tomar o Phynamax?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Recomenda-se tomar 2 cápsulas por dia, preferencialmente antes das principais refeições. Para melhores resultados, tome uma cápsula 30 minutos antes do almoço e outra 30 minutos antes do jantar, sempre com um copo de água.'
@@ -175,15 +175,15 @@ export const faqSchema = {
       name: 'Quanto tempo demora para ver resultados?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Os resultados podem variar de pessoa para pessoa, mas a maioria dos usuários começa a notar mudanças significativas após 30 dias de uso contínuo. Para resultados mais expressivos, recomendamos o tratamento completo de 3 a 6 meses.'
+        text: 'Os resultados começam a aparecer nas primeiras semanas de uso. É importante fazer o uso corretamente para obter os melhores resultados.'
       }
     },
     {
       '@type': 'Question',
-      name: 'O Definamax tem efeitos colaterais?',
+      name: 'O Phynamax tem efeitos colaterais?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Por ser um produto 100% natural, o Definamax não apresenta efeitos colaterais significativos. No entanto, como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico.'
+        text: 'Por ser um produto 100% natural, o Phynamax não apresenta efeitos colaterais. Caso você tenha alergia a crustáceos, é recomendado consultar um médico antes de tomar.'
       }
     }
   ]

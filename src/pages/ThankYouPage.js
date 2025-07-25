@@ -601,7 +601,7 @@ const ThankYouPage = () => {
       {/* Header */}
       <Header>
         <HeaderContent>
-          <Logo src="/logo2.png" alt="Definamax" />
+          <Logo src="/logo-phynamax.png" alt="Definamax" />
         </HeaderContent>
       </Header>
 
@@ -773,7 +773,7 @@ const ThankYouPage = () => {
                     </UsageItem>
                     <UsageItem>
                       <UsageItemIcon />
-                      <UsageItemText>90 dias: Transformação completa e resultados duradouros</UsageItemText>
+                      <UsageItemText>3 meses: Transformação completa e resultados duradouros</UsageItemText>
                     </UsageItem>
                   </UsageList>
                 </UsageColumn>
@@ -847,9 +847,9 @@ const ThankYouPage = () => {
         <FooterContent>
           <FooterGrid>
             <FooterColumn>
-              <FooterLogo src="/logo2.png" alt="Definamax" />
+              <FooterLogo src="/logo-phynamax.png" alt="Definamax" />
               <FooterText>
-                Definamax é um suplemento 100% natural para emagrecimento saudável e duradouro.
+                Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
               </FooterText>
             </FooterColumn>
 
@@ -906,7 +906,7 @@ const ThankYouPage = () => {
           </FooterGrid>
 
           <FooterBottom>
-            <FooterBottomText>© {new Date().getFullYear()} Definamax. Todos os direitos reservados.</FooterBottomText>
+            <FooterBottomText>© {new Date().getFullYear()} Phynamax. Todos os direitos reservados.</FooterBottomText>
             <FooterBottomSmall>Este produto não substitui o acompanhamento de profissionais de saúde.</FooterBottomSmall>
             <FooterBottomSmall>*Resultados podem variar de pessoa para pessoa.</FooterBottomSmall>
           </FooterBottom>

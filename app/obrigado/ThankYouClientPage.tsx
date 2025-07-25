@@ -26,7 +26,7 @@ export default function ThankYouClientPage() {
       <header className="w-full bg-gradient-to-r from-green-800 via-green-700 to-green-800 py-4 shadow-md relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-center">
-          <Image src="/logo2.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
+          <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
         </div>
       </header>
 
@@ -204,7 +204,7 @@ export default function ThankYouClientPage() {
                     </li>
                     <li className="flex items-start">
                       <CheckCircle2 className="h-5 w-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                      <span>90 dias: Transformação completa e resultados duradouros</span>
+                      <span>3 meses: Transformação completa e resultados duradouros</span>
                     </li>
                   </ul>
                 </div>
@@ -278,13 +278,13 @@ export default function ThankYouClientPage() {
       </main>
 
       {/* Footer - Same as landing page */}
-      <footer className="w-full bg-green-800 text-white">
+      <footer className="w-full bg-pink-800 text-white">
         <div className="mx-auto max-w-5xl px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <Image src="/logo2.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4" />
+              <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4" />
               <p className="text-sm text-green-100 mb-4">
-                Definamax é um suplemento 100% natural para emagrecimento saudável e duradouro.
+                Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-green-100 hover:text-white">
@@ -409,7 +409,7 @@ export default function ThankYouClientPage() {
           </div>
 
           <div className="border-t border-green-700 mt-8 pt-8 text-center">
-            <p className="text-sm mb-4">© {new Date().getFullYear()} Definamax. Todos os direitos reservados.</p>
+            <p className="text-sm mb-4">© {new Date().getFullYear()} Phynamax. Todos os direitos reservados.</p>
             <p className="text-xs mb-2">Este produto não substitui o acompanhamento de profissionais de saúde.</p>
             <p className="text-xs mb-2"> *Resultados podem variar de pessoa para pessoa.</p>
           </div>

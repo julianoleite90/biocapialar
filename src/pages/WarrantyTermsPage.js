@@ -10,7 +10,7 @@ const TermsContainer = styled.div`
 
 const Header = styled.header`
   width: 100%;
-  background: linear-gradient(135deg, #1a4d2e 0%, #22c55e 50%, #16a34a 100%);
+  background: linear-gradient(135deg, #be185d 0%, #ec4899 50%, #db2777 100%);
   padding: 1rem 0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 `;
@@ -72,7 +72,7 @@ const SectionCard = styled.div`
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  border-left: 4px solid #16a34a;
+  border-left: 4px solid #db2777;
   margin-bottom: 1.5rem;
 `;
 
@@ -86,12 +86,12 @@ const SectionHeader = styled.div`
 const SectionIcon = styled.div`
   width: 48px;
   height: 48px;
-  background: #dcfce7;
+  background: #fce7f3;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #16a34a;
+  color: #db2777;
   font-size: 1.5rem;
 `;
 
@@ -110,11 +110,11 @@ const SectionText = styled.p`
 `;
 
 const HighlightSection = styled.div`
-  background: #f0fdf4;
+  background: #fdf2f8;
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid #bbf7d0;
+  border: 1px solid #f9a8d4;
 `;
 
 const StepsList = styled.ol`
@@ -133,7 +133,7 @@ const StepItem = styled.li`
 const StepNumber = styled.div`
   width: 1.5rem;
   height: 1.5rem;
-  background: #16a34a;
+  background: #db2777;
   color: white;
   border-radius: 4px;
   display: flex;
@@ -183,11 +183,11 @@ const LegalBox = styled.div`
 `;
 
 const ContactInfo = styled.div`
-  background: #f0fdf4;
+  background: #fdf2f8;
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem 0;
-  color: #166534;
+  color: #831843;
   line-height: 1.6;
 `;
 
@@ -198,7 +198,7 @@ const WarrantyTermsPage = () => {
       <Header>
         <HeaderContent>
           <a href="/">
-            <Logo src="/logo-definamax.png" alt="Definamax" />
+            <Logo src="/logo-phynamax.png" alt="Phynamax" />
           </a>
         </HeaderContent>
       </Header>
@@ -222,7 +222,7 @@ const WarrantyTermsPage = () => {
               <SectionTitle>Compromisso com sua satisfação</SectionTitle>
             </SectionHeader>
             <SectionText>
-              Na Definamax, acreditamos que a confiança de nossos clientes é nosso maior patrimônio. Por isso, 
+              Na Phynamax, acreditamos que a confiança de nossos clientes é nosso maior patrimônio. Por isso, 
               oferecemos uma política de garantia transparente e justa, que assegura sua total satisfação com 
               nossos produtos. Nosso compromisso vai além do que determina a legislação, pois queremos que 
               você tenha a melhor experiência possível.

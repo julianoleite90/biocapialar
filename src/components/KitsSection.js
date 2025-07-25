@@ -21,10 +21,9 @@ const SectionTitle = styled(motion.h2)`
   text-align: center;
   font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: 700;
-  color: #1a4d2e;
+  color: #000;
   margin-bottom: 20px;
   line-height: 1.2;
-  text-transform: uppercase;
   
   @media (max-width: 768px) {
     margin-bottom: 15px;
@@ -66,7 +65,7 @@ const KitsGrid = styled.div`
 `;
 
 const KitCard = styled(motion.div)`
-  background: #1a4d2e;
+  background: #be185d;
   border-radius: 20px;
   padding: 25px 20px;
   color: white;
@@ -118,7 +117,7 @@ const KitDays = styled.span`
   display: inline-block;
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-color: #ffb932;
+  text-decoration-color: #ffffff;
   text-underline-offset: 3px;
   
   @media (max-width: 768px) {
@@ -128,7 +127,7 @@ const KitDays = styled.span`
 
 const KitImage = styled.div`
   margin: 8px 0 15px 0;
-  height: 200px;
+  height: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,7 +140,7 @@ const KitImage = styled.div`
   
   @media (max-width: 768px) {
     margin: 8px 0;
-    height: 220px;
+    height: 180px;
   }
 `;
 
@@ -149,8 +148,8 @@ const ProductsCount = styled.div`
   font-size: 1.1rem;
   font-weight: 700;
   margin: 15px 0 10px 0;
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid #ffb932;
+  border-bottom: 2px solid #ffb932;
   padding: 10px 0;
   
   @media (max-width: 768px) {
@@ -187,7 +186,7 @@ const MainPrice = styled.div`
   }
   
   .big-price {
-    background: #ffb932;
+    background: #ffffff;
     color: #333;
     padding: 3px 8px;
     border-radius: 6px;
@@ -226,7 +225,7 @@ const ProductsList = styled.div`
     &:before {
       content: '✓';
       background: #ffb932;
-      color: #333;
+      color: white;
       width: 20px;
       height: 20px;
       border-radius: 50%;
@@ -262,7 +261,7 @@ const CTASection = styled.div`
 
 const CTAButton = styled(motion.button)`
   background: #ffb932;
-  color: #333;
+  color: white;
   border: none;
   padding: 20px 40px;
   font-size: 1.3rem;
@@ -273,15 +272,15 @@ const CTAButton = styled(motion.button)`
   text-transform: uppercase;
   width: 100%;
   margin-top: 15px;
-  box-shadow: 0 0 8px rgba(255, 185, 50, 0.3);
+  box-shadow: 0 12px 30px rgba(255, 185, 50, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
   animation: pulse-glow 3s ease-in-out infinite alternate;
   
   @keyframes pulse-glow {
     from {
-      box-shadow: 0 0 8px rgba(255, 185, 50, 0.3);
+      box-shadow: 0 12px 30px rgba(255, 185, 50, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
     }
     to {
-      box-shadow: 0 0 12px rgba(255, 185, 50, 0.5);
+      box-shadow: 0 15px 35px rgba(255, 185, 50, 0.6), 0 8px 20px rgba(0, 0, 0, 0.4);
     }
   }
   
@@ -297,6 +296,8 @@ const CTAButton = styled(motion.button)`
     margin-top: 8px;
   }
 `;
+
+
 
 const FreteGratis = styled.div`
   text-align: center;
@@ -339,31 +340,31 @@ const KitsSection = () => {
   const kits = [
     {
       title: "TRATAMENTO PARA",
-      days: "150 DIAS",
+      days: "5 MESES",
       oldPrice: "De R$879,00",
       mainPrice: "12x R$38,05",
       cashPrice: "ou R$379,00 à vista",
       products: [
-        "05 frascos de Definamax",
-        "2 frascos de colágeno para flacidez",
-        "Envio prioritário"
+        "150 dias de tratamento",
+        "Brinde surpresa",
+        "Envio imediato"
       ],
       image: "/5frascos.png",
-      link: "https://full.sale/ytA47b"
+      link: "https://full.sale/8mYNoQ"
     },
     {
       title: "TRATAMENTO PARA",
-      days: "90 DIAS",
+      days: "3 MESES",
       oldPrice: "De R$589,00",
       mainPrice: "12x R$35,04",
       cashPrice: "ou R$349,00 à vista",
       products: [
-        "03 frascos de Definamax",
+        "90 dias de tratamento",
         "Envio imediato"
       ],
       image: "/2frascos.png",
       popular: true,
-      link: "https://full.sale/DmNQj1"
+      link: "https://full.sale/k0E9wK"
     },
     {
       title: "TRATAMENTO PARA",
@@ -372,11 +373,11 @@ const KitsSection = () => {
       mainPrice: "12x R$23,79",
       cashPrice: "ou R$237,00 à vista",
       products: [
-        "01 frasco de Definamax",
+        "30 dias de tratamento",
         "Envio imediato"
       ],
       image: "/1frasco.png",
-      link: "https://full.sale/eMbtHp"
+      link: "https://full.sale/eANTht"
     }
   ];
 
@@ -389,7 +390,7 @@ const KitsSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          ESCOLHA SEU TRATAMENTO IDEAL
+          Qual kit é o ideal para o seu objetivo?
         </SectionTitle>
         
         <SectionSubtitle
@@ -398,7 +399,7 @@ const KitsSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Para melhores resultados recomendamos o tratamento mais vendido de 5 meses
+          Para melhores resultados recomendamos o tratamento mais vendido de 3 A 5 meses para um resultado mais eficaz
         </SectionSubtitle>
         
         <KitsGrid>

@@ -50,7 +50,7 @@ export default function PricingSection() {
       badges: ["Compra Segura", "Satisfação Garantida", "Privacidade Protegida"],
       highlight: true,
       highlightColor: "border-orange-400",
-      url: "https://full.sale/ytA47b"
+      url: "https://full.sale/8mYNoQ"
     },
     {
       id: 3,
@@ -67,7 +67,7 @@ export default function PricingSection() {
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
       badges: ["Compra Segura", "Satisfação Garantida", "Privacidade Protegida"],
-      url: "https://full.sale/DmNQj1"
+      url: "https://full.sale/k0E9wK"
     },
     {
       id: 4,
@@ -84,7 +84,7 @@ export default function PricingSection() {
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
       badges: ["Compra Segura", "Satisfação Garantida", "Privacidade Protegida"],
-      url: "https://full.sale/eMbtHp"
+      url: "https://full.sale/eANTht"
     }
   ]
 
@@ -195,10 +195,10 @@ export default function PricingSection() {
 
               {/* Product Image */}
               <div className="flex justify-center mb-6">
-                <img 
-                  src={pkg.image} 
+                                <img 
+                  src={pkg.image}
                   alt={pkg.name}
-                  className="w-56 h-56 object-contain"
+                  className="w-48 h-48 object-contain"
                 />
               </div>
 
