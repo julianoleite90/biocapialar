@@ -390,7 +390,7 @@ const KitsSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          Qual kit é o ideal para o seu objetivo?
+          Escolha o seu kit
         </SectionTitle>
         
         <SectionSubtitle
@@ -399,7 +399,7 @@ const KitsSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Para melhores resultados recomendamos o tratamento mais vendido de 3 A 5 meses para um resultado mais eficaz
+          Para obter os melhores resultados, recomendamos os kits de 3 a 5 meses, com mais benefícios e maiores descontos
         </SectionSubtitle>
         
         <KitsGrid>

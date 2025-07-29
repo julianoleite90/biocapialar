@@ -341,19 +341,19 @@ const OfferSection = () => {
 
   const benefits = [
     {
-                      text: "Controle a vontade de comer doces e pare de beliscar fora de hora."
+                      text: "Controle a vontade por doces e evite beliscos fora de hora."
     },
     {
-              text: "Sinta-se saciada por mais tempo e domine sua compulsão alimentar."
+              text: "Prolongue a sensação de saciedade e controle a compulsão alimentar."
     },
     {
-              text: "Perca peso sem passar fome e sem dietas rigorosas."
+              text: "Emagreça mais rápido sem passar fome ou dietas restritivas."
     },
     {
-              text: "Apenas 2 cápsulas diárias para controlar seus impulsos e conquistar o peso ideal."
+              text: "Apenas 2 cápsulas por dia para controlar a compulsão e emagrecer de forma saudável."
     },
     {
-              text: "Resultado rápido e totalmente seguro."
+              text: "Resultados rápidos, seguros e confiáveis."
     }
   ];
 
@@ -377,7 +377,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Seu novo corpo começa agora.
+            Sua nova versão começa agora! Aproveite os benefícios de Phynamax
           </Subtitle>
 
           <ContentGrid>
@@ -389,8 +389,8 @@ const OfferSection = () => {
                 viewport={{ once: true }}
               >
                 <DiscountBanner>
-                  <DiscountTitle>CONTROLE A COMPULSÃO</DiscountTitle>
-                  <DiscountSubtitle>EMAGREÇA MAIS RÁPIDO</DiscountSubtitle>
+                  <DiscountTitle>MENOS COMPULSÃO</DiscountTitle>
+                  <DiscountSubtitle>MAIS EMAGRECIMENTO</DiscountSubtitle>
                 </DiscountBanner>
                 
                 <BenefitsList>
@@ -413,7 +413,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            Uma fórmula revolucionária com fibras bioativas, extratos naturais potentes e minerais de alta performance que agem como uma barreira imbatível no seu organismo, absorvendo gorduras e açúcares, promovendo saciedade prolongada, dominando a compulsão alimentar e acelerando seu emagrecimento de forma rápida, natural e segura.
+            A fórmula mais completa com fibras bioativas, extratos naturais potentes e minerais de alta performance que agem como uma barreira no seu organismo, absorvendo gorduras e açúcares, promovendo saciedade prolongada, controlando a compulsão alimentar.
           </PromoText>
 
 

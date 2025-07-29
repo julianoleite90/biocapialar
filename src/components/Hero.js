@@ -513,8 +513,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <h1>
-                          <TitleMain>EMAGREÇA COM SAÚDE</TitleMain>
-            <TitleSub>E RECUPERE SUA CONFIANÇA</TitleSub>
+                          <TitleMain>PERCA PESO MAIS RÁPIDO</TitleMain>
+            <TitleSub>E RECUPERE SUA AUTOESTIMA</TitleSub>
             </h1>
           </MainTitle>
 
@@ -523,14 +523,14 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            A forma mais rápida e segura para perder peso em 2025. Conquiste mais energia e recupere a confiança que você tanto quer, e merece, para viver mais disposta, confiante e feliz.
+            A forma mais segura e eficaz para emagrecer sem prejudicar a saúde. A fórmula de Phynamax é 100% natural, não causa palpitações e nem acelera o coração.
           </Subtitle>
 
           <img 
             src="/mock-phyna.png" 
             alt="Phynamax - Mockup do Produto" 
             style={{
-              maxWidth: '550px',
+              maxWidth: '400px',
               width: '100%',
               height: 'auto',
               borderRadius: '12px',
@@ -559,17 +559,17 @@ const Hero = () => {
         <BottomBanner>
           <ScrollingText>
             <TextItem>57% OFF NO KIT DE 5 MESES</TextItem>
-            <TextItem>MAIS DE 45 MIL TRANSFORMADOS</TextItem>
-            <TextItem>MÉTODO COMPROVADO</TextItem>
-            <TextItem>RESULTADOS GARANTIDOS</TextItem>
-            <TextItem>EMAGRECIMENTO EFICAZ</TextItem>
-            <TextItem>TEMPO LIMITADO</TextItem>
+            <TextItem>MAIS DE 63 MIL CORPOS TRANSFORMADOS</TextItem>
+            <TextItem>FÓRMULA 100% NATURAL</TextItem>
+            <TextItem>RESULTADOS VISÍVEIS</TextItem>
+            <TextItem>EMAGRECIMENTO EFICAZ E SEGURO</TextItem>
+            <TextItem>EMAGRECIMENTO ACELERADO</TextItem>
             <TextItem>57% OFF NO KIT DE 5 MESES</TextItem>
-            <TextItem>MAIS DE 45 MIL TRANSFORMADOS</TextItem>
-            <TextItem>MÉTODO COMPROVADO</TextItem>
-            <TextItem>RESULTADOS GARANTIDOS</TextItem>
-            <TextItem>EMAGRECIMENTO EFICAZ</TextItem>
-            <TextItem>TEMPO LIMITADO</TextItem>
+            <TextItem>MAIS DE 63 MIL CORPOS TRANSFORMADOS</TextItem>
+            <TextItem>FÓRMULA 100% NATURAL</TextItem>
+            <TextItem>RESULTADOS VISÍVEIS</TextItem>
+            <TextItem>EMAGRECIMENTO EFICAZ E SEGURO</TextItem>
+            <TextItem>EMAGRECIMENTO ACELERADO</TextItem>
           </ScrollingText>
         </BottomBanner>
       </HeroSection>

@@ -134,7 +134,7 @@ const VideoSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          Phynamax não transforma apenas o seu corpo! <span className="highlight">Transforma a sua autoestima.</span>
+          Mais emagrecimento, mais autoestima e confiança!
         </SectionTitle>
         
         <SectionSubtitle
@@ -143,7 +143,7 @@ const VideoSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Depoimentos reais de pessoas que mudaram que tiveram suas vidas transformadas com o Phynamax.
+          Assista esses depoimentos de pessoas normais que confiaram na fórmula de Phynamax, e hoje estão com sua autoestima mais elevada, e um corpo totalmente transformado.
         </SectionSubtitle>
         
         <VideosGrid>

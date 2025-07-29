@@ -17,7 +17,7 @@ export default function SelfEsteem() {
 
             {/* Description */}
             <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-              Recupere a sua confiança em seu corpo e conquiste uma vida mais plena com uma fórmula que transforma seu peso em bem-estar. Phynamax foi criado para que cada quilo perdido signifique mais autoestima, mais confiança e mais amor próprio em seu dia a dia - naturalmente, sem sacrifícios, com resultados que vão muito além da balança.
+              Recupere a sua autoestima e tenha mais confiança em seu corpo. Conquiste uma vida mais saudável com a fórmula que transforma seu peso em bem-estar. Phynamax foi desenvolvido para que cada quilo perdido signifique mais confiança e autoestima em seu dia a dia -  um emagrecimento natural, sem sacrifícios, com resultados que vão muito além da balança.
             </p>
           </div>
 
