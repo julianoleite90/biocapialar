@@ -359,8 +359,8 @@ const OfferSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            A fórmula preferida<br />
-            <span className="highlight">dos brasileiros</span>
+            Com Phynamax o emagrecimento<br />
+            <span className="highlight">se torna uma realidade ao seu alcance</span>
           </MainTitle>
           
           <Subtitle
@@ -369,7 +369,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            A fórmula do Phynamax é preferida por sua eficácia e praticidade. Com apenas 2 cápsulas diárias, fornece 600 mg de nutrientes potentes que promovem perda de peso saudável. Diferente de outros produtos, que exigem mais cápsulas e doses menores, Phynamax combina simplicidade e alta potência, sendo a escolha ideal dos clientes.
+            Nossa fórmula avançada ajuda a queimar gordura de forma mais eficiente enquanto você vive o seu dia a dia e oferece controle de apetite, melhorando sua digestão e intestino. Tenha resultados rápidos e duradouros sem comprometer sua saúde.
           </Subtitle>
 
           <ContentGrid>
@@ -405,7 +405,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            Fórmula testada e aprovada por mais de 163 mil brasileiros entre 2024 e 2025. Chegou a sua hora de conhecer os benefícios do Phynamax para o seu corpo e a sua autoestima.
+            Chegou a sua hora de conhecer os benefícios do Phynamax para o seu corpo e a sua autoestima.
           </PromoText>
 
 
