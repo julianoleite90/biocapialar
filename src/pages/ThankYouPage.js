@@ -548,7 +548,7 @@ const ThankYouPage = () => {
   const getUrlParams = () => {
     const urlParams = new URLSearchParams(window.location.search);
     return {
-      value: urlParams.get('value') || '379.00', // Valor padrão Kit 5 Meses
+      value: urlParams.get('value') || '639.00', // Valor padrão Kit 5 Meses
       transaction_id: urlParams.get('transaction_id') || `TX-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
       product_name: urlParams.get('product') || 'Definamax - Kit 5 Meses',
       quantity: urlParams.get('quantity') || '1'

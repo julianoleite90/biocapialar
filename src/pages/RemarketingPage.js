@@ -821,13 +821,13 @@ const RemarketingPage = () => {
                 </PromoBoxTitle>
                 <PromoBoxPrice>
                   <PromoBoxOldPrice style={{textDecoration: 'line-through'}}>
-                    De R$589,00
+                    De R$879,00
                   </PromoBoxOldPrice>
                   <PromoBoxNewPrice>
-                    12x R$35,04
+                    12x R$44,92
                   </PromoBoxNewPrice>
                   <PromoBoxCashPrice>
-                    ou R$349,00 à vista
+                    ou R$539,00 à vista
                   </PromoBoxCashPrice>
                 </PromoBoxPrice>
               </PromoBox>
@@ -890,13 +890,13 @@ const RemarketingPage = () => {
                 VOCÊ LEVA UM POTE EXTRA
               </PromoBoxTitleMobile>
               <PromoBoxOldPriceMobile style={{textDecoration: 'line-through'}}>
-                De R$589,00
+                De R$879,00
               </PromoBoxOldPriceMobile>
               <PromoBoxNewPriceMobile>
-                12x R$35,04
+                12x R$44,92
               </PromoBoxNewPriceMobile>
               <PromoBoxCashPriceMobile>
-                ou R$349,00 à vista
+                ou R$539,00 à vista
               </PromoBoxCashPriceMobile>
             </PromoBoxMobile>
 

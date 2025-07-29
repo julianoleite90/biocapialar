@@ -341,13 +341,14 @@ const KitsSection = () => {
     {
       title: "TRATAMENTO PARA",
       days: "5 MESES",
-      oldPrice: "De R$879,00",
-      mainPrice: "12x R$38,05",
-      cashPrice: "ou R$379,00 à vista",
+      oldPrice: "De R$1.079,00",
+      mainPrice: "12x R$53,25",
+      cashPrice: "ou R$639,00 à vista",
       products: [
         "150 dias de tratamento",
         "Brinde surpresa",
-        "Envio imediato"
+        "Frete grátis",
+        "15% de desconto no PIX"
       ],
       image: "/5frascos.png",
       link: "https://full.sale/8mYNoQ"
@@ -355,12 +356,13 @@ const KitsSection = () => {
     {
       title: "TRATAMENTO PARA",
       days: "3 MESES",
-      oldPrice: "De R$589,00",
-      mainPrice: "12x R$35,04",
-      cashPrice: "ou R$349,00 à vista",
+      oldPrice: "De R$879,00",
+      mainPrice: "12x R$48,25",
+      cashPrice: "ou R$539,00 à vista",
       products: [
         "90 dias de tratamento",
-        "Envio imediato"
+        "Frete grátis",
+        "15% de desconto no PIX"
       ],
       image: "/2frascos.png",
       popular: true,
@@ -369,12 +371,13 @@ const KitsSection = () => {
     {
       title: "TRATAMENTO PARA",
       days: "30 DIAS",
-      oldPrice: "De R$289,00",
-      mainPrice: "12x R$23,79",
-      cashPrice: "ou R$237,00 à vista",
+      oldPrice: "De R$579,00",
+      mainPrice: "12x R$32,41",
+      cashPrice: "ou R$389,00 à vista",
       products: [
         "30 dias de tratamento",
-        "Envio imediato"
+        "Frete grátis",
+        "15% de desconto no PIX"
       ],
       image: "/1frasco.png",
       link: "https://full.sale/eANTht"
@@ -422,7 +425,7 @@ const KitsSection = () => {
               </KitImage>
               
               <ProductsCount>
-                {index === 0 ? '57% DE DESCONTO' : index === 1 ? '41% DE DESCONTO' : '18% DE DESCONTO'}
+                {index === 0 ? '41% DE DESCONTO' : index === 1 ? '39% DE DESCONTO' : '32% DE DESCONTO'}
               </ProductsCount>
               
               <PriceSection>
@@ -450,7 +453,7 @@ const KitsSection = () => {
                 >
                   Comprar Agora
                 </CTAButton>
-                <FreteGratis>FRETE GRÁTIS</FreteGratis>
+                <FreteGratis>12x s/ juros</FreteGratis>
               </CTASection>
             </KitCard>
           ))}

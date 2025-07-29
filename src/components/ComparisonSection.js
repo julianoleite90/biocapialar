@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
 
 const SectionContainer = styled.section`
   padding: 60px 20px;
@@ -19,7 +18,7 @@ const Container = styled.div`
   text-align: center;
 `;
 
-const SectionTitle = styled(motion.h2)`
+const SectionTitle = styled.h2`
   font-size: 2.8rem;
   font-weight: 800;
   color: #1f2937;
@@ -31,7 +30,7 @@ const SectionTitle = styled(motion.h2)`
   }
 `;
 
-const SectionSubtitle = styled(motion.p)`
+const SectionSubtitle = styled.p`
   font-size: 1.2rem;
   color: #6b7280;
   margin-bottom: 3rem;
@@ -47,14 +46,14 @@ const SectionSubtitle = styled(motion.p)`
   }
 `;
 
-const ComparisonImage = styled(motion.div)`
+const ComparisonImage = styled.div`
   position: relative;
   max-width: 600px;
   margin: 0 auto 3rem;
   height: 350px;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 
   @media (max-width: 768px) {
     max-width: 350px;
@@ -80,7 +79,7 @@ const ProductImage = styled.img`
   max-width: 80%;
   max-height: 80%;
   object-fit: contain;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.25));
 `;
 
 const ProductLabel = styled.div`
@@ -116,7 +115,7 @@ const VSIndicator = styled.div`
   font-weight: 900;
   font-size: 1.2rem;
   color: white;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   z-index: 10;
 
   @media (max-width: 768px) {
@@ -126,11 +125,11 @@ const VSIndicator = styled.div`
   }
 `;
 
-const ComparisonText = styled(motion.div)`
+const ComparisonText = styled.div`
   background: white;
   border-radius: 20px;
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
   border: 1px solid #e5e7eb;
 
   @media (max-width: 768px) {
@@ -178,53 +177,33 @@ const ChallengeText = styled.p`
   }
 `;
 
-const ComparisonSection = () => {
+const ComparisonSection = React.memo(() => {
   return (
     <SectionContainer>
       <Container>
-        <SectionTitle
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
+        <SectionTitle>
           Compare e Comprove
         </SectionTitle>
         
-        <SectionSubtitle
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true }}
-        >
+        <SectionSubtitle>
           Veja a diferença entre Phynamax e outros produtos do mercado
         </SectionSubtitle>
 
-        <ComparisonImage
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-        >
+        <ComparisonImage>
           <ProductHalf side="left">
-            <ProductImage src="/comparativo1.png" alt="Phynamax" />
+            <ProductImage src="/comparativo1.png" alt="Phynamax" loading="lazy" />
             <ProductLabel>PHYNAMAX</ProductLabel>
           </ProductHalf>
           
           <ProductHalf side="right">
-            <ProductImage src="/comparativo2.png" alt="Outros Produtos" />
+            <ProductImage src="/comparativo2.png" alt="Outros Produtos" loading="lazy" />
             <ProductLabel>OUTROS</ProductLabel>
           </ProductHalf>
           
           <VSIndicator>VS</VSIndicator>
         </ComparisonImage>
 
-        <ComparisonText
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true }}
-        >
+        <ComparisonText>
           <ComparisonTitle>A Fórmula Mais Potente para Emagrecer</ComparisonTitle>
           <ComparisonDescription>
             Phynamax lidera com a fórmula mais completa e concentrada do mercado. Cada cápsula contém 600 mg de 6 ingredientes poderosos, superando outros produtos com ingredientes de baixa qualidade e dosagens de 500 mg ou menos.
@@ -236,6 +215,8 @@ const ComparisonSection = () => {
       </Container>
     </SectionContainer>
   );
-};
+});
+
+ComparisonSection.displayName = 'ComparisonSection';
 
 export default ComparisonSection; 
