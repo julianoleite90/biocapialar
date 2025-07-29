@@ -225,15 +225,12 @@ const ComparisonSection = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           viewport={{ once: true }}
         >
-          <ComparisonTitle>Phynamax é a Fórmula Mais Completa</ComparisonTitle>
+          <ComparisonTitle>A Fórmula Mais Potente para Emagrecer</ComparisonTitle>
           <ComparisonDescription>
-            Phynamax é a fórmula mais completa para o emagrecimento com a maior concentração de ingredientes. 
-            Enquanto outros produtos usam ingredientes de baixa qualidade e de menor dosagem, 
-            Phynamax oferece 6 poderosos ingredientes com 600MG em cada cápsula.
+            Phynamax lidera com a fórmula mais completa e concentrada do mercado. Cada cápsula contém 600 mg de 6 ingredientes poderosos, superando outros produtos com ingredientes de baixa qualidade e dosagens de 500 mg ou menos.
           </ComparisonDescription>
           <ChallengeText>
-            Desafiamos você a perguntar para os outros produtos: Qual é a dosagem de cada cápsula? 
-            Você vai comprovar que todos possuem 500MG ou menos.
+            Desafie a concorrência: pergunte a dosagem por cápsula e comprove a superioridade do Phynamax!
           </ChallengeText>
         </ComparisonText>
       </Container>

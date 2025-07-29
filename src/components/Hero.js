@@ -523,7 +523,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            Fórmula concentrada com 600MG de nutrientes que aceleram o metabolismo, aumentam a saciedade e controlam a compulsão. Emagreça de forma natural e totalmente segura com Phynamax.
+            Phynamax proporciona um emagrecimento rápido e totalmente saudável. Acelere o seu processo de emagrecimento sem colocar a sua saúde em risco.
           </Subtitle>
 
           <img 

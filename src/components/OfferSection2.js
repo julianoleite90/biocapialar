@@ -359,8 +359,8 @@ const OfferSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Por que Phynamax se tornou<br />
-            <span className="highlight">a escolha preferida dos Brasileiros?</span>
+            A fórmula preferida<br />
+            <span className="highlight">dos brasileiros</span>
           </MainTitle>
           
           <Subtitle
@@ -369,7 +369,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            A fórmula do Phynamax conquistou a preferência dos consumidores por sua eficácia e praticidade. Com apenas 2 cápsulas diárias, ela fornece 600 mg de nutrientes poderosos que aceleram a perda de peso de forma saudável. Diferentemente de outros produtos que exigem 4 ou mais cápsulas por dia, com doses menores de nutrientes, o Phynamax se destaca pela simplicidade de uso e alta potência. Essa combinação única é o principal motivo da escolha de nossos clientes.
+            A fórmula do Phynamax é preferida por sua eficácia e praticidade. Com apenas 2 cápsulas diárias, fornece 600 mg de nutrientes potentes que promovem perda de peso saudável. Diferente de outros produtos, que exigem mais cápsulas e doses menores, Phynamax combina simplicidade e alta potência, sendo a escolha ideal dos clientes.
           </Subtitle>
 
           <ContentGrid>
@@ -381,8 +381,8 @@ const OfferSection = () => {
                 viewport={{ once: true }}
               >
                 <DiscountBanner>
-                  <DiscountTitle>600MG POR CÁPSULA</DiscountTitle>
-                  <DiscountSubtitle>A fórmula mais completa em suas mãos</DiscountSubtitle>
+                                  <DiscountTitle>MENOS COMPULSÃO</DiscountTitle>
+                <DiscountSubtitle>MAIS EMAGRECIMENTO</DiscountSubtitle>
                 </DiscountBanner>
                 
                 <BenefitsList>
