@@ -140,7 +140,7 @@ const ComparisonText = styled.div`
 const ComparisonTitle = styled.h3`
   font-size: 1.8rem;
   font-weight: 800;
-  color: #10b981;
+  color: black;
   margin-bottom: 1.2rem;
   text-transform: uppercase;
 
@@ -152,7 +152,7 @@ const ComparisonTitle = styled.h3`
 
 const ComparisonDescription = styled.p`
   font-size: 1.1rem;
-  color: #6b7280;
+  color: black;
   line-height: 1.7;
   text-align: center;
 
