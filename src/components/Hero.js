@@ -173,25 +173,12 @@ const PromoText = styled.div`
 // Hero Section Principal
 const HeroSection = styled.section`
   min-height: 100vh;
-  background: var(--very-dark) url('/background-phynamax.png') center/cover no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background: linear-gradient(135deg, #fce7f3 0%, #f8fafc 100%);
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
   padding-top: 0;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.93) 30%, rgba(20, 20, 20, 0.92) 60%, rgba(10, 10, 10, 0.93) 100%);
-    z-index: 1;
-  }
 `;
 
 
@@ -200,7 +187,7 @@ const HeroSection = styled.section`
 const HeaderSection = styled.div`
   text-align: center;
   position: relative;
-  z-index: 3;
+  z-index: 1;
   padding-bottom: 20px;
   margin-top: 20px;
   
@@ -231,7 +218,7 @@ const MainContent = styled.div`
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  z-index: 3;
+  z-index: 1;
   padding: 0 20px;
   text-align: center;
   padding-top: 20px;
@@ -247,17 +234,26 @@ const MainContent = styled.div`
 const MainTitle = styled(motion.div)`
   text-align: center;
   margin-bottom: 30px;
+  overflow-x: auto;
+  
+  @media (max-width: 768px) {
+    margin-bottom: 25px;
+  }
   
   h1 {
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 900;
     line-height: 1.1;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: black;
+    text-shadow: none;
     margin: 0;
     
     @media (max-width: 768px) {
-      font-size: clamp(1.8rem, 7vw, 2.5rem);
+      font-size: clamp(2rem, 7vw, 2.8rem);
+    }
+    
+    @media (max-width: 480px) {
+      font-size: clamp(1.8rem, 6vw, 2.2rem);
     }
   }
 `;
@@ -266,36 +262,72 @@ const TitleMain = styled.span`
   display: block;
   font-size: 1em;
   font-weight: inherit;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: black;
+  text-shadow: none;
+  white-space: nowrap;
+  
+  @media (max-width: 768px) {
+    white-space: nowrap;
+    font-size: 1em;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 0.95em;
+  }
 `;
 
 const TitleSub = styled.span`
   display: block;
   font-size: 0.85em;
   margin-top: 10px;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: black;
+  text-shadow: none;
+  white-space: nowrap;
   
   @media (max-width: 768px) {
     margin-top: 8px;
+    white-space: nowrap;
+    font-size: 0.85em;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 0.8em;
   }
 `;
 
 const Subtitle = styled(motion.p)`
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   font-size: 1rem;
   line-height: 1.6;
   max-width: 800px;
   margin-bottom: 30px;
   
   @media (max-width: 768px) {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 25px;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 0.95rem;
   }
 `;
 
 // Imagem do produto mockup
+const MockupImage = styled.img`
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 20px 0;
+  
+  @media (max-width: 768px) {
+    max-width: 300px;
+  }
+  
+  @media (max-width: 480px) {
+    max-width: 270px;
+  }
+`;
 
 // CTA Button
 const CTAButton = styled(motion.button)`
@@ -377,7 +409,7 @@ const BottomBanner = styled.div`
   padding: 15px 0;
   position: relative;
   margin-top: 5px;
-  z-index: 3;
+  z-index: 1;
   overflow: hidden;
   
   @media (max-width: 768px) {
@@ -502,7 +534,7 @@ const Hero = () => {
       <HeroSection>
         <HeaderSection>
           <Logo>
-            <img src="/logo-phynamax.png" alt="Definamax - Emagrecedor Natural Aprovado pela ANVISA" />
+            <img src="/logo-rosa.png" alt="Definamax - Emagrecedor Natural Aprovado pela ANVISA" />
           </Logo>
         </HeaderSection>
 
@@ -526,17 +558,9 @@ const Hero = () => {
             Phynamax proporciona um emagrecimento rápido e totalmente saudável. Acelere o seu processo de emagrecimento sem colocar a sua saúde em risco.
           </Subtitle>
 
-          <img 
+          <MockupImage 
             src="/mock-phyna.png" 
             alt="Phynamax - Mockup do Produto" 
-            style={{
-              maxWidth: '400px',
-              width: '100%',
-              height: 'auto',
-              borderRadius: '12px',
-              boxShadow: '0 10px 30px rgba(0, 0, 0, 0.3)',
-              margin: '20px 0'
-            }}
           />
 
           <CTAButton
