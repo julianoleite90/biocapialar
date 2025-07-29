@@ -1544,7 +1544,7 @@ export default function DefinamaxFAQ() {
                           <span className="text-yellow-700 font-bold text-xl">%</span>
                         </div>
                         <h3 className="text-lg font-semibold text-yellow-800">
-                          Promoção Especial: Até 68% de Desconto!
+                          Promoção Especial: Até 51% de Desconto!
                         </h3>
                       </div>
                       <p className="mb-3">
@@ -1562,7 +1562,7 @@ export default function DefinamaxFAQ() {
                         <li className="flex items-start">
                           <CheckCircle2 className="h-5 w-5 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                           <span>
-                            <strong>Kit 3 meses (3 frascos):</strong> Economize R$ 270,00 + 1 frasco de colágeno grátis +
+                            <strong>Kit 3 meses (3 frascos):</strong> 46% de desconto + 1 frasco de colágeno grátis +
                             frete grátis
                           </span>
                         </li>
@@ -2104,7 +2104,7 @@ export default function DefinamaxFAQ() {
                 name: "Desconto Definamax?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Atualmente, o Definamax está com uma promoção especial por tempo limitado, oferecendo descontos progressivos na compra de kits com múltiplos frascos: Kit 6 meses (6 frascos): 68% de desconto + 2 frascos de colágeno (para estrias) grátis + frete grátis; Kit 3 meses (3 frascos): 50% de desconto + 1 frasco de colágeno grátis + frete grátis; Kit 1 mês (1 frasco): 18% de desconto.",
+                  text: "Atualmente, o Definamax está com uma promoção especial por tempo limitado, oferecendo descontos progressivos na compra de kits com múltiplos frascos: Kit 6 meses (6 frascos): 68% de desconto + 2 frascos de colágeno (para estrias) grátis + frete grátis; Kit 3 meses (3 frascos): 46% de desconto + 1 frasco de colágeno grátis + frete grátis; Kit 1 mês (1 frasco): 21% de desconto.",
                 },
               },
             ],

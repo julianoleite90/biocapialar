@@ -453,7 +453,7 @@ const Hero = () => {
         {/* Layout Desktop */}
         <DesktopContent>
           <DiscountSection>
-            <DiscountMain>41% OFF</DiscountMain>
+            <DiscountMain>51% OFF</DiscountMain>
             <DiscountSub>KIT DE 5 MESES</DiscountSub>
           </DiscountSection>
           
@@ -477,7 +477,7 @@ const Hero = () => {
         {/* Layout Mobile */}
         <MobileTopRow>
           <DiscountSection>
-            <DiscountMain>41% OFF</DiscountMain>
+            <DiscountMain>51% OFF</DiscountMain>
             <DiscountSub>KIT DE 5 MESES</DiscountSub>
           </DiscountSection>
           
@@ -558,13 +558,13 @@ const Hero = () => {
 
         <BottomBanner>
           <ScrollingText>
-            <TextItem>41% OFF NO KIT DE 5 MESES</TextItem>
+            <TextItem>51% OFF NO KIT DE 5 MESES</TextItem>
             <TextItem>MAIS DE 163 MIL VIDAS TRANSFORMADAS</TextItem>
             <TextItem>FÓRMULA 100% NATURAL</TextItem>
             <TextItem>RESULTADOS VISÍVEIS</TextItem>
             <TextItem>EMAGRECIMENTO EFICAZ E SEGURO</TextItem>
             <TextItem>EMAGRECIMENTO ACELERADO</TextItem>
-            <TextItem>41% OFF NO KIT DE 5 MESES</TextItem>
+            <TextItem>51% OFF NO KIT DE 5 MESES</TextItem>
             <TextItem>MAIS DE 163 MIL VIDAS TRANSFORMADAS</TextItem>
             <TextItem>FÓRMULA 100% NATURAL</TextItem>
             <TextItem>RESULTADOS VISÍVEIS</TextItem>

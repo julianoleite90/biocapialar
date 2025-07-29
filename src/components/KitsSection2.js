@@ -425,7 +425,7 @@ const KitsSection = () => {
               </KitImage>
               
               <ProductsCount>
-                {index === 0 ? '41% DE DESCONTO' : index === 1 ? '39% DE DESCONTO' : '32% DE DESCONTO'}
+                {index === 0 ? '51% DE DESCONTO' : index === 1 ? '46% DE DESCONTO' : '21% DE DESCONTO'}
               </ProductsCount>
               
               <PriceSection>
