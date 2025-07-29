@@ -4,18 +4,18 @@ import { motion } from 'framer-motion';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const SectionContainer = styled.section`
-  padding: 80px 20px;
+  padding: 60px 20px;
   background: linear-gradient(135deg, #f8fffe 0%, #f0fdf4 100%);
   position: relative;
   overflow: hidden;
 
   @media (max-width: 768px) {
-    padding: 60px 20px;
+    padding: 50px 20px;
   }
 `;
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   text-align: center;
 `;
@@ -35,7 +35,7 @@ const SectionTitle = styled(motion.h2)`
 const SectionSubtitle = styled(motion.p)`
   font-size: 1.2rem;
   color: #6b7280;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -43,16 +43,23 @@ const SectionSubtitle = styled(motion.p)`
 
   @media (max-width: 768px) {
     font-size: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     max-width: 100%;
   }
 `;
 
-const IngredientsGrid = styled(motion.div)`
+const DesktopGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-bottom: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    gap: 2rem;
+  }
 
   @media (max-width: 768px) {
     display: none;
@@ -62,13 +69,12 @@ const IngredientsGrid = styled(motion.div)`
 const CarouselContainer = styled.div`
   display: none;
   position: relative;
-  max-width: 350px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 60px;
 
   @media (max-width: 768px) {
     display: block;
-    max-width: 100%;
-    padding: 0 50px;
   }
 `;
 
@@ -83,31 +89,48 @@ const CarouselTrack = styled(motion.div)`
   width: 600%; /* 6 cards * 100% */
 `;
 
-const IngredientCard = styled(motion.div)`
+const DesktopCard = styled(motion.div)`
   background: white;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   border: 2px solid transparent;
+  text-align: center;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     border-color: #10b981;
   }
+`;
 
-  @media (max-width: 768px) {
-    flex: 0 0 16.666%; /* 1/6 da largura total */
-    width: 16.666%;
-    margin: 0;
-    padding: 2rem 1rem;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+const IngredientCard = styled(motion.div)`
+  background: white;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  flex: 0 0 16.666%; /* 1/6 da largura total */
+  width: 16.666%;
+  margin: 0;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-color: #10b981;
   }
 `;
 
@@ -115,20 +138,20 @@ const IngredientImage = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1rem;
 
   img {
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 130px;
     object-fit: contain;
   }
 
   @media (max-width: 768px) {
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 1rem;
 
     img {
-      width: 180px;
-      height: 180px;
+      width: 110px;
+      height: 110px;
     }
   }
 `;
@@ -137,13 +160,12 @@ const IngredientTitle = styled.h3`
   font-size: 1.4rem;
   font-weight: 700;
   color: #1f2937;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    font-weight: 800;
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
   }
 `;
 
@@ -151,13 +173,11 @@ const IngredientDescription = styled.p`
   font-size: 1rem;
   color: #6b7280;
   line-height: 1.6;
+  text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: center;
-    max-width: 250px;
-    margin: 0 auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
 `;
 
@@ -178,16 +198,16 @@ const CarouselButton = styled.button`
   cursor: pointer;
   transition: all 0.3s ease;
   z-index: 10;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
   
   &:hover {
     background: #059669;
     transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
   }
 
-  @media (max-width: 768px) {
-    width: 45px;
-    height: 45px;
-    font-size: 1.1rem;
+  &:active {
+    transform: translateY(-50%) scale(0.95);
   }
 
   ${props => props.direction === 'left' ? 'left: 10px;' : 'right: 10px;'}
@@ -220,8 +240,6 @@ const Dot = styled.button`
 
 const IngredientsSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-
-
 
   const ingredients = [
     {
@@ -302,14 +320,9 @@ const IngredientsSection = () => {
         </SectionSubtitle>
 
         {/* Grid para Desktop */}
-        <IngredientsGrid
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-        >
+        <DesktopGrid>
           {ingredients.map((ingredient, index) => (
-            <IngredientCard
+            <DesktopCard
               key={ingredient.id}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -321,9 +334,9 @@ const IngredientsSection = () => {
               </IngredientImage>
               <IngredientTitle>{ingredient.title}</IngredientTitle>
               <IngredientDescription>{ingredient.description}</IngredientDescription>
-            </IngredientCard>
+            </DesktopCard>
           ))}
-        </IngredientsGrid>
+        </DesktopGrid>
 
         {/* Carousel para Mobile */}
         <CarouselContainer>
@@ -359,7 +372,6 @@ const IngredientsSection = () => {
           </CarouselButton>
         </CarouselContainer>
 
-        {/* Dots para Mobile */}
         <DotsContainer>
           {ingredients.map((_, index) => (
             <Dot

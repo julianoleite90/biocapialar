@@ -113,7 +113,7 @@ const Footer = () => {
             <img src="/logo-phynamax.png" alt="Definamax - Emagrecedor Natural | Bourjam Nature Health" />
           </BrandLogo>
           <BrandDescription>
-            Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
+            Phynamax - Auxiliou mais de 163 mil pessoas a perder peso em todo o Brasil.
           </BrandDescription>
         </BrandSection>
 

@@ -849,7 +849,7 @@ const ThankYouPage = () => {
             <FooterColumn>
               <FooterLogo src="/logo-phynamax.png" alt="Definamax" />
               <FooterText>
-                Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
+                Phynamax - Auxiliou mais de 163 mil pessoas a perder peso em todo o Brasil.
               </FooterText>
             </FooterColumn>
 

@@ -179,7 +179,7 @@ const CTA = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          Não perca mais tempo. Mais de 45 mil pessoas já transformaram suas vidas. Agora é a sua vez!
+                      Não perca mais tempo. Mais de 163 mil pessoas já transformaram suas vidas. Agora é a sua vez!
         </CTASubtitle>
         
         <PriceContainer

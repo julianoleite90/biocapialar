@@ -212,10 +212,30 @@ const CTAButton = styled(motion.button)`
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
+  position: relative;
   
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 20px 50px rgba(190, 24, 93, 0.5), 0 12px 25px rgba(0, 0, 0, 0.4);
+  }
+
+  @media (max-width: 768px) {
+    color: transparent;
+    padding: 16px 40px;
+    font-size: 1.2rem;
+    
+    &::before {
+      content: "EU QUERO PHYNAMAX";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
   }
 `;
 

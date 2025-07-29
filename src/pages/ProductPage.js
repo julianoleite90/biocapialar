@@ -1191,7 +1191,7 @@ const ProductPage = () => {
           <ContentSection>
             <SectionTitle>Por que Phynamax se tornou a escolha preferida dos Brasileiros?</SectionTitle>
             <ProductDescription style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '1.125rem' }}>
-              <strong>ATENÇÃO:</strong> A fórmula PHYNAMAX contém fibras bioativas exclusivas que agem como uma ESPONJA no seu organismo, absorvendo gorduras e açúcares ANTES que sejam transformados em peso extra! Este é o SEGREDO por trás de mais de 45 MIL TRANSFORMAÇÕES reais!
+              <strong>ATENÇÃO:</strong> A fórmula PHYNAMAX contém fibras bioativas exclusivas que agem como uma ESPONJA no seu organismo, absorvendo gorduras e açúcares ANTES que sejam transformados em peso extra! Este é o SEGREDO por trás de mais de 163 MIL TRANSFORMAÇÕES reais!
             </ProductDescription>
             <CardsGrid>
               <InfoCard>
@@ -1210,7 +1210,7 @@ const ProductPage = () => {
           </ContentSection>
 
           <ContentSection>
-            <SectionTitle>POR QUE MAIS DE 45 MIL PESSOAS ESCOLHERAM PHYNAMAX?</SectionTitle>
+            <SectionTitle>POR QUE MAIS DE 163 MIL PESSOAS ESCOLHERAM PHYNAMAX?</SectionTitle>
             <BenefitsList>
               <BenefitItemLarge>
                 <BenefitIconLarge>
@@ -1254,7 +1254,7 @@ const ProductPage = () => {
                 </BenefitIconLarge>
                 <BenefitContent>
                   <BenefitTitle>100% NATURAL E APROVADO PELA ANVISA:</BenefitTitle>
-                  <BenefitDescription>Fórmula SEGURA, sem efeitos colaterais! Mais de 45 mil pessoas já comprovaram a eficácia!</BenefitDescription>
+                  <BenefitDescription>Fórmula SEGURA, sem efeitos colaterais! Mais de 163 mil pessoas já comprovaram a eficácia!</BenefitDescription>
                 </BenefitContent>
               </BenefitItemLarge>
             </BenefitsList>
@@ -1480,7 +1480,7 @@ const ProductPage = () => {
           </ContentSection>
 
           <ContentSection>
-            <SectionTitle>VEJA O QUE DIZEM AS 45 MIL PESSOAS QUE JÁ SE TRANSFORMARAM!</SectionTitle>
+            <SectionTitle>VEJA O QUE DIZEM AS 163 MIL PESSOAS QUE JÁ SE TRANSFORMARAM!</SectionTitle>
             <ReviewsContainer>
               <ReviewsHeader>
                 <OverallRating>
@@ -1570,7 +1570,7 @@ const ProductPage = () => {
                   <ChevronIcon open={openFAQ === 'q1'} />
                 </FAQQuestion>
                 <FAQAnswer open={openFAQ === 'q1'}>
-                  Phynamax contém uma fórmula EXCLUSIVA com 6 ingredientes queima-gordura que agem como uma ESPONJA no seu organismo! As fibras bioativas absorvem gorduras e açúcares ANTES que virem peso extra. É por isso que mais de 45 MIL pessoas já se transformaram - os resultados são GARANTIDOS!
+                  Phynamax contém uma fórmula EXCLUSIVA com 6 ingredientes queima-gordura que agem como uma ESPONJA no seu organismo! As fibras bioativas absorvem gorduras e açúcares ANTES que virem peso extra. É por isso que mais de 163 MIL pessoas já se transformaram - os resultados são GARANTIDOS!
                 </FAQAnswer>
               </FAQItem>
               <FAQItem>

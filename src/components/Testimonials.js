@@ -169,7 +169,7 @@ const Testimonials = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Mais de 45 mil pessoas já transformaram suas vidas com o PHYNAMAX
+            Mais de 163 mil pessoas já transformaram suas vidas com o PHYNAMAX
           </SectionSubtitle>
         </SectionHeader>
         

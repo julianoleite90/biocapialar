@@ -229,7 +229,7 @@ const Results = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Mais de 63 mil pessoas confiam em Phynamax, em todo o Brasil.
+          Mais de 163 mil pessoas confiam em Phynamax, em todo o Brasil.
         </Subtitle>
 
         <ResultsGrid>

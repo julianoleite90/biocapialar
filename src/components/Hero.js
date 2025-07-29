@@ -559,13 +559,13 @@ const Hero = () => {
         <BottomBanner>
           <ScrollingText>
             <TextItem>57% OFF NO KIT DE 5 MESES</TextItem>
-            <TextItem>MAIS DE 63 MIL CORPOS TRANSFORMADOS</TextItem>
+            <TextItem>MAIS DE 163 MIL VIDAS TRANSFORMADAS</TextItem>
             <TextItem>FÓRMULA 100% NATURAL</TextItem>
             <TextItem>RESULTADOS VISÍVEIS</TextItem>
             <TextItem>EMAGRECIMENTO EFICAZ E SEGURO</TextItem>
             <TextItem>EMAGRECIMENTO ACELERADO</TextItem>
             <TextItem>57% OFF NO KIT DE 5 MESES</TextItem>
-            <TextItem>MAIS DE 63 MIL CORPOS TRANSFORMADOS</TextItem>
+            <TextItem>MAIS DE 163 MIL VIDAS TRANSFORMADAS</TextItem>
             <TextItem>FÓRMULA 100% NATURAL</TextItem>
             <TextItem>RESULTADOS VISÍVEIS</TextItem>
             <TextItem>EMAGRECIMENTO EFICAZ E SEGURO</TextItem>

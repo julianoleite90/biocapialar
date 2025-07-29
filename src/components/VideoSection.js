@@ -4,13 +4,13 @@ import { motion } from 'framer-motion';
 
 const VideoSectionContainer = styled.section`
   background: white;
-  padding: 120px 20px;
+  padding: 120px 20px 60px;
   text-align: center;
   position: relative;
   overflow: hidden;
   
   @media (max-width: 768px) {
-    padding: 80px 20px;
+    padding: 80px 20px 50px;
   }
 `;
 
@@ -105,6 +105,32 @@ const VideoContainer = styled.div`
   }
 `;
 
+const CTAButton = styled(motion.button)`
+  background: #be185d;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 18px 50px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 0;
+  box-shadow: 0 12px 30px rgba(190, 24, 93, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 40px rgba(190, 24, 93, 0.6), 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+    padding: 16px 40px;
+    margin-top: 30px;
+  }
+`;
+
 const VideoSection = () => {
   const videos = [
     {
@@ -171,6 +197,27 @@ const VideoSection = () => {
             </PhoneMockup>
           ))}
         </VideosGrid>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          viewport={{ once: true }}
+          style={{ textAlign: 'center' }}
+        >
+          <CTAButton
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              const kitsSection = document.getElementById('kits');
+              if (kitsSection) {
+                kitsSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            EU QUERO EMAGRECER
+          </CTAButton>
+        </motion.div>
       </Container>
     </VideoSectionContainer>
   );
