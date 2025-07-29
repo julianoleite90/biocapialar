@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { FaWhatsapp } from 'react-icons/fa';
 
@@ -62,22 +62,11 @@ const WhatsAppIcon = styled(FaWhatsapp)`
 `;
 
 const WhatsAppButton = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Phynamax.');
 
-  useEffect(() => {
-    const handleScroll = () => {
-      // Mostrar o botão apenas quando o usuário scrollou mais de 2000px para baixo
-      const scrollY = window.scrollY || window.pageYOffset;
-      setIsVisible(scrollY > 2000);
-    };
-
-    // Adicionar listener de scroll
-    window.addEventListener('scroll', handleScroll);
-    
-    // Cleanup
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  // Removemos o useEffect que controlava a visibilidade por scroll
+  // Agora o botão aparece desde o início da página
   
   return (
     <WhatsAppContainer isVisible={isVisible}>

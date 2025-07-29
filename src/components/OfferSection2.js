@@ -307,37 +307,9 @@ const ResponsiveVideo = () => {
 };
 
 const OfferSection = () => {
-  const [isWhatsAppVisible, setIsWhatsAppVisible] = useState(false);
+  const [isWhatsAppVisible, setIsWhatsAppVisible] = useState(true);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      // Se o botão já está visível, não verificar mais
-      if (isWhatsAppVisible) return;
-      
-      // Buscar a seção de kits "ESCOLHA SEU TRATAMENTO IDEAL"
-      const kitsSection = document.getElementById('kits');
-      
-      if (kitsSection) {
-        const kitsSectionRect = kitsSection.getBoundingClientRect();
-        const kitsSectionTop = kitsSectionRect.top;
-        
-        // Mostrar o botão quando a seção de kits estiver visível na tela
-        // Uma vez que aparecer, permanece visível para sempre
-        if (kitsSectionTop <= window.innerHeight) {
-          setIsWhatsAppVisible(true);
-        }
-      }
-    };
-
-    // Adicionar listener de scroll
-    window.addEventListener('scroll', handleScroll);
-    
-    // Verificar posição inicial
-    handleScroll();
-    
-    // Cleanup
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [isWhatsAppVisible]);
+  // Removida a lógica de scroll - botão aparece imediatamente
 
   const benefits = [
     {
