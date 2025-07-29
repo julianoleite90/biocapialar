@@ -5,6 +5,7 @@ import OfferSection from '../components/OfferSection2';
 import Results from '../components/Results';
 import FlexibilitySection from '../components/FlexibilitySection';
 import VideoSection from '../components/VideoSection';
+import IngredientsSection from '../components/IngredientsSection';
 import ExperimentSection from '../components/ExperimentSection';
 import KitsSection from '../components/KitsSection2';
 import FAQ from '../components/FAQ';
@@ -29,6 +30,7 @@ function HomePage2() {
       <Results />
       <FlexibilitySection />
       <VideoSection />
+      <IngredientsSection />
       <KitsSection />
       <ExperimentSection />
       <FAQ />
