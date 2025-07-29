@@ -1555,14 +1555,14 @@ export default function DefinamaxFAQ() {
                         <li className="flex items-start">
                           <CheckCircle2 className="h-5 w-5 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                           <span>
-                            <strong>Kit 6 meses (6 frascos):</strong> Economize R$ 1.000,00 + 2 frascos de colágeno grátis +
+                            <strong>Kit 6 meses (6 frascos):</strong> Economize R$ 1.000,00 + 2 frascos de colágeno (para estrias) grátis +
                             frete grátis
                           </span>
                         </li>
                         <li className="flex items-start">
                           <CheckCircle2 className="h-5 w-5 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                           <span>
-                            <strong>Kit 3 meses (3 frascos):</strong> Economize R$ 379,00 + 1 frasco de colágeno grátis +
+                            <strong>Kit 3 meses (3 frascos):</strong> Economize R$ 270,00 + 1 frasco de colágeno grátis +
                             frete grátis
                           </span>
                         </li>
@@ -1619,7 +1619,7 @@ export default function DefinamaxFAQ() {
                             </div>
                             <div className="flex items-start">
                               <CheckCircle2 className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
-                              <span className="text-sm">+ 2 Frascos de Colágeno Grátis</span>
+                              <span className="text-sm">+ 2 Frascos de Colágeno (para estrias) Grátis</span>
                             </div>
                             <div className="flex items-start">
                               <CheckCircle2 className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
@@ -1668,9 +1668,9 @@ export default function DefinamaxFAQ() {
                               <span className="text-gray-400 line-through text-sm">De R$758,00</span>
                             </div>
                             <div className="text-xl font-bold text-green-700 mb-1">
-                              <span className="text-sm font-normal">Por: </span>12x R$31,58
+                              <span className="text-sm font-normal">Por: </span>12x R$44,08
                             </div>
-                            <div className="text-sm text-gray-600">ou R$379,00 à vista</div>
+                            <div className="text-sm text-gray-600">ou R$439,00 à vista</div>
                             <div className="text-sm font-medium text-green-700 mt-1">Apenas R$126,33 por frasco</div>
                           </div>
 
@@ -2104,7 +2104,7 @@ export default function DefinamaxFAQ() {
                 name: "Desconto Definamax?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Atualmente, o Definamax está com uma promoção especial por tempo limitado, oferecendo descontos progressivos na compra de kits com múltiplos frascos: Kit 6 meses (6 frascos): 68% de desconto + 2 frascos de colágeno grátis + frete grátis; Kit 3 meses (3 frascos): 50% de desconto + 1 frasco de colágeno grátis + frete grátis; Kit 1 mês (1 frasco): 18% de desconto.",
+                  text: "Atualmente, o Definamax está com uma promoção especial por tempo limitado, oferecendo descontos progressivos na compra de kits com múltiplos frascos: Kit 6 meses (6 frascos): 68% de desconto + 2 frascos de colágeno (para estrias) grátis + frete grátis; Kit 3 meses (3 frascos): 50% de desconto + 1 frasco de colágeno grátis + frete grátis; Kit 1 mês (1 frasco): 18% de desconto.",
                 },
               },
             ],

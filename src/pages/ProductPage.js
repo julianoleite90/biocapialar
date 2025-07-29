@@ -25,7 +25,7 @@ const structuredData = {
     "@type": "Offer",
     "url": "https://definamaxoficial.com/produto",
     "priceCurrency": "BRL",
-    "price": "639.00",
+    "price": "439.00",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
@@ -821,8 +821,8 @@ const ProductPage = () => {
       id: 'DEFMAX-1M',
               title: 'Phynamax - Kit 1 Mês (1 Frasco)',
               description: 'Kit básico com 1 frasco de Phynamax para 1 mês de uso (60 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
-      regularPrice: 579.00,
-      salePrice: 389.00,
+      regularPrice: 239.00,
+      salePrice: 189.00,
       image: '/1frasco.png',
       bonus: [],
       freeShipping: true,
@@ -835,8 +835,8 @@ const ProductPage = () => {
       id: 'DEFMAX-3M',
               title: 'Phynamax - Kit 3 Meses (3 Frascos)',
               description: 'Kit intermediário com 3 frascos de Phynamax para 3 meses de uso (180 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
-      regularPrice: 879.00,
-      salePrice: 539.00,
+      regularPrice: 589.00,
+      salePrice: 319.00,
       image: '/2frascos.png',
       bonus: [],
       freeShipping: true,
@@ -849,10 +849,10 @@ const ProductPage = () => {
       id: 'DEFMAX-5M',
               title: 'Phynamax - Kit 5 Meses (5 Frascos)',
               description: 'Kit avançado com 5 frascos de Phynamax para 5 meses de uso (300 cápsulas). Suplemento alimentar natural com fibras e ingredientes naturais para apoiar um estilo de vida saudável.',
-      regularPrice: 1079.00,
-      salePrice: 639.00,
+      regularPrice: 879.00,
+      salePrice: 439.00,
       image: '/5frascos.png',
-      bonus: ['1 Frasco de Colágeno'],
+      bonus: ['2 Frascos de Colágeno (para estrias)'],
       freeShipping: true,
       shipping: 0,
       gtin: '7898489348755',
@@ -1075,7 +1075,7 @@ const ProductPage = () => {
                     color: '#166534',
                     fontWeight: '500'
                   }}>
-                    5 Frascos Phynamax + 1 Frasco de Colágeno
+                    5 Frascos Phynamax + 2 Frascos de Colágeno (para estrias)
                   </div>
                 )}
               </MainImageContainer>

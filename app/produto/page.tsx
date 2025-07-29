@@ -147,7 +147,7 @@ export default function ProdutoDefinamax() {
       link: "https://full.sale/ytA47b?src=googleshopping",
       shipping: 0,
       freeShipping: true,
-      bonus: ["5 Frascos Definamax", "1 Frasco de Colágeno"],
+              bonus: ["5 Frascos Definamax", "2 Frascos de Colágeno (para estrias)"],
       weight: "500g",
       gtin: "7898489348755",
       mpn: "DEFMAX-5M",

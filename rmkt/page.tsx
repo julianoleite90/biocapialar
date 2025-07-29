@@ -560,7 +560,7 @@ export default function LandingPage() {
               </div>
 
               <div className="bg-yellow-50 border border-yellow-100 rounded-md p-2 mb-4 text-sm text-yellow-800">
-                <span className="font-medium">BÔNUS:</span> 2 Frascos de Colágeno Grátis
+                <span className="font-medium">BÔNUS:</span> 2 Frascos de Colágeno (para estrias) Grátis
               </div>
 
               <Link
@@ -593,8 +593,8 @@ export default function LandingPage() {
                 <span className="bg-red-100 text-red-600 text-xs px-2 py-0.5 rounded-full font-bold">-50%</span>
               </div>
 
-              <div className="text-4xl font-bold text-green-700 mb-1">12x R$38,05</div>
-              <div className="text-sm text-gray-600 mb-3">ou R$379,00 à vista</div>
+              <div className="text-4xl font-bold text-green-700 mb-1">12x R$44,08</div>
+              <div className="text-sm text-gray-600 mb-3">ou R$439,00 à vista</div>
 
               <div className="bg-gray-50 p-2 rounded-md mb-3">
                 <p className="text-sm text-gray-500 mb-1">3 frascos - 180 cápsulas</p>

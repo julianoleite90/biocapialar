@@ -839,7 +839,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-gray-700">2 Frascos de colágeno hidrolisado</span>
+                    <span className="text-sm md:text-base text-gray-700">2 Frascos de colágeno hidrolisado (para estrias)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />

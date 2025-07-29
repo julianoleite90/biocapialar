@@ -463,7 +463,7 @@ export default function ReMarketingPageV2() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="bg-green-600 text-white p-4 text-center">
                 <h3 className="text-xl font-bold">COMPRE 5 LEVE 8 FRASCOS</h3>
-                <p className="text-sm">GANHE 2 FRASCOS DE COLÁGENO</p>
+                <p className="text-sm">GANHE 2 FRASCOS DE COLÁGENO (PARA ESTRIAS)</p>
               </div>
               <div className="p-6">
                 <div className="text-center text-green-700 font-semibold mb-4">
@@ -533,13 +533,13 @@ export default function ReMarketingPageV2() {
                   />
                 </div>
                 <div className="text-center mb-4">
-                  <p className="text-gray-500 line-through text-sm">De R$379,00</p>
+                  <p className="text-gray-500 line-through text-sm">De R$879,00</p>
                   <div className="flex items-baseline justify-center gap-1">
                     <p className="text-sm">Por apenas 12x</p>
-                    <p className="text-4xl font-bold text-yellow-600">R$38</p>
-                    <p className="text-xl font-bold text-yellow-600">,05</p>
+                    <p className="text-4xl font-bold text-yellow-600">R$44</p>
+                    <p className="text-xl font-bold text-yellow-600">,08</p>
                   </div>
-                  <p className="text-gray-700 font-medium">Ou R$379,00 à vista!</p>
+                  <p className="text-gray-700 font-medium">Ou R$439,00 à vista!</p>
                 </div>
                 <div className="text-center text-green-600 font-bold mb-4">
                   FRETE GRÁTIS

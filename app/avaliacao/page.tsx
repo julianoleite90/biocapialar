@@ -119,7 +119,7 @@ export default function AvaliacaoPage() {
         imagem: "/8frascos.png",
         link: "https://full.sale/XONObQ?src=teste-imc",
         descricao: "Tratamento Completo - Compre 5 Leve 8",
-        bonus: "2 Frascos de Colágeno GRÁTIS",
+        bonus: "2 Frascos de Colágeno (para estrias) GRÁTIS",
         perda: "24 a 27kg"
       }
     } else if (pesoPerder >= 19) {

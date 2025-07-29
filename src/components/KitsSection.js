@@ -341,12 +341,12 @@ const KitsSection = () => {
     {
       title: "TRATAMENTO PARA",
       days: "5 MESES",
-      oldPrice: "De R$1.079,00",
-      mainPrice: "12x R$53,25",
-      cashPrice: "ou R$639,00 à vista",
+      oldPrice: "De R$879,00",
+      mainPrice: "12x R$44,08",
+      cashPrice: "ou R$439,00 à vista",
       products: [
         "150 dias de tratamento",
-        "Brinde surpresa",
+        "2 frascos de colágeno (para estrias)",
         "Frete grátis",
         "15% de desconto no PIX"
       ],
@@ -356,9 +356,9 @@ const KitsSection = () => {
     {
       title: "TRATAMENTO PARA",
       days: "3 MESES",
-      oldPrice: "De R$879,00",
-      mainPrice: "12x R$48,25",
-      cashPrice: "ou R$539,00 à vista",
+      oldPrice: "De R$589,00",
+      mainPrice: "12x R$32,03",
+      cashPrice: "ou R$319,00 à vista",
       products: [
         "90 dias de tratamento",
         "Frete grátis",
@@ -371,9 +371,9 @@ const KitsSection = () => {
     {
       title: "TRATAMENTO PARA",
       days: "30 DIAS",
-      oldPrice: "De R$579,00",
-      mainPrice: "12x R$32,41",
-      cashPrice: "ou R$389,00 à vista",
+      oldPrice: "De R$239,00",
+      mainPrice: "12x R$18,98",
+      cashPrice: "ou R$189,00 à vista",
       products: [
         "30 dias de tratamento",
         "Frete grátis",
@@ -453,7 +453,7 @@ const KitsSection = () => {
                 >
                   Comprar Agora
                 </CTAButton>
-                <FreteGratis>12x s/ juros</FreteGratis>
+                <FreteGratis>envio imediato</FreteGratis>
               </CTASection>
             </KitCard>
           ))}

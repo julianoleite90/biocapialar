@@ -699,7 +699,7 @@ export default function ReMarketingPage() {
             <div className="bg-white rounded-[20px] shadow-lg overflow-hidden border border-[#E8F5E9] max-w-[420px] mx-auto md:scale-y-[1.07] md:mt-0">
               <div className="bg-[#1B8E3D] p-2.5 text-white text-center rounded-t-[20px]">
                 <h3 className="text-[1.425rem] font-bold tracking-wider">COMPRE 5 LEVE 8</h3>
-                <p className="text-[1.0675rem]">GANHE 2 FRASCOS DE COLÁGENO</p>
+                <p className="text-[1.0675rem]">GANHE 2 FRASCOS DE COLÁGENO (PARA ESTRIAS)</p>
               </div>
               
               <div className="bg-[#E8F5E9] py-1.5 text-center">
@@ -779,8 +779,8 @@ export default function ReMarketingPage() {
                     <span className="text-gray-400 line-through text-xl">De R$879,00</span>
                   </div>
                   <p className="text-lg font-medium">Por apenas 12x</p>
-                  <p className="text-yellow-600 text-5xl font-bold">R$38<span className="text-[70%]">,05</span></p>
-                  <p className="text-base font-medium">Ou R$379,00 à vista!</p>
+                  <p className="text-yellow-600 text-5xl font-bold">R$44<span className="text-[70%]">,08</span></p>
+                  <p className="text-base font-medium">Ou R$439,00 à vista!</p>
                 </div>
 
                 <div className="bg-[#E8F5E9] py-1.5 text-center -mx-4 mt-3">
@@ -836,8 +836,8 @@ export default function ReMarketingPage() {
                     <span className="text-gray-400 line-through text-xl">De R$589,00</span>
                   </div>
                   <p className="text-lg font-medium">Por apenas 12x</p>
-                  <p className="text-pink-700 text-5xl font-bold">R$35<span className="text-[70%]">,04</span></p>
-                  <p className="text-base font-medium">Ou R$349,00 à vista!</p>
+                  <p className="text-pink-700 text-5xl font-bold">R$32<span className="text-[70%]">,03</span></p>
+                  <p className="text-base font-medium">Ou R$319,00 à vista!</p>
                 </div>
 
                 <div className="bg-[#E8F5E9] py-1.5 text-center -mx-4 mt-3">

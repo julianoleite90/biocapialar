@@ -1547,7 +1547,7 @@ export default function DefinamaxFAQ() {
                         <li className="flex items-start">
                           <CheckCircle2 className="h-5 w-5 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" />
                           <span>
-                            <strong>Kit 6 meses (6 frascos):</strong> 68% de desconto + 2 frascos de colágeno grátis +
+                            <strong>Kit 6 meses (6 frascos):</strong> 68% de desconto + 2 frascos de colágeno (para estrias) grátis +
                             frete grátis
                           </span>
                         </li>
@@ -1595,8 +1595,8 @@ export default function DefinamaxFAQ() {
                               <span className="text-gray-400 line-through text-xl">De R$497,00</span>
                             </div>
                             <p className="text-lg font-medium">Por apenas 12x</p>
-                            <p className="text-green-700 text-5xl font-bold">R$35,84</p>
-                            <p className="text-xl font-medium">Ou R$357,00 à vista!</p>
+                                          <p className="text-green-700 text-5xl font-bold">R$44,08</p>
+              <p className="text-xl font-medium">Ou R$439,00 à vista!</p>
                           </div>
 
                           <div className="bg-[#e8f5e9] py-3 text-center mb-6">
@@ -1990,7 +1990,7 @@ export default function DefinamaxFAQ() {
                 name: "Desconto Definamax?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Atualmente, o Definamax está com uma promoção especial por tempo limitado, oferecendo descontos progressivos na compra de kits com múltiplos frascos: Kit 6 meses (6 frascos): 68% de desconto + 2 frascos de colágeno grátis + frete grátis; Kit 3 meses (3 frascos): 50% de desconto + 1 frasco de colágeno grátis + frete grátis; Kit 1 mês (1 frasco): 18% de desconto.",
+                  text: "Atualmente, o Definamax está com uma promoção especial por tempo limitado, oferecendo descontos progressivos na compra de kits com múltiplos frascos: Kit 6 meses (6 frascos): 68% de desconto + 2 frascos de colágeno (para estrias) grátis + frete grátis; Kit 3 meses (3 frascos): 50% de desconto + 1 frasco de colágeno grátis + frete grátis; Kit 1 mês (1 frasco): 18% de desconto.",
                 },
               },
             ],
