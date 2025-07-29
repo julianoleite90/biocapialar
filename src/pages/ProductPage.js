@@ -1189,7 +1189,7 @@ const ProductPage = () => {
 
           {/* Content Sections */}
           <ContentSection>
-            <SectionTitle>Por que o Phynamax é tão eficaz no emagrecimento?</SectionTitle>
+            <SectionTitle>Por que Phynamax se tornou a escolha preferida dos Brasileiros?</SectionTitle>
             <ProductDescription style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '1.125rem' }}>
               <strong>ATENÇÃO:</strong> A fórmula PHYNAMAX contém fibras bioativas exclusivas que agem como uma ESPONJA no seu organismo, absorvendo gorduras e açúcares ANTES que sejam transformados em peso extra! Este é o SEGREDO por trás de mais de 45 MIL TRANSFORMAÇÕES reais!
             </ProductDescription>
@@ -1566,7 +1566,7 @@ const ProductPage = () => {
             <FAQContainer>
               <FAQItem>
                 <FAQQuestion onClick={() => setOpenFAQ(openFAQ === 'q1' ? null : 'q1')}>
-                  <span>Por que o Phynamax é TÃO EFICAZ?</span>
+                  <span>Por que Phynamax é a escolha preferida dos Brasileiros?</span>
                   <ChevronIcon open={openFAQ === 'q1'} />
                 </FAQQuestion>
                 <FAQAnswer open={openFAQ === 'q1'}>

@@ -68,24 +68,24 @@ const DiscountBanner = styled.div`
 `;
 
 const DiscountTitle = styled.div`
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 900;
   line-height: 0.8;
   margin-bottom: 8px;
   
   @media (max-width: 768px) {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 `;
 
 const DiscountSubtitle = styled.div`
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   
   @media (max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 `;
 
@@ -313,19 +313,19 @@ const OfferSection = () => {
 
   const benefits = [
     {
-                      text: "Controle a vontade por doces e evite beliscos fora de hora."
+      text: "CONTROLE TOTAL DA COMPULSÃO"
     },
     {
-              text: "Prolongue a sensação de saciedade e controle a compulsão alimentar."
+      text: "MAIOR SACIEDADE (menos fome)"
     },
     {
-              text: "Emagreça mais rápido sem passar fome ou dietas restritivas."
+      text: "METABOLISMO REGULADO"
     },
     {
-              text: "Apenas 2 cápsulas por dia para controlar a compulsão e emagrecer de forma saudável."
+      text: "MENOR ABSORÇÃO DE GORDURA"
     },
     {
-              text: "Resultados rápidos, seguros e confiáveis."
+      text: "PERDA DE PESO MAIS RÁPIDA"
     }
   ];
 
@@ -339,8 +339,8 @@ const OfferSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Por que o Phynamax<br />
-            <span className="highlight">é tão eficaz no emagrecimento?</span>
+            Por que Phynamax se tornou<br />
+            <span className="highlight">a escolha preferida dos Brasileiros?</span>
           </MainTitle>
           
           <Subtitle
@@ -349,7 +349,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Sua nova versão começa agora! Aproveite os benefícios de Phynamax
+            A fórmula do Phynamax conquistou a preferência dos consumidores por sua eficácia e praticidade. Com apenas 2 cápsulas diárias, ela fornece 600 mg de nutrientes poderosos que aceleram a perda de peso de forma saudável. Diferentemente de outros produtos que exigem 4 ou mais cápsulas por dia, com doses menores de nutrientes, o Phynamax se destaca pela simplicidade de uso e alta potência. Essa combinação única é o principal motivo da escolha de nossos clientes.
           </Subtitle>
 
           <ContentGrid>
@@ -361,8 +361,8 @@ const OfferSection = () => {
                 viewport={{ once: true }}
               >
                 <DiscountBanner>
-                  <DiscountTitle>MENOS COMPULSÃO</DiscountTitle>
-                  <DiscountSubtitle>MAIS EMAGRECIMENTO</DiscountSubtitle>
+                  <DiscountTitle>600MG POR CÁPSULA</DiscountTitle>
+                  <DiscountSubtitle>A fórmula mais completa em suas mãos</DiscountSubtitle>
                 </DiscountBanner>
                 
                 <BenefitsList>
@@ -385,7 +385,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            A fórmula mais completa com fibras bioativas, extratos naturais potentes e minerais de alta performance que agem como uma barreira no seu organismo, absorvendo gorduras e açúcares, promovendo saciedade prolongada, controlando a compulsão alimentar.
+            Fórmula testada e aprovada por mais de 163 mil brasileiros entre 2024 e 2025. Chegou a sua hora de conhecer os benefícios do Phynamax para o seu corpo e a sua autoestima.
           </PromoText>
 
 

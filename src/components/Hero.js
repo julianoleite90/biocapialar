@@ -513,8 +513,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <h1>
-                          <TitleMain>PERCA PESO MAIS RÁPIDO</TitleMain>
-            <TitleSub>E RECUPERE SUA AUTOESTIMA</TitleSub>
+                          <TitleMain>TRANSFORME O SEU CORPO</TitleMain>
+            <TitleSub>E RECUPERE A AUTOESTIMA</TitleSub>
             </h1>
           </MainTitle>
 
@@ -523,7 +523,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            A forma mais segura e eficaz para emagrecer sem prejudicar a saúde. A fórmula de Phynamax é 100% natural, não causa palpitações e nem acelera o coração.
+            Fórmula concentrada com 600MG de nutrientes que aceleram o metabolismo, aumentam a saciedade e controlam a compulsão. Emagreça de forma natural e totalmente segura com Phynamax.
           </Subtitle>
 
           <img 
