@@ -225,7 +225,7 @@ export default function LandingPage() {
       <header className="w-full bg-gradient-to-r from-green-800 via-green-700 to-green-800 py-4 shadow-md relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-center">
-          <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
+          <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-8 w-auto" />
         </div>
       </header>
 
@@ -560,11 +560,11 @@ export default function LandingPage() {
               </div>
 
               <div className="bg-yellow-50 border border-yellow-100 rounded-md p-2 mb-4 text-sm text-yellow-800">
-                <span className="font-medium">BÔNUS:</span> 2 Frascos de Colágeno (para estrias) Grátis
+                <span className="font-medium">TRATAMENTO MAIS VENDIDO</span>
               </div>
 
               <Link
-                href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
+                href={addUtmToUrl("https://full.sale/B4EEqt?src=remarketing-1")}
                 className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-3 text-base font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all"
               >
                 COMPRAR AGORA
@@ -606,7 +606,7 @@ export default function LandingPage() {
               </div>
 
               <Link
-                href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
+                href={addUtmToUrl("https://full.sale/B4EEqt?src=remarketing-1")}
                 className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-3 text-base font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all animate-pulse-border"
               >
                 COMPRAR AGORA
@@ -644,7 +644,7 @@ export default function LandingPage() {
               </div>
 
               <Link
-                href={addUtmToUrl("https://full.sale/FWHefK?src=remarketing")}
+                href={addUtmToUrl("https://full.sale/B4EEqt?src=remarketing-1")}
                 className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-3 text-base font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all"
               >
                 COMPRAR AGORA
@@ -1324,11 +1324,13 @@ export default function LandingPage() {
       </section>
 
       {/* Rodapé expandido */}
-      <footer className="w-full bg-pink-800 text-white">
+      <footer className="w-full text-white" style={{
+        background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+      }}>
         <div className="mx-auto max-w-5xl px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4" />
+              <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={50} className="h-6 w-auto mb-4" />
               <p className="text-sm text-green-100 mb-4">
                 Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
               </p>

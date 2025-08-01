@@ -38,8 +38,8 @@ export default function VideoSection() {
   }
 
   // URLs dos vídeos
-  const videoUrlMuted = "https://player.vimeo.com/video/1103301355?autoplay=1&loop=1&muted=1&controls=0&background=1"
-  const videoUrlWithAudio = "https://player.vimeo.com/video/1103301355?autoplay=1&loop=0&muted=0&controls=1"
+  const videoUrlMuted = "https://player.vimeo.com/video/1106557451?autoplay=1&loop=1&muted=1&controls=0&background=1"
+  const videoUrlWithAudio = "https://player.vimeo.com/video/1106557451?autoplay=1&loop=0&muted=0&controls=1"
 
   return (
     <section ref={sectionRef} className="bg-gray-100 py-0 md:py-20 relative">

@@ -7,7 +7,7 @@ import Hero from './components/Hero'
 import Benefits from './components/Benefits'
 import SelfEsteem from './components/SelfEsteem'
 import ProductShowcase from './components/ProductShowcase'
-import VideoSection from './components/VideoSection'
+
 import TestimonialsCarousel from './components/TestimonialsCarousel'
 import VideoTestimonialsCarousel from './components/VideoTestimonialsCarousel'
 import BenefitsSection from './components/BenefitsSection'
@@ -55,9 +55,7 @@ export default function LandingPage() {
       <section aria-label="Apresentação do produto">
         <ProductShowcase />
       </section>
-      <section aria-label="Vídeo explicativo">
-        <VideoSection />
-      </section>
+
       <section aria-label="Depoimentos de clientes">
         <TestimonialsCarousel />
       </section>

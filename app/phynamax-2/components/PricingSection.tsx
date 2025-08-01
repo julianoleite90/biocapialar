@@ -31,12 +31,12 @@ export default function PricingSection() {
       badges: ["Compra Segura", "Satisfação Garantida", "Privacidade Protegida"],
       highlight: true,
       highlightColor: "border-green-700",
-      url: "https://full.sale/XONObQ?src=pagina2"
+      url: "https://full.sale/rPQ0FT?src=pagina2"
     },
     {
       id: 2,
       name: "COMPRE 3 LEVE 5",
-      subtitle: "GANHE 2 FRASCOS DE COLÁGENO (PARA ESTRIAS)",
+      subtitle: "TRATAMENTO MAIS VENDIDO",
       description: "Tratamento Mais Vendido",
       image: "/5frascos.png",
       originalPrice: "De R$879,00",
@@ -50,7 +50,7 @@ export default function PricingSection() {
       badges: ["Compra Segura", "Satisfação Garantida", "Privacidade Protegida"],
       highlight: true,
       highlightColor: "border-orange-400",
-      url: "https://full.sale/8mYNoQ?src=pagina2"
+      url: "https://full.sale/o19JLC?src=pagina2"
     },
     {
       id: 3,
@@ -67,7 +67,7 @@ export default function PricingSection() {
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
       badges: ["Compra Segura", "Satisfação Garantida", "Privacidade Protegida"],
-      url: "https://full.sale/k0E9wK?src=pagina2"
+      url: "https://full.sale/d3ZuZy?src=pagina2"
     },
     {
       id: 4,
@@ -84,7 +84,7 @@ export default function PricingSection() {
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
       badges: ["Compra Segura", "Satisfação Garantida", "Privacidade Protegida"],
-      url: "https://full.sale/eANTht?src=pagina2"
+      url: "https://full.sale/rPQ0FT?src=pagina2"
     }
   ]
 

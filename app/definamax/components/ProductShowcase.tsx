@@ -1,8 +1,10 @@
 export default function ProductShowcase() {
   return (
     <section className="relative overflow-hidden">
-      {/* Green background matching footer */}
-      <div className="absolute inset-0 bg-green-700"></div>
+      {/* Blue background matching hero */}
+      <div className="absolute inset-0" style={{
+        background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+      }}></div>
       
       <div className="relative max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2">

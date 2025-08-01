@@ -10,7 +10,7 @@ export default function WarrantyTermsPage() {
       <header className="w-full bg-gradient-to-r from-pink-800 via-pink-700 to-pink-800 py-4 shadow-md relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-center">
-          <Image src="/logo-phynamax.png" alt="Phynamax" width={200} height={60} className="h-12 w-auto" />
+          <Image src="/logo-phynamax.png" alt="Phynamax" width={200} height={60} className="h-8 w-auto" />
         </div>
       </header>
 
@@ -233,11 +233,13 @@ export default function WarrantyTermsPage() {
       </section>
 
       {/* Rodapé expandido */}
-      <footer className="w-full bg-pink-800 text-white">
+      <footer className="w-full text-white" style={{
+        background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+      }}>
         <div className="mx-auto max-w-5xl px-4 py-8 md:py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
             <div>
-              <Image src="/logo-phynamax.png" alt="Phynamax" width={150} height={50} className="h-10 w-auto mb-4" />
+              <Image src="/logo-phynamax.png" alt="Phynamax" width={150} height={50} className="h-6 w-auto mb-4" />
                               <p className="text-xs md:text-sm text-pink-100 mb-4">
                 Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.
               </p>

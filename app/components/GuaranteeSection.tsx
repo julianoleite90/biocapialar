@@ -13,7 +13,7 @@ export default function GuaranteeSection() {
           
           <div className="flex justify-center mb-8">
             <img 
-              src="/garantia-definamax.png" 
+              src="/garantia-biocapilar.png" 
               alt="Garantia de 30 dias Definamax" 
               className="w-96 h-auto"
             />
@@ -54,7 +54,7 @@ export default function GuaranteeSection() {
           
           <div className="flex justify-center">
             <img 
-              src="/garantia-definamax.png" 
+              src="/garantia-biocapilar.png" 
               alt="Garantia de 30 dias Definamax" 
               className="w-[500px] h-auto"
             />

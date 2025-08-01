@@ -14,7 +14,7 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Como devo tomar o Phynamax?",
+      question: "Como devo tomar o Biocapilar?",
       answer: "Recomenda-se tomar 2 cápsulas por dia, preferencialmente antes das principais refeições. Para melhores resultados, tome uma cápsula 30 minutos antes do almoço e outra 30 minutos antes do jantar, sempre com um copo de água."
     },
     {
@@ -22,8 +22,8 @@ export default function FAQSection() {
       answer: "Os resultados começam a aparecer nas primeiras semanas de uso. É importante fazer o uso corretamente para obter os melhores resultados."
     },
     {
-      question: "O Phynamax tem efeitos colaterais?",
-      answer: "Por ser um produto 100% natural, o Phynamax não apresenta efeitos colaterais. Caso você tenha alergia a crustáceos, é recomendado consultar um médico antes de tomar."
+      question: "O Biocapilar tem efeitos colaterais?",
+      answer: "Por ser um produto 100% natural, o Biocapilar não apresenta efeitos colaterais. Você pode tomar sem riscos e aproveitar todos os benefícios."
     },
     {
       question: "Preciso fazer dieta enquanto tomo Phynamax?",
@@ -52,7 +52,7 @@ export default function FAQSection() {
             Perguntas Frequentes
           </h2>
           <p className="text-lg text-gray-600">
-            Tire suas dúvidas sobre o Definamax
+            Tire suas dúvidas sobre o Biocapilar
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export default function FAQSection() {
             onClick={scrollToKits}
             className="bg-green-700 hover:bg-green-800 text-white font-bold py-4 px-8 md:px-12 rounded-lg text-sm md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl uppercase"
           >
-            SIM, QUERO COMEÇAR A EMAGRECER!
+            SIM, QUERO RESTAURAR MEUS CABELOS!
           </button>
         </div>
       </div>

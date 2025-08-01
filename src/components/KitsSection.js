@@ -65,7 +65,7 @@ const KitsGrid = styled.div`
 `;
 
 const KitCard = styled(motion.div)`
-  background: #be185d;
+  background: linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%);
   border-radius: 20px;
   padding: 25px 20px;
   color: white;
@@ -127,7 +127,7 @@ const KitDays = styled.span`
 
 const KitImage = styled.div`
   margin: 8px 0 15px 0;
-  height: 160px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,7 +140,7 @@ const KitImage = styled.div`
   
   @media (max-width: 768px) {
     margin: 8px 0;
-    height: 180px;
+    height: 220px;
   }
 `;
 
@@ -346,12 +346,11 @@ const KitsSection = () => {
       cashPrice: "ou R$439,00 à vista",
       products: [
         "150 dias de tratamento",
-        "2 frascos de colágeno (para estrias)",
         "Frete grátis",
         "15% de desconto no PIX"
       ],
       image: "/5frascos.png",
-      link: "https://full.sale/8mYNoQ"
+      link: "https://full.sale/o19JLC"
     },
     {
       title: "TRATAMENTO PARA",
@@ -366,7 +365,7 @@ const KitsSection = () => {
       ],
       image: "/2frascos.png",
       popular: true,
-      link: "https://full.sale/k0E9wK"
+      link: "https://full.sale/d3ZuZy"
     },
     {
       title: "TRATAMENTO PARA",
@@ -380,7 +379,7 @@ const KitsSection = () => {
         "15% de desconto no PIX"
       ],
       image: "/1frasco.png",
-      link: "https://full.sale/eANTht"
+      link: "https://full.sale/rPQ0FT"
     }
   ];
 

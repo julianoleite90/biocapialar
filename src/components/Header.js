@@ -54,17 +54,17 @@ const NavLink = styled.a`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 600;
-  box-shadow: 0 10px 25px rgba(190, 24, 93, 0.4), 0 5px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.4), 0 5px 12px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 35px rgba(190, 24, 93, 0.6), 0 7px 18px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 35px rgba(30, 58, 138, 0.6), 0 7px 18px rgba(0, 0, 0, 0.4);
   }
 `;
 
@@ -88,7 +88,7 @@ const Header = () => {
       transition={{ duration: 0.6 }}
     >
       <Nav>
-        <Logo>PHYNAMAX</Logo>
+        <Logo>BIOCAPILAR</Logo>
         
         <NavLinks>
           <NavLink href="#benefits">Benefícios</NavLink>

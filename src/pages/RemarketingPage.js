@@ -14,7 +14,7 @@ const RemarketingContainer = styled.div`
 
 const Header = styled.header`
   width: 100%;
-  background: linear-gradient(to right, #be185d, #ec4899, #be185d);
+  background: linear-gradient(to right, #020617, #1e293b, #020617);
   padding: 0.875rem 0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -60,11 +60,11 @@ const LogoContainer = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 2.4rem;
+  height: 1.8rem;
   width: auto;
 
   @media (min-width: 768px) {
-    height: 3.2rem;
+    height: 2.4rem;
   }
 `;
 
@@ -73,7 +73,7 @@ const HeaderButton = styled.button`
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  background: #db2777;
+  background: #1e293b;
   padding: 0.625rem 1.5rem;
   font-size: 1rem;
   font-weight: 500;
@@ -83,12 +83,12 @@ const HeaderButton = styled.button`
   transition: background-color 0.2s;
 
   &:hover {
-    background: #be185d;
+    background: #0f172a;
   }
 `;
 
 const LimitSection = styled.div`
-  background: linear-gradient(to bottom, #fdf2f8, white);
+  background: linear-gradient(to bottom, white, white);
   border-bottom: 1px solid #e5e7eb;
   width: 100%;
 `;
@@ -107,12 +107,13 @@ const LimitInner = styled.div`
 `;
 
 const LimitBadge = styled.div`
-  background: #fdf2f8;
+  background: #1e293b;
   padding: 0.75rem 2rem;
   border-radius: 9999px;
-  border: 1px solid #f9a8d4;
+  border: 1px solid #0f172a;
   width: 100%;
   text-align: center;
+  color: #e5e7eb;
 
   @media (min-width: 768px) {
     width: auto;
@@ -120,7 +121,7 @@ const LimitBadge = styled.div`
 `;
 
 const LimitTitle = styled.h2`
-  color: #166534;
+  color: #ffffff;
   font-weight: bold;
   font-size: 1rem;
 
@@ -623,7 +624,7 @@ const GuaranteeDescription = styled.p`
 `;
 
 const GuaranteeCTAButton = styled.button`
-  background: #be185d;
+  background: linear-gradient(135deg, #166534 0%, #15803d 50%, #14532d 100%);
   color: white;
   border: none;
   padding: 18px 40px;
@@ -634,12 +635,12 @@ const GuaranteeCTAButton = styled.button`
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 8px 20px rgba(190, 24, 93, 0.4);
+  box-shadow: 0 8px 20px rgba(22, 101, 52, 0.4);
   
   &:hover {
-    background: #9d174d;
+    background: linear-gradient(135deg, #14532d 0%, #166534 50%, #15803d 100%);
     transform: translateY(-2px);
-    box-shadow: 0 12px 30px rgba(190, 24, 93, 0.6);
+    box-shadow: 0 12px 30px rgba(22, 101, 52, 0.6);
   }
   
   @media (max-width: 768px) {
@@ -695,13 +696,13 @@ const RemarketingPage = () => {
 
   const scrollToKits = () => {
     // Redirecionar para o link de compra principal com UTMs preservados
-    const finalUrl = addUtmToUrl('https://full.sale/FWHefK?src=remarketing');
+    const finalUrl = addUtmToUrl('https://full.sale/B4EEqt?src=remarketing-1');
     window.open(finalUrl, '_blank');
   };
 
   const scrollToKitsSmooth = () => {
     // Redirecionar para o link de compra principal com UTMs preservados
-    const finalUrl = addUtmToUrl('https://full.sale/FWHefK?src=remarketing');
+    const finalUrl = addUtmToUrl('https://full.sale/B4EEqt?src=remarketing-1');
     window.open(finalUrl, '_blank');
   };
 
@@ -720,6 +721,11 @@ const RemarketingPage = () => {
     if (utmCampaign) localStorage.setItem('utm_campaign', utmCampaign);
     if (utmContent) localStorage.setItem('utm_content', utmContent);
     if (utmTerm) localStorage.setItem('utm_term', utmTerm);
+  }, []);
+
+  // Definir título da página
+  useEffect(() => {
+    document.title = 'BIOCAPILAR - RMKT 1 - Emagrecimento Natural e Eficaz';
   }, []);
 
   // Função para adicionar UTMs aos links de compra
@@ -750,7 +756,7 @@ const RemarketingPage = () => {
       <Header>
         <HeaderContent>
           <LogoContainer>
-            <Logo src="/logo-phynamax.png" alt="Phynamax" />
+            <Logo src="/logo-biocapilar.png" alt="Biocapilar" />
           </LogoContainer>
           <div>
             <HeaderButton onClick={scrollToKits}>
@@ -793,7 +799,7 @@ const RemarketingPage = () => {
             {/* Coluna da Imagem */}
             <PromoImageContainer>
               <PromoImage
-                src="/1gratis.png"
+                src="/promo.png"
                 alt="Phynamax - Pote Extra Grátis"
                 width={450}
                 height={450}
@@ -810,9 +816,8 @@ const RemarketingPage = () => {
               </PromoSubtitle>
 
               <PromoText>
-                Na compra do kit de 3 frascos de Phynamax você receberá GRATUITAMENTE 
-                um pote extra para potencializar seus resultados com mais um mês de 
-                tratamento ou para presentear alguém que gostaria de perder peso.
+                Na compra do kit de 3 frascos de Biocapilar você receberá GRATUITAMENTE 
+                um pote extra para potencializar seus resultados.
               </PromoText>
 
               <PromoBox>
@@ -859,7 +864,7 @@ const RemarketingPage = () => {
           <PromoCard>
             <PromoImageMobile>
               <img
-                src="/1gratis.png"
+                src="/promo.png"
                 alt="Phynamax - Pote Extra Grátis"
                 style={{
                   width: '100%',
@@ -880,9 +885,9 @@ const RemarketingPage = () => {
             </PromoSubtitleMobile>
 
             <PromoTextMobile>
-              Na compra do kit de 3 frascos de Phynamax você receberá GRATUITAMENTE 
+              Na compra do kit de 3 frascos de Biocapilar você receberá GRATUITAMENTE 
               um pote extra para potencializar seus resultados com mais um mês de 
-              tratamento ou para presentear alguém que gostaria de perder peso.
+              tratamento.
             </PromoTextMobile>
 
             <PromoBoxMobile>
@@ -944,19 +949,19 @@ const RemarketingPage = () => {
           <GuaranteeContent>
             <div className="text-content">
               <GuaranteeTitle>
-                30 dias de garantia<br />
+                30 dias de garantia incondicional<br />
                 <span className="highlight">Se você não gostar, pode devolver</span>
               </GuaranteeTitle>
               
               <GuaranteeDescription>
-                Com a nossa Garantia de Satisfação de 30 Dias, você pode experimentar o Phynamax sem nenhum risco. Teste, sinta a diferença e, se por qualquer motivo não estiver completamente satisfeito, é só entrar em contato com nossa equipe de atendimento, que está pronta para ajudar. Envie um simples e-mail dentro de 30 dias, e nós reembolsaremos 100% do valor pago — sem complicações, sem perguntas. É assim que confiamos no poder do Phynamax! Conforme nossos termos de garantia*
+                Com a nossa Garantia de Satisfação de 30 Dias, você pode experimentar o  Biocapilar sem nenhum risco. Teste, sinta a diferença e, se por qualquer motivo não estiver completamente satisfeito, é só entrar em contato com nossa equipe de atendimento, que está pronta para ajudar. Envie um simples e-mail dentro de 30 dias, e nós reembolsaremos 100% do valor pago — sem complicações, sem perguntas. É assim que confiamos no poder do Biocapilar que já ajudou mais de 163 mil pessoas em todo o Brasil! Conforme nossos termos de garantia*
               </GuaranteeDescription>
             </div>
             
             <div className="mobile-image">
               <div style={{ width: '300px', height: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <img 
-                                src="/garantia-definamax.png"
+                                src="/garantia-biocapilar.png"
               alt="30 Dias de Garantia Incondicional Phynamax - 100% Satisfação Garantida ou Dinheiro de Volta" 
                   style={{ width: '100%', height: 'auto', maxWidth: '300px' }}
                 />
@@ -964,13 +969,13 @@ const RemarketingPage = () => {
             </div>
             
             <GuaranteeCTAButton onClick={scrollToKitsSmooth}>
-              EU QUERO EMAGRECER
+              EU QUERO O BIOCAPILAR
             </GuaranteeCTAButton>
           </GuaranteeContent>
           
           <GuaranteeBadgeContainer>
             <GuaranteeBadge>
-              <img src="/garantia-definamax.png" alt="30 Dias de Garantia" />
+              <img src="/garantia-biocapilar.png" alt="30 Dias de Garantia" />
             </GuaranteeBadge>
           </GuaranteeBadgeContainer>
         </GuaranteeContainer>

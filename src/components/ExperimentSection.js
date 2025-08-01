@@ -91,7 +91,7 @@ const Description = styled(motion.p)`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: #be185d;
+  background: linear-gradient(135deg, #166534 0%, #15803d 50%, #14532d 100%);
   color: white;
   border: none;
   padding: 18px 40px;
@@ -102,12 +102,12 @@ const CTAButton = styled(motion.button)`
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 12px 30px rgba(190, 24, 93, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 30px rgba(22, 101, 52, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
   
   &:hover {
-    background: #9d174d;
+    background: linear-gradient(135deg, #14532d 0%, #166534 50%, #15803d 100%);
     transform: translateY(-2px);
-    box-shadow: 0 18px 40px rgba(190, 24, 93, 0.6), 0 8px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 18px 40px rgba(22, 101, 52, 0.6), 0 8px 20px rgba(0, 0, 0, 0.4);
   }
   
   @media (max-width: 768px) {
@@ -165,7 +165,7 @@ const ExperimentSection = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              30 dias de garantia<br />
+              30 dias de garantia incondicional<br />
               <span className="highlight">Se você não gostar, pode devolver</span>
             </SectionTitle>
             
@@ -175,14 +175,14 @@ const ExperimentSection = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Com a nossa Garantia de Satisfação de 30 Dias, você pode experimentar o Phynamax sem nenhum risco. Teste, sinta a diferença e, se por qualquer motivo não estiver completamente satisfeito, é só entrar em contato com nossa equipe de atendimento, que está pronta para ajudar. Envie um simples e-mail dentro de 30 dias, e nós reembolsaremos 100% do valor pago — sem complicações, sem perguntas. É assim que confiamos no poder do Phynamax! Conforme nossos termos de garantia*
+              Com a nossa Garantia de Satisfação de 30 Dias, você pode experimentar o  Biocapilar sem nenhum risco. Teste, sinta a diferença e, se por qualquer motivo não estiver completamente satisfeito, é só entrar em contato com nossa equipe de atendimento, que está pronta para ajudar. Envie um simples e-mail dentro de 30 dias, e nós reembolsaremos 100% do valor pago — sem complicações, sem perguntas. É assim que confiamos no poder do Biocapilar que já ajudou mais de 163 mil pessoas em todo o Brasil! Conforme nossos termos de garantia*
             </Description>
           </div>
           
           <div className="mobile-image">
             <div style={{ width: '350px', height: '350px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <img 
-                src="/garantia-definamax.png" 
+                src="/garantia-biocapilar.png" 
                 alt="30 Dias de Garantia Incondicional Definamax - 100% Satisfação Garantida ou Dinheiro de Volta" 
                 style={{ width: '100%', height: 'auto', maxWidth: '350px' }}
               />
@@ -197,7 +197,7 @@ const ExperimentSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            EU QUERO EMAGRECER
+            EU QUERO O BIOCAPILAR
           </CTAButton>
         </ContentArea>
         
@@ -209,7 +209,7 @@ const ExperimentSection = () => {
             viewport={{ once: true }}
             whileHover={{ scale: 1.1, rotate: 5 }}
           >
-            <img src="/garantia-definamax.png" alt="30 Dias de Garantia" />
+            <img src="/garantia-biocapilar.png" alt="30 Dias de Garantia" />
           </GuaranteeBadge>
         </BadgeContainer>
       </Container>

@@ -463,7 +463,7 @@ export default function ReMarketingPageV2() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="bg-green-600 text-white p-4 text-center">
                 <h3 className="text-xl font-bold">COMPRE 5 LEVE 8 FRASCOS</h3>
-                <p className="text-sm">GANHE 2 FRASCOS DE COLÁGENO (PARA ESTRIAS)</p>
+                <p className="text-sm">TRATAMENTO MAIS VENDIDO</p>
               </div>
               <div className="p-6">
                 <div className="text-center text-green-700 font-semibold mb-4">
@@ -730,7 +730,9 @@ export default function ReMarketingPageV2() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-8 bg-pink-800 text-white">
+      <footer className="w-full py-8 text-white" style={{
+        background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+      }}>
         <div className="mx-auto max-w-5xl px-4">
           <div className="text-center mb-4">
             <p className="text-white text-base">Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.</p>

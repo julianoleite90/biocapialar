@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.definamaxoficial.com'),
-  title: 'TRC Phynamax - Site Oficial | Emagrecedor Natural #1 do Brasil',
+  title: 'Biocapilar - Restaure seus cabelos, acabe com a queda e preencha as falhas',
   description: 'Emagreça até 10kg em 30 dias com Phynamax, o emagrecedor natural mais vendido do Brasil. ✓ 100% Natural ✓ Envio Imediato ✓ Resultados Garantidos ✓ Frete Grátis',
   keywords: 'phynamax, emagrecedor natural, perda de peso, metabolismo, compulsão alimentar, emagrecer, perder peso, gordura localizada',
   alternates: {
@@ -71,10 +71,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/bfavicon.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/bfavicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/bfavicon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         
         <link rel="preconnect" href="https://fonts.googleapis.com" />

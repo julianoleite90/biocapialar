@@ -112,13 +112,13 @@ const ResultHighlight = styled.span`
 
 const testimonials = [
   {
-    text: "Perdi 19kg em 3 meses! Nunca imaginei que pudesse ser tão fácil. O PHYNAMAX mudou completamente minha relação com a comida e meu corpo.",
+    text: "Perdi 19kg em 3 meses! Nunca imaginei que pudesse ser tão fácil. O BIOCAPILAR mudou completamente minha relação com a comida e meu corpo.",
     author: "Beatriz Almeida",
     details: "Perdeu 19kg em 3 meses",
     avatar: "B"
   },
   {
-    text: "Finalmente encontrei algo que funciona! Já tentei várias dietas e nada dava certo. Com o PHYNAMAX consegui resultados incríveis em 45 dias.",
+    text: "Finalmente encontrei algo que funciona! Já tentei várias dietas e nada dava certo. Com o BIOCAPILAR consegui resultados incríveis em 45 dias.",
     author: "Ricardo Souza",
     details: "Perdeu 16kg em 45 dias",
     avatar: "R"
@@ -136,7 +136,7 @@ const testimonials = [
     avatar: "C"
   },
   {
-    text: "Estava desesperada para emagrecer para meu casamento. O PHYNAMAX me salvou! Consegui chegar ao meu peso ideal a tempo.",
+    text: "Estava desesperada para emagrecer para meu casamento. O BIOCAPILAR me salvou! Consegui chegar ao meu peso ideal a tempo.",
     author: "Juliana Martins",
     details: "Perdeu 23kg em 5 meses",
     avatar: "J"
@@ -169,7 +169,7 @@ const Testimonials = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Mais de 163 mil pessoas já transformaram suas vidas com o PHYNAMAX
+            Mais de 163 mil pessoas já transformaram suas vidas com o BIOCAPILAR
           </SectionSubtitle>
         </SectionHeader>
         

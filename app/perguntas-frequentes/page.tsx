@@ -13,7 +13,7 @@ type OpenFaqs = {
   [K in FaqId]: boolean;
 };
 
-export default function DefinamaxFAQ() {
+export default function BiocapilarFAQ() {
   // Estado para controlar quais perguntas estão abertas no acordeão
   const [openFaqs, setOpenFaqs] = useState<OpenFaqs>({
     faq1: true,
@@ -145,14 +145,14 @@ export default function DefinamaxFAQ() {
 
   // Função para abrir o WhatsApp
   const openWhatsApp = () => {
-    const message = encodeURIComponent("Olá! Gostaria de saber mais sobre o Definamax.")
+    const message = encodeURIComponent("Olá! Gostaria de saber mais sobre o Biocapilar.")
     window.open(`https://wa.me/5541984549172?text=${message}`, "_blank")
   }
 
   return (
     <main className="flex min-h-screen flex-col items-center bg-white">
       <Head>
-        <title>Definamax: Perguntas Frequentes | Tudo Sobre o Suplemento Natural para Emagrecimento</title>
+        <title>Biocapilar: Perguntas Frequentes | Tudo Sobre o Suplemento Natural para Crescimento Capilar</title>
         <meta
           name="description"
           content="Tire todas as suas dúvidas sobre o Definamax: o que é, como funciona, como usar, aprovação ANVISA, onde comprar, tempo de entrega e descontos disponíveis."
@@ -208,7 +208,7 @@ export default function DefinamaxFAQ() {
           <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
           <div className="mx-auto max-w-5xl px-4 flex justify-center">
             <Link href="/">
-              <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
+              <Image src="/logo-biocapilar.png" alt="Biocapilar" width={200} height={60} className="h-8 w-auto" />
             </Link>
           </div>
         </div>
@@ -218,15 +218,15 @@ export default function DefinamaxFAQ() {
       <section className="w-full bg-gradient-to-b from-green-50 to-white py-12 md:py-16">
         <div className="mx-auto max-w-5xl px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-green-800 mb-6">
-            Perguntas Frequentes sobre <span className="text-green-600">Definamax</span>
+            Perguntas Frequentes sobre <span className="text-green-600">Biocapilar</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            Tire todas as suas dúvidas sobre o Definamax, o suplemento natural que está revolucionando o emagrecimento
+            Tire todas as suas dúvidas sobre o Biocapilar, o suplemento natural que está revolucionando o crescimento capilar
             saudável no Brasil.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
             <Link
-              href={addUtmToUrl("https://full.sale/DmNQj1")}
+              href={addUtmToUrl("https://full.sale/d3ZuZy")}
               className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-green-600 to-green-500 px-6 py-3 text-base font-bold text-white hover:from-green-500 hover:to-green-600 hover:scale-105 transition-all shadow-lg hover:shadow-xl border-b-4 border-green-700"
             >
               COMPRAR DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
@@ -278,7 +278,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq1")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      O que é Definamax?
+                      O que é Biocapilar?
                     </button>
                   </li>
                   <li>
@@ -286,7 +286,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq2")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      Como Definamax Funciona?
+                      Como Biocapilar Funciona?
                     </button>
                   </li>
                   <li>
@@ -294,7 +294,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq3")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      Como usar Definamax?
+                      Como usar Biocapilar?
                     </button>
                   </li>
                   <li>
@@ -302,7 +302,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq4")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      Definamax é aprovado pela Anvisa?
+                      Biocapilar é aprovado pela Anvisa?
                     </button>
                   </li>
                   <li>
@@ -310,7 +310,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq5")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      Definamax vende em farmácia?
+                      Biocapilar vende em farmácia?
                     </button>
                   </li>
                   <li>
@@ -318,7 +318,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq6")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      Definamax Reclame Aqui
+                      Biocapilar Reclame Aqui
                     </button>
                   </li>
                   <li>
@@ -326,7 +326,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq7")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      Definamax tempo de entrega?
+                      Biocapilar tempo de entrega?
                     </button>
                   </li>
                   <li>
@@ -334,7 +334,7 @@ export default function DefinamaxFAQ() {
                       onClick={() => toggleFaq("faq8")}
                       className="text-left w-full text-green-700 hover:text-green-500 font-medium"
                     >
-                      Desconto Definamax?
+                      Desconto Biocapilar?
                     </button>
                   </li>
                 </ul>
@@ -350,7 +350,7 @@ export default function DefinamaxFAQ() {
                         className="h-16 w-auto object-contain mr-3"
                       />
                       <div>
-                        <h3 className="font-semibold text-gray-800">Definamax</h3>
+                        <h3 className="font-semibold text-gray-800">Biocapilar</h3>
                         <div className="flex">
                           {[1, 2, 3, 4, 5].map((star) => (
                             <svg key={star} className="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 24 24">
@@ -361,7 +361,7 @@ export default function DefinamaxFAQ() {
                       </div>
                     </div>
                     <Link
-                      href={addUtmToUrl("https://full.sale/DmNQj1")}
+                      href={addUtmToUrl("https://full.sale/d3ZuZy")}
                       className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 w-full"
                     >
                       COMPRAR AGORA
@@ -381,7 +381,7 @@ export default function DefinamaxFAQ() {
                     onClick={() => toggleFaq("faq1")}
                     aria-expanded={openFaqs.faq1}
                   >
-                    <h2 className="text-xl md:text-2xl">O que é Definamax?</h2>
+                    <h2 className="text-xl md:text-2xl">O que é Biocapilar?</h2>
                     {openFaqs.faq1 ? (
                       <ChevronUp className="h-6 w-6 text-green-600" />
                     ) : (
@@ -396,8 +396,8 @@ export default function DefinamaxFAQ() {
                     <div className="flex flex-col md:flex-row gap-6 items-center mb-6">
                       <div className="md:w-1/3">
                         <Image
-                          src="/mockup2.png"
-                          alt="Definamax - Suplemento Natural para Emagrecimento"
+                                    src="/mockup2.png"
+          alt="Biocapilar - Suplemento Natural para Crescimento Capilar"
                           width={300}
                           height={400}
                           className="w-full h-auto object-contain rounded-lg"
@@ -405,28 +405,27 @@ export default function DefinamaxFAQ() {
                       </div>
                       <div className="md:w-2/3">
                         <p className="mb-4">
-                          <strong>Definamax</strong> é um suplemento alimentar 100% natural desenvolvido para auxiliar
-                          no processo de emagrecimento de forma saudável e eficaz. Sua fórmula exclusiva combina fibras
-                          alimentares de alta potência que atuam em três frentes principais:
+                          <strong>Biocapilar</strong> é um suplemento alimentar 100% natural desenvolvido para auxiliar
+                          no processo de crescimento capilar de forma saudável e eficaz. Sua fórmula exclusiva combina bioativos
+                          de alta potência que atuam em três frentes principais:
                         </p>
                         <ul className="space-y-2 mb-4">
                           <li className="flex items-start">
                             <CheckCircle2 className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
                             <span>
-                              <strong>Absorção de gordura:</strong> captura e elimina até 76% da gordura ingerida nas
-                              refeições
+                              <strong>Fortalecimento dos fios:</strong> nutre e fortalece a estrutura capilar desde a raiz
                             </span>
                           </li>
                           <li className="flex items-start">
                             <CheckCircle2 className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
                             <span>
-                              <strong>Aumento da saciedade:</strong> reduz a fome e controla a compulsão alimentar
+                              <strong>Preenchimento de falhas:</strong> estimula o crescimento em áreas com pouco cabelo
                             </span>
                           </li>
                           <li className="flex items-start">
                             <CheckCircle2 className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
                             <span>
-                              <strong>Aceleração do metabolismo:</strong> aumenta a queima de calorias mesmo em repouso
+                              <strong>Aceleração do crescimento:</strong> acelera o ciclo natural de crescimento capilar
                             </span>
                           </li>
                         </ul>
@@ -434,7 +433,7 @@ export default function DefinamaxFAQ() {
                     </div>
 
                     <p className="mb-4">
-                      O Definamax foi desenvolvido por especialistas em nutrição e conta com ingredientes naturais
+                      O Biocapilar foi desenvolvido por especialistas em nutrição e conta com ingredientes naturais
                       cuidadosamente selecionados, como:
                     </p>
 
@@ -488,10 +487,10 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/d3ZuZy")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
-                        EXPERIMENTAR DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
+                        EXPERIMENTAR BIOCAPILAR <ArrowRight className="ml-2 h-5 w-5" />
                       </Link>
                     </div>
                   </div>
@@ -507,7 +506,7 @@ export default function DefinamaxFAQ() {
                     onClick={() => toggleFaq("faq2")}
                     aria-expanded={openFaqs.faq2}
                   >
-                    <h2 className="text-xl md:text-2xl">Como Definamax Funciona?</h2>
+                    <h2 className="text-xl md:text-2xl">Como Biocapilar Funciona?</h2>
                     {openFaqs.faq2 ? (
                       <ChevronUp className="h-6 w-6 text-green-600" />
                     ) : (
@@ -531,7 +530,7 @@ export default function DefinamaxFAQ() {
                       </div>
                       <div className="md:w-1/2">
                         <p className="mb-4">
-                          O <strong>Definamax</strong> funciona através de um mecanismo triplo de ação que atua
+                          O <strong>Biocapilar</strong> funciona através de um mecanismo triplo de ação que atua
                           diretamente nos principais fatores que dificultam o emagrecimento. Sua fórmula exclusiva
                           trabalha de forma sinérgica para proporcionar resultados visíveis em poucas semanas.
                         </p>
@@ -656,10 +655,10 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/d3ZuZy")}
                         className="inline-flex items-center justify-center rounded-lg bg-pink-600 px-6 py-3 text-base font-medium text-white hover:bg-pink-700 hover:scale-105 transition-all"
                       >
-                        EU QUERO EMAGRECER <ArrowRight className="ml-2 h-5 w-5" />
+                        EU QUERO O BIOCAPILAR <ArrowRight className="ml-2 h-5 w-5" />
                       </Link>
                     </div>
                   </div>
@@ -672,7 +671,7 @@ export default function DefinamaxFAQ() {
                     onClick={() => toggleFaq("faq3")}
                     aria-expanded={openFaqs.faq3}
                   >
-                    <h2 className="text-xl md:text-2xl">Como usar Definamax?</h2>
+                    <h2 className="text-xl md:text-2xl">Como usar Biocapilar?</h2>
                     {openFaqs.faq3 ? (
                       <ChevronUp className="h-6 w-6 text-green-600" />
                     ) : (
@@ -702,7 +701,7 @@ export default function DefinamaxFAQ() {
                               <span className="text-green-700 font-bold">1</span>
                             </div>
                             <div>
-                              <p className="font-medium">Tome 2 cápsulas de Definamax por dia</p>
+                              <p className="font-medium">Tome 2 cápsulas de Biocapilar por dia</p>
                               <p className="text-sm text-gray-600 mt-1">
                                 Preferencialmente 30 minutos antes do almoço ou jantar (sua refeição principal)
                               </p>
@@ -777,10 +776,10 @@ export default function DefinamaxFAQ() {
 
                       <div className="bg-white border border-gray-200 rounded-lg p-4">
                         <h4 className="font-semibold text-gray-800 mb-2">
-                          Preciso fazer dieta enquanto tomo Phynamax?
+                          Preciso fazer tratamentos externos enquanto tomo Biocapilar?
                         </h4>
                         <p className="text-sm">
-                          O Phynamax funciona mesmo sem dietas restritivas. No entanto, para maximizar os resultados,
+                          O Biocapilar funciona mesmo sem tratamentos externos. No entanto, para maximizar os resultados,
                           recomenda-se manter uma alimentação equilibrada e evitar o consumo excessivo de alimentos
                           ultraprocessados e bebidas alcoólicas.
                         </p>
@@ -810,7 +809,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/d3ZuZy")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         COMPRAR DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
@@ -829,7 +828,7 @@ export default function DefinamaxFAQ() {
                     onClick={() => toggleFaq("faq4")}
                     aria-expanded={openFaqs.faq4}
                   >
-                    <h2 className="text-xl md:text-2xl">Definamax é aprovado pela Anvisa?</h2>
+                    <h2 className="text-xl md:text-2xl">Biocapilar é aprovado pela Anvisa?</h2>
                     {openFaqs.faq4 ? (
                       <ChevronUp className="h-6 w-6 text-green-600" />
                     ) : (
@@ -947,10 +946,10 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/d3ZuZy")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
-                        COMPRAR DEFINAMAX OFICIAL <ArrowRight className="ml-2 h-5 w-5" />
+                        COMPRAR BIOCAPILAR OFICIAL <ArrowRight className="ml-2 h-5 w-5" />
                       </Link>
                     </div>
                   </div>
@@ -966,7 +965,7 @@ export default function DefinamaxFAQ() {
                     onClick={() => toggleFaq("faq5")}
                     aria-expanded={openFaqs.faq5}
                   >
-                    <h2 className="text-xl md:text-2xl">Definamax vende em farmácia?</h2>
+                    <h2 className="text-xl md:text-2xl">Biocapilar vende em farmácia?</h2>
                     {openFaqs.faq5 ? (
                       <ChevronUp className="h-6 w-6 text-green-600" />
                     ) : (
@@ -1020,7 +1019,7 @@ export default function DefinamaxFAQ() {
                             </div>
                           </div>
                           <Link
-                            href={addUtmToUrl("https://full.sale/DmNQj1")}
+                            href={addUtmToUrl("https://full.sale/d3ZuZy")}
                             className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 w-full"
                           >
                             COMPRAR ORIGINAL
@@ -1136,10 +1135,10 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/d3ZuZy")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
-                        COMPRAR DEFINAMAX ORIGINAL <ArrowRight className="ml-2 h-5 w-5" />
+                        COMPRAR BIOCAPILAR ORIGINAL <ArrowRight className="ml-2 h-5 w-5" />
                       </Link>
                     </div>
                   </div>
@@ -1152,7 +1151,7 @@ export default function DefinamaxFAQ() {
                     onClick={() => toggleFaq("faq6")}
                     aria-expanded={openFaqs.faq6}
                   >
-                    <h2 className="text-xl md:text-2xl">Definamax Reclame Aqui</h2>
+                    <h2 className="text-xl md:text-2xl">Biocapilar Reclame Aqui</h2>
                     {openFaqs.faq6 ? (
                       <ChevronUp className="h-6 w-6 text-green-600" />
                     ) : (
@@ -1510,7 +1509,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/d3ZuZy")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         COMPRAR COM FRETE GRÁTIS <ArrowRight className="ml-2 h-5 w-5" />
@@ -1628,7 +1627,7 @@ export default function DefinamaxFAQ() {
                           </div>
 
                           <Link
-                            href={addUtmToUrl("https://full.sale/ytA47b")}
+                            href={addUtmToUrl("https://full.sale/o19JLC")}
                             className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all"
                           >
                             COMPRAR COM DESCONTO
@@ -1692,7 +1691,7 @@ export default function DefinamaxFAQ() {
                           </div>
 
                           <Link
-                            href={addUtmToUrl("https://full.sale/DmNQj1")}
+                            href={addUtmToUrl("https://full.sale/d3ZuZy")}
                             className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-green-600 to-green-500 px-4 py-2 text-sm font-bold text-white hover:from-green-500 hover:to-green-600 w-full hover:scale-105 transition-all shadow-md hover:shadow-xl border-b-4 border-green-700 animate-pulse-border"
                           >
                             COMPRAR COM DESCONTO
@@ -1752,7 +1751,7 @@ export default function DefinamaxFAQ() {
                           </div>
 
                           <Link
-                            href={addUtmToUrl("https://full.sale/eMbtHp")}
+                            href={addUtmToUrl("https://full.sale/rPQ0FT")}
                             className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 w-full hover:scale-105 transition-all"
                           >
                             COMPRAR COM DESCONTO
@@ -1830,7 +1829,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/d3ZuZy")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         APROVEITAR DESCONTO <ArrowRight className="ml-2 h-5 w-5" />
@@ -1848,7 +1847,7 @@ export default function DefinamaxFAQ() {
                   promoção por tempo limitado!
                 </p>
                 <Link
-                  href={addUtmToUrl("https://full.sale/DmNQj1")}
+                  href={addUtmToUrl("https://full.sale/d3ZuZy")}
                   className="inline-flex items-center justify-center rounded-lg bg-white text-green-600 px-6 py-3 text-base font-bold hover:bg-gray-100 hover:scale-105 transition-all w-full"
                 >
                   EXPERIMENTAR DEFINAMAX AGORA <ArrowRight className="ml-2 h-5 w-5" />
@@ -1986,20 +1985,22 @@ export default function DefinamaxFAQ() {
 
           <div className="flex justify-center mt-8">
             <Link
-              href={addUtmToUrl("https://full.sale/DmNQj1")}
+              href={addUtmToUrl("https://full.sale/d3ZuZy")}
               className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-green-600 to-green-500 px-6 py-3 text-base font-bold text-white hover:from-green-500 hover:to-green-600 hover:scale-105 transition-all shadow-lg hover:shadow-xl border-b-4 border-green-700"
             >
-              EU TAMBÉM QUERO EMAGRECER! <ArrowRight className="ml-2 h-5 w-5" />
+              EU QUERO O BIOCAPILAR! <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-8 bg-pink-800 text-white">
+      <footer className="w-full py-8 text-white" style={{
+        background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+      }}>
         <div className="mx-auto max-w-5xl px-4 text-center">
-          <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={45} className="h-9 w-auto mx-auto mb-4" />
-          <p className="text-sm mb-2">Phynamax - Auxiliou mais de 63 mil pessoas a perder peso em todo o Brasil.</p>
+          <Image src="/logo-biocapilar.png" alt="Biocapilar" width={150} height={45} className="h-6 w-auto mx-auto mb-4" />
+          <p className="text-sm mb-2">Biocapilar - Auxiliou mais de 163 mil pessoas a restaurar a saúde dos cabelos em todo o Brasil.</p>
           <p className="text-xs text-gray-300 mb-4">
             *Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença.
           </p>
@@ -2015,7 +2016,7 @@ export default function DefinamaxFAQ() {
             </Link>
           </div>
           <p className="text-xs text-gray-300">
-            Copyright © {new Date().getFullYear()} Phynamax. Todos os direitos reservados.
+            Copyright © {new Date().getFullYear()} Biocapilar. Todos os direitos reservados.
           </p>
           <p className="text-xs text-gray-300 mt-2">Bourjun Nature Health, Florianópolis Santa Catarina</p>
         </div>

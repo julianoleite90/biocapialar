@@ -198,7 +198,7 @@ const WarrantyTermsPage = () => {
       <Header>
         <HeaderContent>
           <a href="/">
-            <Logo src="/logo-phynamax.png" alt="Phynamax" />
+            <Logo src="/logo-biocapilar.png" alt="Biocapilar" />
           </a>
         </HeaderContent>
       </Header>

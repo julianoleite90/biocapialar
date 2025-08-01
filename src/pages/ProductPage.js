@@ -852,7 +852,7 @@ const ProductPage = () => {
       regularPrice: 879.00,
       salePrice: 439.00,
       image: '/5frascos.png',
-      bonus: ['2 Frascos de Colágeno (para estrias)'],
+      bonus: ['Tratamento mais vendido'],
       freeShipping: true,
       shipping: 0,
       gtin: '7898489348755',
@@ -1026,9 +1026,9 @@ const ProductPage = () => {
       <Header>
         <HeaderContent>
           <a href="/">
-            <Logo src="/logo-phynamax.png" alt="Phynamax - Suplemento Natural" />
+            <Logo src="/logo-biocapilar.png" alt="Biocapilar - Suplemento Natural" />
           </a>
-                  <CTAButton href={addUtmToUrl('https://full.sale/8mYNoQ')}>
+                  <CTAButton href={addUtmToUrl('https://full.sale/o19JLC')}>
           Comprar Agora
         </CTAButton>
         </HeaderContent>
@@ -1176,7 +1176,7 @@ const ProductPage = () => {
               </BenefitsContainer>
 
               <ActionButtons>
-                        <BuyButton href={addUtmToUrl('https://full.sale/8mYNoQ')}>
+                        <BuyButton href={addUtmToUrl('https://full.sale/o19JLC')}>
           <FaShoppingCart /> Comprar Agora <FaArrowRight />
         </BuyButton>
 

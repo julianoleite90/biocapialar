@@ -5,7 +5,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const SectionContainer = styled.section`
   padding: 60px 20px;
-  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   position: relative;
   overflow: hidden;
 
@@ -237,39 +237,39 @@ const IngredientsSection = React.memo(() => {
   const ingredients = useMemo(() => [
     {
       id: 1,
-      title: 'Gelidium Amansii',
-      description: 'Descubra o poder deste polissacarídeo natural de origem marinha! Promove saciedade duradoura, controla a ingestão calórica com precisão e acelera sua jornada de emagrecimento, enquanto mantém seu sistema digestivo em perfeito equilíbrio.',
-      image: '/agar.png'
+      title: 'Colágeno',
+      description: 'Proteína essencial que fortalece a estrutura capilar desde a raiz! Melhora a elasticidade dos fios, reduz a quebra e promove cabelos mais resistentes e volumosos.',
+      image: '/colageno.png'
     },
     {
       id: 2,
-      title: 'Arthrospira Platensis',
-      description: 'Poderosa superalga rica em nutrientes! Acelera o metabolismo, combate a compulsão alimentar e impulsiona sua jornada de emagrecimento com energia e vitalidade.',
-      image: '/sprulina.png'
+      title: 'Palmitato de Retinila',
+      description: 'Forma ativa da Vitamina A que estimula a renovação celular no couro cabeludo! Acelera o crescimento dos fios e mantém os folículos capilares saudáveis e ativos.',
+      image: '/retinila.png'
     },
     {
       id: 3,
-      title: 'Chitosan',
-      description: 'Acelere o processo de emagrecimento com esta fibra bioativa de alta performance! Bloqueia a absorção de gorduras, reduz calorias de forma inteligente.',
-      image: '/quitosana.png'
+      title: 'Ácido Ascórbico',
+      description: 'Vitamina C poderosa que combate os radicais livres e estimula a produção de colágeno! Fortalece os fios, melhora a circulação no couro cabeludo e acelera o crescimento capilar.',
+      image: '/arcobico.png'
     },
     {
       id: 4,
-      title: 'Plantago Ovata',
-      description: 'Poderosa fibra solúvel! Regula o intestino, prolonga a saciedade e domina o apetite, pavimentando o caminho para um emagrecimento saudável e sustentável.',
-      image: '/psyllium.png'
+      title: 'Pantotenato de Cálcio',
+      description: 'Vitamina B5 essencial para a saúde capilar! Hidrata profundamente os fios, reduz a queda e estimula o crescimento de cabelos mais fortes e brilhosos.',
+      image: '/pantotenato.png'
     },
     {
       id: 5,
-      title: 'Chromium',
-      description: 'Poderoso mineral que estabiliza os níveis de glicose, elimina a compulsão por doces e impulsiona o controle de peso com resultados consistentes e duradouros.',
-      image: '/cromo.png'
+      title: 'Nicotinamida',
+      description: 'Vitamina B3 que melhora a circulação sanguínea no couro cabeludo! Nutri os folículos capilares, reduz a inflamação e promove um crescimento capilar saudável e acelerado.',
+      image: '/nicotinamida.png'
     },
     {
       id: 6,
-      title: 'Paullinia Cupana',
-      description: 'Extrato natural poderoso que turbina sua energia, acelera o metabolismo e maximiza a queima calórica, pavimentando o caminho para um emagrecimento eficaz e vibrante.',
-      image: '/guarana.png'
+      title: 'Piridoxina',
+      description: 'Vitamina B6 fundamental para a síntese de proteínas capilares! Fortalece a estrutura dos fios, previne a queda excessiva e estimula o crescimento de novos cabelos.',
+      image: '/piridoxina.png'
     }
   ], []);
 
@@ -295,11 +295,11 @@ const IngredientsSection = React.memo(() => {
     <SectionContainer>
       <Container>
         <SectionTitle>
-          Fórmula exclusiva para acelerar sua perda de peso
+          Fórmula avançada para acelerar o crescimento de novos fios
         </SectionTitle>
         
         <SectionSubtitle>
-          Tenha em suas mãos a eficácia de uma fórmula 100% natural, feito para quem busca emagrecimento saudável sem sacrifícios.
+          Tenha em suas mãos a eficácia de uma fórmula 100% natural, feito para quem busca acabar com a queda dos cabelos e acelerar o crescimento de novos fios
         </SectionSubtitle>
 
         {/* Grid para Desktop */}
@@ -361,6 +361,10 @@ const IngredientsSection = React.memo(() => {
             />
           ))}
         </DotsContainer>
+
+        <SectionSubtitle style={{ fontWeight: 'bold', fontSize: '1.1rem', marginTop: '2.5rem' }}>
+          E mais 3 super bioativos essenciais para a saúde dos cabelos
+        </SectionSubtitle>
       </Container>
     </SectionContainer>
   );

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-// Barra superior rosa com desconto
+// Barra superior vermelha com desconto
 const TopBanner = styled.div`
-  background: #be185d;
+  background: #dc2626;
   color: white;
   padding: 8px 0;
   text-align: center;
@@ -173,12 +173,24 @@ const PromoText = styled.div`
 // Hero Section Principal
 const HeroSection = styled.section`
   min-height: 100vh;
-  background: linear-gradient(135deg, #fce7f3 0%, #f8fafc 100%);
+  background: linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%);
+  position: relative;
   display: flex;
   flex-direction: column;
-  position: relative;
   overflow: hidden;
   padding-top: 0;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.08) 50%, transparent 70%);
+    pointer-events: none;
+    z-index: 1;
+  }
 `;
 
 
@@ -187,7 +199,7 @@ const HeroSection = styled.section`
 const HeaderSection = styled.div`
   text-align: center;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding-bottom: 20px;
   margin-top: 20px;
   
@@ -200,11 +212,11 @@ const Logo = styled.div`
   margin: 0;
   
   img {
-    height: 60px;
+    height: 40px;
     width: auto;
     
     @media (max-width: 768px) {
-      height: 45px;
+      height: 30px;
       margin-top: 20px;
     }
   }
@@ -218,7 +230,7 @@ const MainContent = styled.div`
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding: 0 20px;
   text-align: center;
   padding-top: 20px;
@@ -244,7 +256,7 @@ const MainTitle = styled(motion.div)`
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 900;
     line-height: 1.1;
-    color: black;
+    color: white;
     text-shadow: none;
     margin: 0;
     
@@ -262,7 +274,7 @@ const TitleMain = styled.span`
   display: block;
   font-size: 1em;
   font-weight: inherit;
-  color: black;
+  color: white;
   text-shadow: none;
   white-space: nowrap;
   
@@ -278,25 +290,25 @@ const TitleMain = styled.span`
 
 const TitleSub = styled.span`
   display: block;
-  font-size: 0.85em;
+  font-size: 0.75em;
   margin-top: 10px;
-  color: black;
+  color: white;
   text-shadow: none;
   white-space: nowrap;
   
   @media (max-width: 768px) {
     margin-top: 8px;
     white-space: nowrap;
-    font-size: 0.85em;
+    font-size: 0.75em;
   }
   
   @media (max-width: 480px) {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 `;
 
 const Subtitle = styled(motion.p)`
-  color: black;
+  color: white;
   font-size: 1rem;
   line-height: 1.6;
   max-width: 800px;
@@ -314,30 +326,30 @@ const Subtitle = styled(motion.p)`
 
 // Imagem do produto mockup
 const MockupImage = styled.img`
-  max-width: 340px;
+  max-width: 420px;
   width: 100%;
   height: auto;
   border-radius: 12px;
   margin: 20px 0;
   
   @media (max-width: 768px) {
-    max-width: 300px;
+    max-width: 350px;
   }
   
   @media (max-width: 480px) {
-    max-width: 270px;
+    max-width: 290px;
   }
 `;
 
 // CTA Button
 const CTAButton = styled(motion.button)`
-  background: linear-gradient(135deg, #be185d 0%, #ec4899 50%, #db2777 100%);
+  background: linear-gradient(135deg, #166534 0%, #15803d 50%, #14532d 100%);
   color: white;
   font-size: 1.4rem;
   font-weight: 900;
   padding: 20px 50px;
   border-radius: 8px;
-  border: 3px solid #be185d;
+  border: 3px solid #166534;
   cursor: pointer;
   box-shadow: 
     0 20px 40px rgba(0, 0, 0, 0.6),
@@ -365,10 +377,10 @@ const CTAButton = styled(motion.button)`
   
   &:hover {
     transform: translateY(-5px) scale(1.05);
-    background: linear-gradient(135deg, #9d174d 0%, #db2777 50%, #be185d 100%);
+    background: linear-gradient(135deg, #14532d 0%, #166534 50%, #15803d 100%);
     box-shadow: 
-      0 25px 50px rgba(0, 0, 0, 0.7),
-      0 15px 30px rgba(0, 0, 0, 0.5),
+      0 25px 50px rgba(22, 101, 52, 0.4),
+      0 15px 30px rgba(22, 101, 52, 0.3),
       inset 0 1px 0 rgba(255, 255, 255, 0.4);
     
     &::before {
@@ -387,10 +399,10 @@ const CTAButton = styled(motion.button)`
     margin-bottom: 40px;
     letter-spacing: 1px;
     white-space: nowrap;
-    box-shadow: 0 12px 25px rgba(26, 77, 46, 0.4), 0 4px 12px rgba(26, 77, 46, 0.2);
+    box-shadow: 0 12px 25px rgba(22, 101, 52, 0.4), 0 4px 12px rgba(22, 101, 52, 0.2);
     
     &:hover {
-      box-shadow: 0 15px 35px rgba(26, 77, 46, 0.5), 0 6px 18px rgba(26, 77, 46, 0.3);
+      box-shadow: 0 15px 35px rgba(22, 101, 52, 0.5), 0 6px 18px rgba(22, 101, 52, 0.3);
     }
   }
   
@@ -404,12 +416,12 @@ const CTAButton = styled(motion.button)`
 
 // Barra inferior com animação
 const BottomBanner = styled.div`
-  background: #be185d;
+  background: #dc2626;
   color: white;
   padding: 15px 0;
   position: relative;
   margin-top: 5px;
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
   
   @media (max-width: 768px) {
@@ -501,8 +513,8 @@ const Hero = () => {
           </CountdownContainer>
           
           <PromoSection>
-            <PromoHighlight>5 MESES. 1 NOVA VERSÃO DE VOCÊ</PromoHighlight>
-            <PromoText>Você faz a escolha.<br/>O Phynamax te entrega o resultado.</PromoText>
+            <PromoHighlight>5 MESES. O SEU CABELO DE VOLTA!</PromoHighlight>
+            <PromoText>Você faz a escolha.<br/>O Biocapilar te entrega o resultado.</PromoText>
           </PromoSection>
         </DesktopContent>
 
@@ -526,15 +538,15 @@ const Hero = () => {
         </MobileTopRow>
 
         <MobileBottomRow>
-          <PromoHighlight>5 MESES. 1 NOVA VERSÃO DE VOCÊ</PromoHighlight>
-          <PromoText>Você faz a escolha. O Phynamax te entrega o resultado.</PromoText>
+          <PromoHighlight>5 MESES. O SEU CABELO DE VOLTA!</PromoHighlight>
+          <PromoText>Você faz a escolha. O Biocapilar te entrega o resultado.</PromoText>
         </MobileBottomRow>
       </TopBanner>
 
       <HeroSection>
         <HeaderSection>
           <Logo>
-            <img src="/logo-rosa.png" alt="Definamax - Emagrecedor Natural Aprovado pela ANVISA" />
+            <img src="/logo-biocapilar.png" alt="Biocapilar - Emagrecedor Natural Aprovado pela ANVISA" />
           </Logo>
         </HeaderSection>
 
@@ -545,8 +557,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <h1>
-                          <TitleMain>TRANSFORME O SEU CORPO</TitleMain>
-            <TitleSub>E RECUPERE A AUTOESTIMA</TitleSub>
+                          <TitleMain>ACABE COM A QUEDA</TitleMain>
+            <TitleSub>E RESTAURE OS SEUS FIOS</TitleSub>
             </h1>
           </MainTitle>
 
@@ -555,12 +567,12 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            Phynamax proporciona um emagrecimento rápido e totalmente saudável. Acelere o seu processo de emagrecimento sem colocar a sua saúde em risco.
+            Pare de sofrer com calvície, queda de cabelo, fios frágeis e entradas! Biocapilar é a solução definitiva que ataca o problema de frente, fortalecendo seus fios e restaurando sua confiança com uma fórmula natural e sem efeitos colaterais.
           </Subtitle>
 
           <MockupImage 
-            src="/mock-phyna.png" 
-            alt="Phynamax - Mockup do Produto" 
+            src="/hero.png" 
+            alt="Biocapilar - Mockup do Produto" 
           />
 
           <CTAButton
@@ -576,7 +588,7 @@ const Hero = () => {
               }
             }}
           >
-            EXPERIMENTE PHYNAMAX
+            EXPERIMENTE BIOCAPILAR
           </CTAButton>
         </MainContent>
 
@@ -585,15 +597,15 @@ const Hero = () => {
             <TextItem>51% OFF NO KIT DE 5 MESES</TextItem>
             <TextItem>MAIS DE 163 MIL VIDAS TRANSFORMADAS</TextItem>
             <TextItem>FÓRMULA 100% NATURAL</TextItem>
-            <TextItem>RESULTADOS VISÍVEIS</TextItem>
-            <TextItem>EMAGRECIMENTO EFICAZ E SEGURO</TextItem>
-            <TextItem>EMAGRECIMENTO ACELERADO</TextItem>
+            <TextItem>RESULTADOS RÁPIDOS</TextItem>
+            <TextItem>ACABE COM A QUEDA</TextItem>
+            <TextItem>CABELOS MAIS SAUDÁVEIS</TextItem>
             <TextItem>51% OFF NO KIT DE 5 MESES</TextItem>
             <TextItem>MAIS DE 163 MIL VIDAS TRANSFORMADAS</TextItem>
             <TextItem>FÓRMULA 100% NATURAL</TextItem>
-            <TextItem>RESULTADOS VISÍVEIS</TextItem>
-            <TextItem>EMAGRECIMENTO EFICAZ E SEGURO</TextItem>
-            <TextItem>EMAGRECIMENTO ACELERADO</TextItem>
+            <TextItem>RESULTADOS RÁPIDOS</TextItem>
+            <TextItem>ACABE COM A QUEDA</TextItem>
+            <TextItem>CABELOS MAIS SAUDÁVEIS</TextItem>
           </ScrollingText>
         </BottomBanner>
       </HeroSection>

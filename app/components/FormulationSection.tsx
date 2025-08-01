@@ -64,7 +64,9 @@ export default function FormulationSection() {
           {/* Product Image */}
           <div className="flex justify-center mb-12 overflow-visible">
             <div className="relative w-full flex justify-center">
-              <div className="w-64 h-64 bg-green-700 rounded-full flex items-center justify-center shadow-2xl relative z-0">
+              <div className="w-64 h-64 rounded-full flex items-center justify-center shadow-2xl relative z-0" style={{
+                background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+              }}>
               </div>
               <img 
                 src="/ingredientes.png" 
@@ -72,7 +74,9 @@ export default function FormulationSection() {
                 className="absolute w-[32rem] h-[32rem] object-contain z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
               />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full border-4 border-white shadow-lg z-5"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full border border-green-700 z-5"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full border z-5" style={{
+                borderColor: '#1e293b'
+              }}></div>
             </div>
           </div>
 
@@ -82,7 +86,9 @@ export default function FormulationSection() {
               <div key={ingredient.id} className="bg-gray-50 rounded-xl p-4 border border-gray-100">
                 <div className="text-center space-y-3">
                   <div className="flex justify-center">
-                    <div className="w-16 h-16 bg-white rounded-full border-3 border-green-700 flex items-center justify-center shadow-lg">
+                    <div className="w-16 h-16 bg-white rounded-full border-3 flex items-center justify-center shadow-lg" style={{
+                      borderColor: '#1e293b'
+                    }}>
                       <img 
                         src={ingredient.image} 
                         alt={ingredient.name}
@@ -95,7 +101,9 @@ export default function FormulationSection() {
                     <div className="space-y-1">
                       {ingredient.benefits.map((benefit, index) => (
                         <div key={index} className="flex items-center justify-center space-x-1">
-                          <div className="w-1 h-1 bg-green-700 rounded-full flex-shrink-0"></div>
+                          <div className="w-1 h-1 rounded-full flex-shrink-0" style={{
+                            backgroundColor: '#1e293b'
+                          }}></div>
                           <span className="text-xs text-gray-600 text-center leading-tight">{benefit}</span>
                         </div>
                       ))}
@@ -113,7 +121,9 @@ export default function FormulationSection() {
             {/* Central Product */}
             <div className="absolute z-10 w-full h-full flex items-center justify-center overflow-visible">
               <div className="relative overflow-visible">
-                <div className="w-80 h-80 bg-green-700 rounded-full shadow-2xl relative z-0">
+                <div className="w-80 h-80 rounded-full shadow-2xl relative z-0" style={{
+                  background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+                }}>
                 </div>
                 <img 
                   src="/ingredientes.png" 
@@ -122,7 +132,9 @@ export default function FormulationSection() {
                   style={{ width: '25.7rem', height: '25.7rem', maxWidth: 'none', maxHeight: 'none' }}
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full border-4 border-white shadow-lg z-5"></div>
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-2 border-green-700 z-5"></div>
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full border-2 z-5" style={{
+                  borderColor: '#1e293b'
+                }}></div>
               </div>
             </div>
 

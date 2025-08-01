@@ -45,7 +45,7 @@ export default function LandingPage() {
             alt="Definamax" 
             width={400} 
             height={120} 
-            className="h-10 w-auto" 
+            className="h-7 w-auto" 
             quality={100}
             priority
           />
@@ -335,7 +335,7 @@ export default function LandingPage() {
 
               <div className="flex justify-center mt-10 flex-col items-center">
                 <Link
-                  href="https://full.sale/DmNQj1"
+                  href="https://full.sale/d3ZuZy"
                   className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-green-600 to-green-500 px-6 py-3 text-base font-bold text-white hover:from-green-500 hover:to-green-600 hover:scale-105 transition-all shadow-lg hover:shadow-xl border-b-4 border-green-700"
                 >
                   PEDIR AGORA DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
@@ -582,7 +582,7 @@ export default function LandingPage() {
           {/* CTA */}
           <div className="text-center mt-10">
             <Link
-              href="https://full.sale/DmNQj1"
+              href="https://full.sale/d3ZuZy"
               className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-green-600 to-green-500 px-6 py-3 text-lg font-bold text-white hover:from-green-500 hover:to-green-600 hover:scale-105 transition-all shadow-lg hover:shadow-xl border-b-4 border-green-700"
             >
               PEDIR AGORA DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
@@ -839,7 +839,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm md:text-base text-gray-700">2 Frascos de colágeno hidrolisado (para estrias)</span>
+                    <span className="text-sm md:text-base text-gray-700">Tratamento mais vendido</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -915,7 +915,7 @@ export default function LandingPage() {
                 <div className="relative group">
                   <div className="absolute -inset-1 bg-gradient-to-r from-[#CD9B4A] to-[#B07F2D] rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
                   <Link
-                    href="https://full.sale/DmNQj1"
+                    href="https://full.sale/d3ZuZy"
                     className="relative block w-full bg-gradient-to-r from-[#CD9B4A] to-[#B07F2D] text-white font-bold py-3 md:py-4 rounded-lg hover:from-[#B07F2D] hover:to-[#CD9B4A] transition-all text-center shadow-lg"
                   >
                     <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent)] group-hover:animate-[shine_1.5s_infinite]"></div>
@@ -1326,7 +1326,9 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full bg-pink-800">
+      <footer className="w-full" style={{
+        background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+      }}>
         <div className="w-full border-b border-white/10">
           <div className="mx-auto max-w-6xl px-4 py-8">
             <div className="text-center">

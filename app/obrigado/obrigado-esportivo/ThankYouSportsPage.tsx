@@ -11,7 +11,7 @@ export default function ThankYouSportsPage() {
       <header className="w-full bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 py-4 shadow-xl relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-center">
-          <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />
+          <Image src="/logo-phynamax.png" alt="Definamax" width={200} height={60} className="h-8 w-auto" />
         </div>
       </header>
 
@@ -233,7 +233,7 @@ export default function ThankYouSportsPage() {
       <footer className="w-full bg-gradient-to-r from-blue-900 via-indigo-900 to-blue-900 text-white">
         <div className="mx-auto max-w-5xl px-4 py-8">
           <div className="text-center">
-            <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={50} className="h-10 w-auto mb-4 mx-auto" />
+            <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={50} className="h-6 w-auto mb-4 mx-auto" />
             <p className="text-blue-100 mb-4 text-lg font-medium">
               🏆 Definamax - Sua fonte de energia para a vitória
             </p>

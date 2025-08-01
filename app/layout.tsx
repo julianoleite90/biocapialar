@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.definamaxoficial.com'),
-  title: 'Definamax - Site Oficial | Emagrecedor Natural #1 do Brasil',
+  title: 'Biocapilar - Restaure seus cabelos, acabe com a queda e preencha as falhas',
   description: 'Emagreça até 10kg em 30 dias com Definamax, o emagrecedor natural mais vendido do Brasil. ✓ 100% Natural ✓ Envio Imediato ✓ Resultados Garantidos ✓ Frete Grátis',
   keywords: 'definamax, emagrecedor natural, perda de peso, metabolismo, compulsão alimentar, emagrecer, perder peso, gordura localizada',
   alternates: {
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
     google: '055Y8Zlr7CXBMOD8_TVqgFAiashS0o5vcUD8K7vxO_s',
   },
   other: {
-          'msapplication-TileColor': '#be185d',
-    'theme-color': '#be185d',
+          'msapplication-TileColor': '#15803d',
+    'theme-color': '#15803d',
   }
 }
 
@@ -176,8 +176,8 @@ export default function RootLayout({
         
         {/* Favicon */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/bfavicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/bfavicon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#10b981" />
         

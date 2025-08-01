@@ -58,12 +58,12 @@ const LeftContent = styled.div`
 `;
 
 const DiscountBanner = styled.div`
-  background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);
+  background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e293b 100%);
   color: white;
   padding: 40px 30px;
   border-radius: 12px;
   margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(190, 24, 93, 0.3);
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.3);
   text-align: center;
 `;
 
@@ -95,9 +95,9 @@ const BenefitsList = styled.div`
   gap: 20px;
   margin-bottom: 30px;
   padding: 25px;
-  border: 2px solid #be185d;
+  border: 2px solid #0f172a;
   border-radius: 12px;
-  background: rgba(190, 24, 93, 0.05);
+  background: rgba(15, 23, 42, 0.05);
 `;
 
 const BenefitItem = styled.div`
@@ -114,7 +114,7 @@ const BenefitItem = styled.div`
 const CheckIcon = styled.div`
   width: 24px;
   height: 24px;
-  background: #be185d;
+  background: #166534;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -200,7 +200,7 @@ const UrgencyText = styled(motion.div)`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);
+  background: linear-gradient(135deg, #166534 0%, #15803d 50%, #14532d 100%);
   color: white;
   font-size: 1.4rem;
   font-weight: 700;
@@ -208,7 +208,7 @@ const CTAButton = styled(motion.button)`
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 15px 40px rgba(190, 24, 93, 0.4), 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 40px rgba(22, 101, 52, 0.4), 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -216,7 +216,7 @@ const CTAButton = styled(motion.button)`
   
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 20px 50px rgba(190, 24, 93, 0.5), 0 12px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 50px rgba(22, 101, 52, 0.5), 0 12px 25px rgba(0, 0, 0, 0.4);
   }
 
   @media (max-width: 768px) {
@@ -225,7 +225,7 @@ const CTAButton = styled(motion.button)`
     font-size: 1.2rem;
     
     &::before {
-      content: "EU QUERO PHYNAMAX";
+      content: "EU QUERO BIOCAPILAR";
       position: absolute;
       top: 50%;
       left: 50%;
@@ -293,8 +293,8 @@ const ResponsiveVideo = () => {
     return () => window.removeEventListener('resize', checkDevice);
   }, []);
 
-  // Vimeo IDs: mobile = 1104562194, desktop = 1104561420
-  const vimeoId = isMobile ? '1104562194' : '1104561420';
+  // Vimeo IDs: mobile = 1106560796, desktop = 1106557451
+  const vimeoId = isMobile ? '1106560796' : '1106557451';
   const vimeoSrc = `https://player.vimeo.com/video/${vimeoId}?badge=0&autopause=0&autoplay=1&muted=0&controls=0&loop=1&responsive=1`;
 
   return (
@@ -333,19 +333,19 @@ const OfferSection = () => {
 
   const benefits = [
     {
-      text: "CONTROLE TOTAL DA COMPULSÃO"
+      text: "FORTALECE OS FIOS DESDE A RAIZ"
     },
     {
-      text: "MAIOR SACIEDADE (menos fome)"
+      text: "REDUZ A QUEDA DE CABELO"
     },
     {
-      text: "METABOLISMO REGULADO"
+      text: "PREENCHE FALHAS E ENTRADAS"
     },
     {
-      text: "MENOR ABSORÇÃO DE GORDURA"
+      text: "ACELERA O CRESCIMENTO DE NOVOS FIOS"
     },
     {
-      text: "PERDA DE PESO MAIS RÁPIDA"
+      text: "CABELOS MAIS FORTES E RESISTENTES"
     }
   ];
 
@@ -359,8 +359,8 @@ const OfferSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Com Phynamax o emagrecimento<br />
-            <span className="highlight">se torna uma realidade ao seu alcance</span>
+            Restaurar a saúde dos cabelos<br />
+            <span className="highlight">é uma realidade ao seu alcance com Biocapilar</span>
           </MainTitle>
           
           <Subtitle
@@ -369,7 +369,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Nossa fórmula avançada ajuda a queimar gordura de forma mais eficiente enquanto você vive o seu dia a dia e oferece controle de apetite, melhorando sua digestão e intestino. Tenha resultados rápidos e duradouros sem comprometer sua saúde.
+            Poderosa fórmula com bioativos potentes que repõem as vitaminas essenciais que seu organismo precisa, blindam os fios contra danos, fortalecem a raiz e turbinam o crescimento dos folículos capilares - preenchendo as falhas e atuando nas entradas, proporcionando uma aparência mais jovem e saudável.
           </Subtitle>
 
           <ContentGrid>
@@ -381,8 +381,8 @@ const OfferSection = () => {
                 viewport={{ once: true }}
               >
                 <DiscountBanner>
-                                  <DiscountTitle>MENOS COMPULSÃO</DiscountTitle>
-                <DiscountSubtitle>MAIS EMAGRECIMENTO</DiscountSubtitle>
+                                  <DiscountTitle>MENOS QUEDA</DiscountTitle>
+                <DiscountSubtitle>FIOS MAIS FORTES E VOLUMOSOS</DiscountSubtitle>
                 </DiscountBanner>
                 
                 <BenefitsList>
@@ -405,7 +405,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            Chegou a sua hora de conhecer os benefícios do Phynamax para o seu corpo e a sua autoestima.
+            Chega de sofrer com as falhas e as entradas que acabam com a sua confiança e autoestima
           </PromoText>
 
 
@@ -426,7 +426,7 @@ const OfferSection = () => {
                 }
               }}
             >
-                              EU QUERO CONTROLAR A COMPULSÃO
+                              EU QUERO RESTAURAR MEUS FIOS
             </CTAButton>
           </motion.div>
         </Container>

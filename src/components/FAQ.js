@@ -104,20 +104,20 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "Como devo tomar o Phynamax?",
+      question: "Como devo tomar o Biocapilar?",
       answer: "Recomenda-se tomar 2 cápsulas por dia, preferencialmente antes das principais refeições. Para melhores resultados, tome uma cápsula 30 minutos antes do almoço e outra 30 minutos antes do jantar, sempre com um copo de água."
     },
     {
       question: "Quanto tempo demora para ver resultados?",
-      answer: "Os resultados começam a aparecer nas primeiras semanas de uso. É importante fazer o uso corretamente para obter os melhores resultados."
+      answer: "Os primeiros resultados começam a aparecer nas primeiras semanas de uso, com redução da queda. O crescimento acelerado e preenchimento de falhas tornam-se mais visíveis a partir do segundo mês de uso contínuo."
     },
     {
-      question: "O Phynamax tem efeitos colaterais?",
-      answer: "Por ser um produto 100% natural, o Phynamax não apresenta efeitos colaterais. Caso você tenha alergia a crustáceos, é recomendado consultar um médico antes de tomar."
+      question: "O Biocapilar tem efeitos colaterais?",
+      answer: "Por ser um produto 100% natural, o Biocapilar não apresenta efeitos colaterais. Você pode tomar sem riscos e aproveitar todos os benefícios."
     },
     {
-      question: "Preciso fazer dieta enquanto tomo Phynamax?",
-      answer: "O Phynamax funciona mesmo sem dietas restritivas, pois age reduzindo naturalmente seu apetite e a absorção de gorduras. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e praticar atividades físicas regularmente."
+      question: "Preciso fazer tratamentos externos enquanto tomo Biocapilar?",
+      answer: "O Biocapilar funciona mesmo sem tratamentos externos, pois age fortalecendo os fios desde a raiz e estimulando o crescimento natural. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e cuidados básicos com os cabelos."
     },
     {
       question: "Como funciona a garantia de satisfação?",

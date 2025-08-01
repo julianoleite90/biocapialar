@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import OfferSection from '../components/OfferSection2';
 import Results from '../components/Results';
 import FlexibilitySection from '../components/FlexibilitySection';
-import VideoSection from '../components/VideoSection';
+
 import IngredientsSection from '../components/IngredientsSection';
 import ComparisonSection from '../components/ComparisonSection';
 import ExperimentSection from '../components/ExperimentSection';
@@ -19,6 +19,24 @@ const HomeContainer = styled.div`
   overflow-x: hidden;
 `;
 
+const BioactivesSection = styled.section`
+  padding: 2rem 1rem;
+  background: white;
+  text-align: center;
+`;
+
+const BioactivesTitle = styled.h3`
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1f2937;
+  max-width: 64rem;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+`;
+
 function HomePage2() {
   // Alterar título da página
   React.useEffect(() => {
@@ -30,7 +48,6 @@ function HomePage2() {
       <OfferSection />
       <Results />
       <FlexibilitySection />
-      <VideoSection />
       <IngredientsSection />
       <ComparisonSection />
       <KitsSection />

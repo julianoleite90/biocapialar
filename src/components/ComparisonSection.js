@@ -186,13 +186,13 @@ const ComparisonSection = React.memo(() => {
         </SectionTitle>
         
         <SectionSubtitle>
-          Veja a diferença entre Phynamax e outros produtos do mercado
+          Veja a diferença entre Biocapilar e outros produtos do mercado
         </SectionSubtitle>
 
         <ComparisonImage>
           <ProductHalf side="left">
-            <ProductImage src="/comparativo1.png" alt="Phynamax" loading="lazy" />
-            <ProductLabel>PHYNAMAX</ProductLabel>
+            <ProductImage src="/comparar.png" alt="Biocapilar" loading="lazy" />
+            <ProductLabel>BIOCAPILAR</ProductLabel>
           </ProductHalf>
           
           <ProductHalf side="right">
@@ -204,13 +204,11 @@ const ComparisonSection = React.memo(() => {
         </ComparisonImage>
 
         <ComparisonText>
-          <ComparisonTitle>A Fórmula Mais Potente para Emagrecer</ComparisonTitle>
+          <ComparisonTitle>A fórmula mais completa para restaurar a saúde dos seus cabelos</ComparisonTitle>
           <ComparisonDescription>
-            Phynamax lidera com a fórmula mais completa e concentrada do mercado. Cada cápsula contém 600 mg de 6 ingredientes poderosos, superando outros produtos com ingredientes de baixa qualidade e dosagens de 500 mg ou menos.
+            Biocapilar lidera com a fórmula mais completa e concentrada disponível em 2025. Cada cápsula contém 500 mg de 9 ingredientes poderosos, todos testados pela ciência com benefícios comprovados para restaurar a saúde dos fios, e devolver a confiança e autoestima que você tanto quer e merece.
           </ComparisonDescription>
-          <ChallengeText>
-            Desafie a concorrência: pergunte a dosagem por cápsula e comprove a superioridade do Phynamax!
-          </ChallengeText>
+
         </ComparisonText>
       </Container>
     </SectionContainer>

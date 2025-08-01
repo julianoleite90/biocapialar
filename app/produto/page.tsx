@@ -102,7 +102,7 @@ export default function ProdutoDefinamax() {
       installments: 12,
       installmentValue: 23.79,
       image: "/1fraso.png",
-      link: "https://full.sale/eMbtHp?src=googleshopping",
+      link: "https://full.sale/rPQ0FT?src=googleshopping",
       shipping: 0,
       freeShipping: true,
       bonus: [],
@@ -123,7 +123,7 @@ export default function ProdutoDefinamax() {
       installments: 12,
       installmentValue: 35.04,
       image: "/2frascos.png",
-      link: "https://full.sale/DmNQj1?src=googleshopping",
+      link: "https://full.sale/d3ZuZy?src=googleshopping",
       shipping: 0,
       freeShipping: true,
       bonus: ["3 Frascos Definamax"],
@@ -144,10 +144,10 @@ export default function ProdutoDefinamax() {
       installments: 12,
       installmentValue: 38.05,
       image: "/5frascos.png",
-      link: "https://full.sale/ytA47b?src=googleshopping",
+      link: "https://full.sale/o19JLC?src=googleshopping",
       shipping: 0,
       freeShipping: true,
-              bonus: ["5 Frascos Definamax", "2 Frascos de Colágeno (para estrias)"],
+              bonus: ["5 Frascos Definamax"],
       weight: "500g",
       gtin: "7898489348755",
       mpn: "DEFMAX-5M",
@@ -166,7 +166,7 @@ export default function ProdutoDefinamax() {
       installments: 12,
       installmentValue: 45.08,
       image: "/8frascos.png",
-      link: "https://full.sale/XONObQ?src=googleshopping",
+      link: "https://full.sale/rPQ0FT?src=googleshopping",
       shipping: 0,
       freeShipping: true,
       bonus: ["8 Frascos Definamax", "2 Frascos de Colágeno"],
@@ -927,9 +927,11 @@ export default function ProdutoDefinamax() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-8 bg-pink-800 text-white">
+      <footer className="w-full py-8 text-white" style={{
+        background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+      }}>
         <div className="mx-auto max-w-5xl px-4 text-center">
-          <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={45} className="h-9 w-auto mx-auto mb-4" />
+          <Image src="/logo-phynamax.png" alt="Definamax" width={150} height={45} className="h-6 w-auto mx-auto mb-4" />
           <div className="flex justify-center space-x-4 mb-4">
             <Link href="/termos" className="text-sm hover:text-green-200">
               Termos de Uso

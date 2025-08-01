@@ -1,6 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="bg-pink-700 text-white py-12">
+    <footer className="text-white py-12" style={{
+    background: 'linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%)'
+  }}>
       <div className="max-w-6xl mx-auto px-4">
         {/* Logo e descrição principal */}
         <div className="text-center mb-8">
@@ -8,7 +10,7 @@ export default function Footer() {
             <img 
               src="/logo-phynamax.png" 
               alt="Definamax" 
-              className="h-12 w-auto"
+              className="h-8 w-auto"
             />
           </div>
           <p className="text-pink-100 max-w-4xl mx-auto leading-relaxed">

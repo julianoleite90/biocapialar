@@ -601,7 +601,7 @@ const ThankYouPage = () => {
       {/* Header */}
       <Header>
         <HeaderContent>
-          <Logo src="/logo-phynamax.png" alt="Definamax" />
+          <Logo src="/logo-biocapilar.png" alt="Biocapilar" />
         </HeaderContent>
       </Header>
 
@@ -847,9 +847,9 @@ const ThankYouPage = () => {
         <FooterContent>
           <FooterGrid>
             <FooterColumn>
-              <FooterLogo src="/logo-phynamax.png" alt="Definamax" />
+              <FooterLogo src="/logo-biocapilar.png" alt="Biocapilar" />
               <FooterText>
-                Phynamax - Auxiliou mais de 163 mil pessoas a perder peso em todo o Brasil.
+                Biocapilar - Auxiliou mais de 163 mil pessoas a restaurar a saúde dos cabelos em todo o Brasil.
               </FooterText>
             </FooterColumn>
 

@@ -53,21 +53,27 @@ const ResultItem = styled(motion.div)`
 `;
 
 const PhotoContainer = styled.div`
-  width: 300px;
-  height: 350px;
-  overflow: hidden;
+  width: 380px;
+  min-height: 280px;
+  overflow: visible;
   border-radius: 8px;
   margin-bottom: 15px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
   img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
   }
   
   @media (max-width: 480px) {
-    width: 250px;
-    height: 280px;
+    width: 300px;
+    min-height: 220px;
   }
 `;
 
@@ -95,7 +101,7 @@ const PersonInfo = styled.div`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: #be185d;
+  background: linear-gradient(135deg, #166534 0%, #15803d 50%, #14532d 100%);
   color: white;
   font-size: 1.4rem;
   font-weight: 700;
@@ -104,12 +110,12 @@ const CTAButton = styled(motion.button)`
   border: none;
   cursor: pointer;
   margin-bottom: 30px;
-  box-shadow: 0 12px 30px rgba(190, 24, 93, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 30px rgba(22, 101, 52, 0.4), 0 6px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 18px 40px rgba(190, 24, 93, 0.6), 0 8px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 18px 40px rgba(22, 101, 52, 0.6), 0 8px 20px rgba(0, 0, 0, 0.4);
   }
   
   @media (max-width: 768px) {
@@ -165,46 +171,40 @@ const Results = () => {
   
   const allResults = [
     {
-      name: "Isabela Lima",
-      age: "29 anos",
-      weight: "-16kg",
-      city: "Florianópolis - SC",
-      image: "/10.png"
+      name: "Cesar Augusto",
+      age: "49 anos",
+      city: "Fortaleza - CE",
+      image: "/dep4.png"
     },
     {
-      name: "Gabriela Oliveira", 
+      name: "Bernando Souca",
+      age: "26 anos",
+      city: "Rio de Janeiro - RJ",
+      image: "/dep6.png"
+    },
+    {
+      name: "Isabela Lima",
+      age: "29 anos",
+      city: "Florianópolis - SC",
+      image: "/dep1.png"
+    },
+    {
+      name: "Gabriel Oliveira", 
       age: "31 anos",
-      weight: "-25Kg",
       city: "Brasília - DF",
-      image: "/11.png"
+      image: "/dep2.png"
     },
     {
       name: "Juliana Mendes",
-      age: "27 anos", 
-      weight: "-19Kg",
+      age: "34 anos", 
       city: "Curitiba - PR",
-      image: "/12.png"
+      image: "/dep3.png"
     },
     {
-      name: "Bruno Rodrigues",
-      age: "43 anos",
-      weight: "-28kg",
-      city: "Fortaleza - CE",
-      image: "/13.png"
-    },
-    {
-      name: "Priscila Santos",
-      age: "30 anos",
-      weight: "-24kg",
+      name: "Renato Santos",
+      age: "34 anos",
       city: "Goiânia - GO",
-      image: "/14.png"
-    },
-    {
-      name: "Rafaela Fernandes",
-      age: "26 anos",
-      weight: "-18kg",
-      city: "Manaus - AM",
-      image: "/15.png"
+      image: "/dep5.png"
     }
   ];
 
@@ -220,7 +220,7 @@ const Results = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          Resultados reais de pessoas reais que <span className="highlight">venceram o sobrepeso</span>
+          Resultados reais de pessoas reais que <span className="highlight">venceram a calvície e recuperam a autoestima</span>
         </MainTitle>
         
         <Subtitle
@@ -229,7 +229,7 @@ const Results = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Mais de 163 mil pessoas confiam em Phynamax, em todo o Brasil.
+          Mais de 163 mil pessoas confiam em Biocapilar, em todo o Brasil.
         </Subtitle>
 
         <ResultsGrid>
@@ -242,12 +242,12 @@ const Results = () => {
               viewport={{ once: true }}
             >
               <PhotoContainer>
-                <img src={result.image} alt={`${result.name} resultado`} />
+                <img src={result.image} alt={`${result.name} tratamento capilar`} />
               </PhotoContainer>
               
               <PersonInfo>
                 <span className="name">{result.name}</span>
-                <span className="details">| {result.age} | {result.weight}</span>
+                <span className="details">| {result.age}</span>
                 <br />
                 <span className="city">{result.city}</span>
               </PersonInfo>
@@ -280,7 +280,7 @@ const Results = () => {
               }
             }}
           >
-            EU QUERO EMAGRECER
+            EU QUERO BIOCAPILAR
           </CTAButton>
         </motion.div>
       </Container>

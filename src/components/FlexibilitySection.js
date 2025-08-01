@@ -3,17 +3,17 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 const FlexibilityContainer = styled.section`
-  background: #f5e8f0;
-  padding: 80px 20px 0 20px;
-  color: #333;
+  background: linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%);
+  padding: 60px 20px 0 20px;
+  color: white;
   text-align: center;
-  min-height: 500px;
+  min-height: 380px;
   display: flex;
   align-items: flex-end;
   
   @media (max-width: 768px) {
-    padding: 60px 20px 0 20px;
-    min-height: 400px;
+    padding: 40px 20px 0 20px;
+    min-height: 320px;
   }
 `;
 
@@ -38,19 +38,19 @@ const ContentArea = styled.div`
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-bottom: 40px;
+  justify-content: flex-end;
+  padding-bottom: 20px;
   
   @media (max-width: 768px) {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 `;
 
 const MainTitle = styled(motion.h2)`
   font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 700;
-  color: #333;
+  color: white;
   margin-bottom: 30px;
   line-height: 1.2;
 `;
@@ -58,7 +58,7 @@ const MainTitle = styled(motion.h2)`
 const Description = styled(motion.p)`
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #555;
+  color: white;
   margin-bottom: 40px;
   
   @media (max-width: 768px) {
@@ -102,7 +102,7 @@ const FlexibilitySection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Chega de evitar a balança ou sentir vergonha do seu corpo
+            Chega de se preocupar com a queda de cabelo ou sentir vergonha da calvície
           </MainTitle>
           
           <Description
@@ -111,7 +111,7 @@ const FlexibilitySection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Recupere a sua autoestima e tenha mais confiança em seu corpo. Conquiste uma vida mais saudável com a fórmula que transforma seu peso em bem-estar. Phynamax foi desenvolvido para que cada quilo perdido signifique mais confiança e autoestima em seu dia a dia -  um emagrecimento natural, sem sacrifícios, com resultados que vão muito além da balança.
+            Recupere sua autoestima e tenha mais confiança com um cabelo mais forte e saudável. Conquiste uma aparência revitalizada com tratamentos que transformam a saúde capilar. Desenvolvidos para promover o crescimento natural dos fios e combater a queda de cabelo, nossos métodos oferecem resultados que vão muito além da estética, sem sacrifícios, ajudando você a se sentir bem consigo mesmo todos os dias.
           </Description>
         </ContentArea>
 
@@ -122,7 +122,7 @@ const FlexibilitySection = () => {
           viewport={{ once: true }}
         >
           <DeviceMockup>
-            <img src="/fundo-emagreceu.png" alt="Mulher magra vestindo calça jeans após emagrecer com Definamax" />
+            <img src="/imagem-fundo.png" alt="Pessoa com cabelo saudável após tratamento com Biocapilar" />
           </DeviceMockup>
         </DeviceArea>
       </Container>

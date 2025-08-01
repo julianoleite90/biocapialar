@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterSection = styled.footer`
-  background: #be185d;
+  background: linear-gradient(135deg, #020617 0%, #0f172a 25%, #1e293b 50%, #0f172a 75%, #020617 100%);
   color: white;
   padding: 50px 0 30px;
   text-align: center;
@@ -24,11 +24,11 @@ const BrandLogo = styled.div`
   justify-content: center;
   
   img {
-    height: 60px;
+    height: 40px;
     width: auto;
     
     @media (max-width: 768px) {
-      height: 50px;
+      height: 35px;
     }
   }
 `;
@@ -110,10 +110,10 @@ const Footer = () => {
       <Container>
         <BrandSection>
           <BrandLogo>
-            <img src="/logo-phynamax.png" alt="Definamax - Emagrecedor Natural | Bourjam Nature Health" />
+            <img src="/logo-biocapilar.png" alt="Biocapilar - Emagrecedor Natural | Bourjam Nature Health" />
           </BrandLogo>
           <BrandDescription>
-            Phynamax - Auxiliou mais de 163 mil pessoas a perder peso em todo o Brasil.
+            Biocapilar - Auxiliou mais de 163 mil pessoas a restaurar a saúde dos cabelos em todo o Brasil.
           </BrandDescription>
         </BrandSection>
 
@@ -133,7 +133,7 @@ const Footer = () => {
 
         <CopyrightSection>
           <Copyright>
-            Copyright © 2025 Phynamax. Todos os direitos reservados.
+            Copyright © 2025 Biocapilar. Todos os direitos reservados.
           </Copyright>
           <CompanyInfo>
             Bourjam Nature Health, Florianópolis Santa Catarina
