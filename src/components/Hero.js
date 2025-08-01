@@ -246,7 +246,6 @@ const MainContent = styled.div`
 const MainTitle = styled(motion.div)`
   text-align: center;
   margin-bottom: 30px;
-  overflow-x: auto;
   
   @media (max-width: 768px) {
     margin-bottom: 25px;
@@ -276,10 +275,12 @@ const TitleMain = styled.span`
   font-weight: inherit;
   color: white;
   text-shadow: none;
-  white-space: nowrap;
+  
+  @media (min-width: 769px) {
+    white-space: nowrap;
+  }
   
   @media (max-width: 768px) {
-    white-space: nowrap;
     font-size: 1em;
   }
   
@@ -294,11 +295,13 @@ const TitleSub = styled.span`
   margin-top: 10px;
   color: white;
   text-shadow: none;
-  white-space: nowrap;
+  
+  @media (min-width: 769px) {
+    white-space: nowrap;
+  }
   
   @media (max-width: 768px) {
     margin-top: 8px;
-    white-space: nowrap;
     font-size: 0.75em;
   }
   
