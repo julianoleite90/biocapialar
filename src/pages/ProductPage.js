@@ -811,7 +811,7 @@ const ProductPage = () => {
 
   // Função para abrir o WhatsApp
   const openWhatsApp = () => {
-    const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Phynamax.');
+    const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Biocapilar.');
     window.open(`https://wa.me/5541984549172?text=${message}`, '_blank');
   };
 

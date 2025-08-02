@@ -63,7 +63,7 @@ const WhatsAppIcon = styled(FaWhatsapp)`
 
 const WhatsAppButton = () => {
   const [isVisible, setIsVisible] = useState(true);
-  const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Phynamax.');
+  const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Biocapilar.');
 
   // Removemos o useEffect que controlava a visibilidade por scroll
   // Agora o botão aparece desde o início da página
