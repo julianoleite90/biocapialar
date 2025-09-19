@@ -1,16 +1,16 @@
 {
-  "name": "lp-phynamax",
+  "name": "biocapilar-landing",
   "version": "1.0.0",
-  "description": "Landing page para produto emagrecedor Phynamax",
+  "description": "Landing page para produto Biocapilar - Fórmula para Crescimento Capilar",
   "main": "index.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "serve -s build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "next": "^14.0.0",
     "framer-motion": "^10.16.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,34 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-Disallow: /admin/
-Disallow: /private/
-Disallow: /*.pdf$
+Disallow:
 
-# Google
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-# Bing
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-# Special rules for images
-User-agent: Googlebot-Image
-Allow: /*.png$
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.gif$
-Allow: /*.webp$
-
-# Special rules for videos
-User-agent: Googlebot-Video
-Allow: /*.mp4$
-Allow: /*.webm$
-
-# Sitemap location
-Sitemap: https://www.definamaxoficial.com/sitemap.xml
-
-# Host directive
-Host: https://www.definamaxoficial.com 
+# Sitemap
+Sitemap: https://biocapilar.com.br/sitemap.xml

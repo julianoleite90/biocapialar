@@ -2,77 +2,55 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    
-    <!-- Basic Meta Tags -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon-bio.png" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon-bio.png" type="image/png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#be185d" />
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="theme-color" content="#173b6b" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="biocapilar, crescimento capilar, queda de cabelo, calvície, biotina, zinco, selênio, vitamina d, cabelo forte, saúde capilar, suplemento capilar, tratamento calvície, fortalecer cabelo, crescimento fios" />
+    <meta name="author" content="Biocapilar" />
+    <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
-    <meta name="bingbot" content="index, follow" />
     
-    <!-- Primary Meta Tags -->
-    <title>Biocapilar - Restaure seus cabelos, acabe com a queda e preencha as falhas</title>
-    <meta name="title" content="Phynamax® - Emagrecedor Natural | Perca até 30kg em 5 Meses | Resultado Garantido" />
-    <meta name="description" content="⭐ Phynamax é o emagrecedor natural mais vendido do Brasil! Perca até 30kg em 5 meses com segurança. Fórmula aprovada pela ANVISA. Resultados comprovados. Frete Grátis para todo Brasil!" />
-    <meta name="keywords" content="phynamax, emagrecedor, perder peso, emagrecer, capsulas para emagrecer, suplemento natural, queimar gordura, phynamax onde comprar, emagrecedor natural, dieta, obesidade, sobrepeso, saúde, bem estar" />
-    <meta name="author" content="Bourjam Nature Health" />
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.definamaxoficial.com/" />
-    
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.definamaxoficial.com/" />
-    <meta property="og:title" content="Phynamax® - Emagrecedor Natural | Perca até 30kg em 5 Meses" />
-    <meta property="og:description" content="⭐ Phynamax é o emagrecedor natural mais vendido do Brasil! Perca até 30kg em 5 meses com segurança. Fórmula aprovada pela ANVISA. Resultados comprovados." />
-    <meta property="og:image" content="https://www.definamaxoficial.com/logo-phynamax.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:site_name" content="Phynamax Oficial" />
+    <meta property="og:site_name" content="Biocapilar" />
+    <meta property="og:title" content="Biocapilar - Fórmula para Crescimento Capilar e Fortalecimento dos Fios" />
+    <meta property="og:description" content="A fórmula natural mais eficaz para crescimento capilar e fortalecimento dos fios. Biocapilar - Suplemento capilar com 9 ingredientes essenciais. Aprovado pela ANVISA e recomendado por especialistas." />
+    <meta property="og:image" content="https://biocapilar.com.br/a1hero.png" />
+    <meta property="og:url" content="https://biocapilar.com.br" />
     <meta property="og:locale" content="pt_BR" />
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://www.definamaxoficial.com/" />
-    <meta property="twitter:title" content="Phynamax® - Emagrecedor Natural | Perca até 30kg em 5 Meses" />
-    <meta property="twitter:description" content="⭐ Phynamax é o emagrecedor natural mais vendido do Brasil! Perca até 30kg em 5 meses com segurança. Resultados comprovados." />
-    <meta property="twitter:image" content="https://www.definamaxoficial.com/logo-phynamax.png" />
-    
-    <!-- Additional Meta Tags for Better SEO -->
-    <meta name="application-name" content="Phynamax" />
-    <meta name="msapplication-TileColor" content="#be185d" />
-    <meta name="msapplication-config" content="/browserconfig.xml" />
-    
-    <!-- Geo Tags for Local SEO -->
-    <meta name="geo.region" content="BR-SC" />
-    <meta name="geo.placename" content="Florianópolis, Santa Catarina" />
-    <meta name="geo.position" content="-27.5954;-48.5480" />
-    <meta name="ICBM" content="-27.5954, -48.5480" />
-    
-    <!-- Favicon and Icons -->
-    <link rel="icon" href="%PUBLIC_URL%/bfavicon.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/bfavicon.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/bfavicon.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
-    
-    <!-- Preconnect for Performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://wa.me" />
-    
-    <!-- DNS Prefetch -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-    <link rel="dns-prefetch" href="//wa.me" />
-    
-    <!-- Preload Critical Resources -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style" />
-    <link rel="preload" href="%PUBLIC_URL%/logo-phynamax.png" as="image" />
-    <link rel="preload" href="%PUBLIC_URL%/fundo.png" as="image" />
-    
-    <!-- Google Fonts with Performance Optimization -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Biocapilar - Fórmula para Crescimento Capilar" />
+    <meta name="twitter:description" content="A fórmula natural mais eficaz para crescimento capilar e fortalecimento dos fios. 9 ingredientes essenciais para cabelos mais fortes e saudáveis." />
+    <meta name="twitter:image" content="https://biocapilar.com.br/a1hero.png" />
+    <meta
+      name="description"
+      content="A fórmula natural mais eficaz para crescimento capilar e fortalecimento dos fios. Biocapilar - Suplemento capilar com 9 ingredientes essenciais. Aprovado pela ANVISA e recomendado por especialistas."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Biocapilar - Fórmula para Crescimento Capilar e Fortalecimento dos Fios</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
     
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEJ71JEFEM"></script>
@@ -83,96 +61,274 @@
       gtag('config', 'G-GEJ71JEFEM');
     </script>
     
-    <!-- Schema.org Structured Data -->
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style" />
+    
+    <!-- Structured Data for Google Merchant -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
+      "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "Definamax",
+      "name": "Biocapilar - Suplemento para Crescimento Capilar",
+      "description": "A fórmula natural mais eficaz para crescimento capilar e fortalecimento dos fios. Suplemento alimentar avançado para saúde capilar com 9 ingredientes essenciais.",
       "brand": {
         "@type": "Brand",
-        "name": "Bourjam Nature Health"
+        "name": "Biocapilar"
       },
-      "description": "Emagrecedor natural aprovado pela ANVISA que ajuda a perder até 30kg em 5 meses",
-      "category": "Suplemento Alimentar",
-      "image": "https://www.definamaxoficial.com/logo-phynamax.png",
-      "url": "https://www.definamaxoficial.com/",
-      "manufacturer": {
-        "@type": "Organization",
-        "name": "Bourjam Nature Health",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Florianópolis",
-          "addressRegion": "Santa Catarina",
-          "addressCountry": "BR"
+      "category": "Suplemento Alimentar para Saúde Capilar",
+      "mpn": "BIO-001",
+      "sku": "BIO-2025",
+      "image": [
+        "https://biocapilar.com.br/a1hero.png",
+        "https://biocapilar.com.br/logo-biocapilar.png",
+        "https://biocapilar.com.br/formula1.png",
+        "https://biocapilar.com.br/garantia-biocapilar.png"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "87.00",
+          "priceCurrency": "BRL",
+          "priceValidUntil": "2025-12-31",
+          "availability": "https://schema.org/InStock",
+          "url": "https://biocapilar.com.br",
+          "seller": {
+            "@type": "Organization",
+            "name": "B Nature Health Ltda"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "BRL"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "BR"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 1,
+                "maxValue": 2,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 3,
+                "maxValue": 10,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "price": "189.00",
+          "priceCurrency": "BRL",
+          "priceValidUntil": "2025-12-31",
+          "availability": "https://schema.org/InStock",
+          "url": "https://biocapilar.com.br",
+          "seller": {
+            "@type": "Organization",
+            "name": "B Nature Health Ltda"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "BRL"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "BR"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "price": "319.00",
+          "priceCurrency": "BRL",
+          "priceValidUntil": "2025-12-31",
+          "availability": "https://schema.org/InStock",
+          "url": "https://biocapilar.com.br",
+          "seller": {
+            "@type": "Organization",
+            "name": "B Nature Health Ltda"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "BRL"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "BR"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "price": "439.00",
+          "priceCurrency": "BRL",
+          "priceValidUntil": "2025-12-31",
+          "availability": "https://schema.org/InStock",
+          "url": "https://biocapilar.com.br",
+          "seller": {
+            "@type": "Organization",
+            "name": "B Nature Health Ltda"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "BRL"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "BR"
+            }
+          }
         }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "BRL",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "Bourjam Nature Health"
-        }
-      },
+      ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": "1247",
+        "reviewCount": "1250",
         "bestRating": "5",
         "worstRating": "1"
-      }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Maria Silva"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Excelente produto! Meu cabelo cresceu muito em 2 meses usando Biocapilar. Recomendo muito!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Ana Paula"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Biocapilar é incrível! Meu cabelo ficou mais forte e parou de cair naturalmente."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Roberto Queiroz"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Produto de qualidade, entrega rápida e resultado surpreendente no crescimento capilar!"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Ingredientes",
+          "value": "9 Ingredientes essenciais para crescimento capilar"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Quantidade",
+          "value": "1 pote"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Registro ANVISA",
+          "value": "Aprovado"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Garantia",
+          "value": "30 dias pela marca Biocapilar"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Prazo de Reembolso",
+          "value": "7 dias pelo CDC"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Frete",
+          "value": "Grátis"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Prazo de Entrega",
+          "value": "3 a 10 dias úteis"
+        }
+      ]
     }
     </script>
-    
-    <!-- Local Business Schema -->
+
+    <!-- Organization Schema for Sitelinks -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Bourjam Nature Health",
-      "description": "Empresa especializada em suplementos naturais para emagrecimento",
+      "@type": "Organization",
+      "name": "Biocapilar",
+      "url": "https://biocapilar.com.br",
+      "logo": "https://biocapilar.com.br/logo-biocapilar.png",
+      "description": "A fórmula natural mais eficaz para crescimento capilar e fortalecimento dos fios. Suplemento alimentar avançado para saúde capilar.",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Av. Luiz Boiteux Piazza",
         "addressLocality": "Florianópolis",
-        "addressRegion": "Santa Catarina",
+        "addressRegion": "SC",
         "addressCountry": "BR"
       },
-      "telephone": "+55-41-98454-9172",
-      "url": "https://www.definamaxoficial.com/",
-      "priceRange": "$$"
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-41-98454-9172",
+        "email": "contato@biocapilar.com",
+        "contactType": "customer service",
+        "availableLanguage": "Portuguese"
+      },
+      "sameAs": [
+        "https://www.instagram.com/biocapilar",
+        "https://www.facebook.com/biocapilar"
+      ]
     }
     </script>
-    
+
     <!-- Website Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Definamax Oficial",
-      "url": "https://www.definamaxoficial.com/",
-      "description": "Site oficial do Definamax - emagrecedor natural mais vendido do Brasil",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Bourjam Nature Health"
-      },
+      "name": "Biocapilar - Suplemento para Crescimento Capilar",
+      "url": "https://biocapilar.com.br",
+      "description": "Site oficial do Biocapilar - Suplemento para crescimento capilar e fortalecimento dos fios",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://www.definamaxoficial.com/?s={search_term_string}",
+        "target": "https://biocapilar.com.br/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
     </script>
-  </head>
-  <body>
-    <noscript>
-      <div style="text-align: center; padding: 20px; font-family: Arial, sans-serif;">
-        <h1>Phynamax - Emagrecedor Natural</h1>
-        <p>Para uma melhor experiência, por favor habilite o JavaScript no seu navegador.</p>
-        <p>Entre em contato pelo WhatsApp: <a href="https://wa.me/5541984549172">+55 41 98454-9172</a></p>
-      </div>
-    </noscript>
-    <div id="root"></div>
   </body>
-</html> 
+</html>
