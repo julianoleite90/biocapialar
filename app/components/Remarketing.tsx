@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 // Adicionar CSS para animação
 const pulseYellowStyle = `
@@ -1702,7 +1702,7 @@ const Remarketing = () => {
             <div className="space-y-6">
               {/* Navegação */}
               <div className="flex flex-wrap justify-center lg:justify-start space-x-4 lg:space-x-6">
-                <Link to="/termos-garantia" className="hover:text-pink-200 transition-colors">Termos de Garantia</Link>
+                <Link href="/termos-garantia" className="hover:text-pink-200 transition-colors">Termos de Garantia</Link>
                 <div className="hidden lg:block w-px bg-white h-4"></div>
                 <a href="#" className="hover:text-pink-200 transition-colors">Perguntas Frequentes</a>
                 <div className="hidden lg:block w-px bg-white h-4"></div>

@@ -98,7 +98,7 @@ const Remarketing = () => {
 
   return (
     <section className="min-h-screen bg-white">
-      {/* Header Section */}
+        {/* Header Section */}
       <header className="py-4 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#173b6b' }}>
         <div className="container-custom flex justify-between items-center">
           <div className="flex items-center">
@@ -298,11 +298,11 @@ const Remarketing = () => {
             
             {/* Right Side - ANVISA Logo */}
             <div className="w-full flex justify-center lg:justify-end lg:w-auto lg:pr-8">
-              <img 
-                src="/adra.png" 
-                alt="ANVISA Logo" 
+                <img 
+                  src="/adra.png" 
+                  alt="ANVISA Logo" 
                 className="w-[28rem] h-[28rem] lg:w-[32rem] lg:h-[32rem] object-contain ml-8 lg:ml-0"
-              />
+                />
             </div>
           </div>
         </div>
@@ -384,13 +384,13 @@ const Remarketing = () => {
           <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
             {/* Image - Top on Mobile, Right on Desktop */}
             <div className="flex justify-center lg:justify-end order-1 lg:order-2">
-                <img 
-                  src="/formula1.png" 
+              <img 
+                src="/formula1.png" 
                   alt="Fórmula Biocapilar" 
                   className="w-full max-w-xs lg:max-w-sm xl:max-w-md h-auto object-contain mt-0 lg:mt-12"
                   loading="lazy"
                   decoding="async"
-                />
+              />
             </div>
             
             {/* Benefits - Bottom on Mobile, Left on Desktop */}
@@ -450,20 +450,20 @@ const Remarketing = () => {
                 {/* Additional Ingredients - Hidden by default on both mobile and desktop */}
                 <div className={`${showAllIngredients ? 'block' : 'hidden'}`}>
                   <div className="space-y-3">
-                    <div className="bg-white/80 backdrop-blur-sm rounded-xl p-3 shadow-sm border border-gray-100">
-                      <div className="flex items-start space-x-3">
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-3 shadow-sm border border-gray-100">
+                  <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 rounded-full mt-1 flex-shrink-0" style={{ backgroundColor: '#173b6b' }}></div>
-                        <div>
+                    <div>
                           <p className="text-gray-800 text-base font-semibold">Zinco:</p>
                           <p className="text-gray-600 text-sm">Bloqueia o <strong>DHT</strong>, fortalece <strong>folículos</strong> e reduz inflamações, <strong>prevenindo a calvície</strong>.</p>
-                        </div>
-                      </div>
                     </div>
-                    
-                    <div className="bg-white/80 backdrop-blur-sm rounded-xl p-3 shadow-sm border border-gray-100">
-                      <div className="flex items-start space-x-3">
+                  </div>
+                </div>
+                
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-3 shadow-sm border border-gray-100">
+                  <div className="flex items-start space-x-3">
                         <div className="w-3 h-3 rounded-full mt-1 flex-shrink-0" style={{ backgroundColor: '#173b6b' }}></div>
-                        <div>
+                    <div>
                           <p className="text-gray-800 text-base font-semibold">Sulfato Cúprico (Cobre):</p>
                           <p className="text-gray-600 text-sm">Fortalece <strong>folículos</strong>, estimula <strong>colágeno</strong> e mantém a <strong>cor natural dos fios</strong>.</p>
                         </div>

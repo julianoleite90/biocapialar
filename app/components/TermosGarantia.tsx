@@ -1,11 +1,11 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/navigation';
 
 const TermosGarantia: React.FC = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
   
   const voltarParaKits = () => {
-    navigate('/');
+    router.push('/');
     // Aguarda a navegação e depois rola para a seção de kits
     setTimeout(() => {
       const element = document.getElementById('kits');
