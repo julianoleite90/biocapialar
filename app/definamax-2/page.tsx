@@ -349,7 +349,7 @@ export default function LandingPage() {
                 setTimeout(() => {
                   window.scrollTo({
                     top: window.scrollY,
-                    behavior: 'instant'
+                    behavior: 'auto'
                   });
                 }, 0);
               }}
