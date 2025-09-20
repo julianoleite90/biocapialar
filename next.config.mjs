@@ -27,6 +27,14 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  webpack: (config, { isServer }) => {
+    // Exclude _legacy-super-phynamax directory from compilation
+    config.module.rules.push({
+      test: /_legacy-super-phynamax/,
+      use: 'ignore-loader'
+    });
+    return config;
+  },
 }
 
 if (userConfig) {
