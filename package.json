@@ -20,7 +20,8 @@
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.0",
     "lucide-react": "^0.294.0",
-    "@heroicons/react": "^2.0.18"
+    "@heroicons/react": "^2.0.18",
+    "next-themes": "^0.2.1"
   },
   "devDependencies": {
     "@types/node": "^24.0.13",
