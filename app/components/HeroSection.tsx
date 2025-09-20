@@ -135,13 +135,13 @@ const HeroSection = () => {
                   "<strong>ESTIMULA O CRESCIMENTO</strong> DE NOVOS FIOS",
                   "REDUZ A <strong>INFLAMAÇÃO DOS FOLÍCULOS</strong> QUE AGRAVA A CALVÍCIE"
                 ].map((benefit, index) => (
-                  <div key={index} className="flex items-start space-x-3 text-center lg:text-left justify-center lg:justify-start">
+                  <div key={index} className="flex items-start space-x-3 text-left">
                     <div className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: '#173b6b' }}>
                       <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <span className="text-sm sm:text-base text-gray-800 leading-tight text-center lg:text-left" dangerouslySetInnerHTML={{ __html: benefit }}></span>
+                    <span className="text-sm sm:text-base text-gray-800 leading-tight text-left" dangerouslySetInnerHTML={{ __html: benefit }}></span>
                   </div>
                 ))}
               </div>
