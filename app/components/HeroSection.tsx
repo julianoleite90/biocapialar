@@ -116,11 +116,11 @@ const HeroSection = () => {
 
 
       {/* Main Content */}
-      <div className="px-4 sm:px-6 lg:px-8">
+      <div className="px-2 sm:px-4 lg:px-8">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Left Side - Text and CTA */}
-            <div className="text-center lg:text-left space-y-6 flex flex-col justify-start pt-4 sm:pt-4 md:pt-12 lg:pt-24 order-2 lg:order-1">
+            <div className="text-center lg:text-left space-y-6 flex flex-col justify-start pt-4 sm:pt-4 md:pt-12 lg:pt-24 order-2 lg:order-1 px-2 sm:px-0">
               <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight">
                 <div className="text-black whitespace-nowrap">PREENCHA AS <span className="bg-yellow-300 px-1 italic">FALHAS E ENTRADAS</span></div>
                 <div style={{ color: '#173b6b' }}>E DÊ ADEUS A CALVÍCIE</div>
