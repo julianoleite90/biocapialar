@@ -18,7 +18,7 @@ const getCurrentDate = () => {
 // Declare o tipo gtag
 declare global {
   interface Window {
-    gtag: any;
+    gtag: (...args: any[]) => void;
   }
 }
 
