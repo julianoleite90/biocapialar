@@ -702,7 +702,7 @@ const HeroSection = () => {
                 </p>
                 {/* CTA Button - Desktop Only */}
                 <div className="hidden lg:block">
-                  <a href="https://produto.mercadolivre.com.br/MLB-3985586341-phynamax-funciona-5-frascos-_JM#polycard_client=recommendations_vip-seller_items-above&reco_backend=ranker-retsys-same-seller&reco_model=rk_entity_sameseller&reco_client=vip-seller_items-above&reco_item_pos=1&reco_backend_type=low_level&reco_id=66b9e745-9f26-4da3-b223-a9e69e99b705" target="_blank" rel="noopener noreferrer nofollow" className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl inline-block">
+                  <a href="https://produto.mercadolivre.com.br/MLB-5728117446-biocapilar-3-frascos-tratamento-para-90-dias-_JM?searchVariation=190995980397#polycard_client=search-nordic&searchVariation=190995980397&search_layout=stack&position=2&type=item&tracking_id=2a2bf1c5-79f8-4dc0-9558-fbde74be789e" target="_blank" rel="noopener noreferrer nofollow" className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl inline-block">
                     Comprar no Mercado Livre »
                   </a>
                 </div>
@@ -717,7 +717,7 @@ const HeroSection = () => {
                   style={{width: '350px', height: '350px'}}
                 />
                 {/* CTA Button - Visible on Mobile, Hidden on Desktop */}
-                <a href="https://produto.mercadolivre.com.br/MLB-3985586341-phynamax-funciona-5-frascos-_JM#polycard_client=recommendations_vip-seller_items-above&reco_backend=ranker-retsys-same-seller&reco_model=rk_entity_sameseller&reco_client=vip-seller_items-above&reco_item_pos=1&reco_backend_type=low_level&reco_id=66b9e745-9f26-4da3-b223-a9e69e99b705" target="_blank" rel="noopener noreferrer nofollow" className="lg:hidden bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl mt-32 inline-block">
+                <a href="https://produto.mercadolivre.com.br/MLB-5728117446-biocapilar-3-frascos-tratamento-para-90-dias-_JM?searchVariation=190995980397#polycard_client=search-nordic&searchVariation=190995980397&search_layout=stack&position=2&type=item&tracking_id=2a2bf1c5-79f8-4dc0-9558-fbde74be789e" target="_blank" rel="noopener noreferrer nofollow" className="lg:hidden bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl mt-32 inline-block">
                   Comprar no Mercado Livre »
                 </a>
               </div>
