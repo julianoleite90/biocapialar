@@ -1575,7 +1575,7 @@ const Remarketing = () => {
                 className="w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
               >
                 <h3 className="text-lg font-bold text-gray-900 pr-8">
-                  Preciso usar minoxidil ou finasterida?
+                  Preciso usar minoxidil?
                 </h3>
                 <div className={`text-2xl font-bold text-gray-400 transition-transform ${openFaq === 5 ? 'rotate-45' : ''}`}>
                   {openFaq === 5 ? '×' : '+'}
