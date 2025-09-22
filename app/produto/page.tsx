@@ -939,7 +939,7 @@ export default function ProdutoDefinamax() {
             <Link href="/privacidade" className="text-sm hover:text-green-200">
               Política de Privacidade
             </Link>
-            <Link href="/termos-garantia" className="text-sm hover:text-green-200">
+            <Link href="/termos" className="text-sm hover:text-green-200">
               Política de Reembolso
             </Link>
           </div>
