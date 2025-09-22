@@ -122,7 +122,7 @@ const Remarketing = () => {
             {/* Left Side - Text and CTA */}
             <div className="text-center lg:text-left space-y-6 flex flex-col justify-start pt-4 sm:pt-4 md:pt-12 lg:pt-24 order-2 lg:order-1">
               <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight">
-                <div className="text-black whitespace-nowrap">PREENCHA AS <span className="bg-yellow-300 px-1 italic">FALHAS E ENTRADAS</span></div>
+                <div className="text-black whitespace-nowrap">PREENCHA AS FALHAS E ENTRADAS</div>
                 <div style={{ color: '#173b6b' }}>E DÊ ADEUS A CALVÍCIE</div>
               </h1>
               
@@ -168,7 +168,7 @@ const Remarketing = () => {
               <img 
                 src="/a1hero.png" 
                 alt="Hero" 
-                className="w-full max-w-[280px] sm:max-w-[300px] lg:max-w-[450px] xl:max-w-[520px] h-auto object-contain transition-transform duration-500 hover:scale-110 cursor-pointer"
+                className="w-full max-w-[350px] sm:max-w-[300px] lg:max-w-[450px] xl:max-w-[520px] h-auto object-contain"
                 loading="eager"
                 decoding="async"
               />
@@ -181,7 +181,7 @@ const Remarketing = () => {
       <section className="py-4 px-4 sm:px-6 lg:px-8 mt-4 lg:mt-6" style={{ backgroundColor: '#173b6b', transform: 'translateY(0.5%)' }}>
         <div className="container-custom text-center">
           <p className="text-white text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide mb-4">
-            POR QUE TODOS RECOMENDAM A FÓRMULA DE BIOCAPILAR?
+            RESULTADOS EM POUCAS SEMANAS
           </p>
           <p className="text-white text-lg sm:text-xl lg:text-2xl tracking-wide">
             Transformação que vai além dos cabelos
@@ -256,7 +256,7 @@ const Remarketing = () => {
       <footer className="py-4 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#173b6b' }}>
         <div className="container-custom text-center">
           <p className="text-white text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide">
-            RECOMENDADO POR ESPECIALISTAS DA ÁREA
+                RECOMENDADO POR ESPECIALISTAS
           </p>
         </div>
       </footer>
@@ -272,28 +272,8 @@ const Remarketing = () => {
               </h2>
               
               <p className="text-gray-800 text-lg leading-relaxed">
-                Fórmula amplamente recomendada por especialistas em saúde capilar. Composta por bionutrientes que agem de dentro para fora, tratando a raiz do problema, promovendo fios mais fortes e reduzindo a queda. Estudos de universidades renomadas confirmam sua eficácia no fortalecimento capilar.
+                Fórmula amplamente recomendada por especialistas em saúde capilar. Composta por bionutrientes que agem de dentro para fora, tratando a raiz do problema, promovendo fios mais fortes e reduzindo a queda.
               </p>
-
-              <div className="space-y-4">
-                <h3 className="text-xl font-bold text-gray-900 text-center lg:text-left">
-                  Estudos que Comprovam a Eficácia
-                </h3>
-                
-                <div className="space-y-3">
-                  <p className="text-gray-700 text-base leading-relaxed">
-                    <strong>Oregon State University:</strong> Reverção da alopecia em casos de deficiência (PMC, 2017).
-                  </p>
-                  
-                  <p className="text-gray-700 text-base leading-relaxed">
-                    <strong>MDPI:</strong> Melhora da alopecia androgênica (2020).
-                  </p>
-                  
-                  <p className="text-gray-700 text-base leading-relaxed">
-                    <strong>Wiley:</strong> Promove saúde do couro cabeludo e fios (2023).
-                  </p>
-                </div>
-              </div>
             </div>
             
             {/* Right Side - ANVISA Logo */}
@@ -301,27 +281,26 @@ const Remarketing = () => {
               <img 
                 src="/adra.png?v=2" 
                 alt="ANVISA Logo" 
-                className="w-[28rem] h-[28rem] lg:w-[32rem] lg:h-[32rem] object-contain ml-8 lg:ml-0"
+                className="w-64 h-64 lg:w-80 lg:h-80 object-contain"
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Blue Bar Section */}
-      <section className="py-4 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#173b6b' }}>
+      {/* Blue Bar Section - HIDDEN */}
+      {/* <section className="py-4 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: '#173b6b' }}>
         <div className="container-custom text-center">
           <p className="text-white text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide">
-            A FÓRMULA VAI FUNCIONAR PARA O MEU CASO?
+            VAI FUNCIONAR NO MEU CASO?
           </p>
         </div>
-      </section>
+      </section> */}
 
-      {/* Guarantee Section */}
-      <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+      {/* Guarantee Section - HIDDEN */}
+      {/* <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left Side - Guarantee Image */}
             <div className="flex justify-center lg:justify-start">
                               <img 
                   src="/4cabecas.png" 
@@ -330,7 +309,6 @@ const Remarketing = () => {
                 />
             </div>
 
-            {/* Right Side - Text Content */}
             <div className="text-center lg:text-left space-y-6">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
                 O seu estágio está semelhante a imagem?
@@ -366,7 +344,7 @@ const Remarketing = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* Fourth Blue Bar Section */}
@@ -387,7 +365,7 @@ const Remarketing = () => {
                 <img 
                   src="/formula1.png" 
                   alt="Fórmula Biocapilar" 
-                  className="w-full max-w-xs lg:max-w-sm xl:max-w-md h-auto object-contain mt-0 lg:mt-12"
+                  className="w-full max-w-[280px] lg:max-w-[320px] xl:max-w-[380px] h-auto object-contain mt-0 lg:mt-12"
                   loading="lazy"
                   decoding="async"
                 />

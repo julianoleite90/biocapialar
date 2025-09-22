@@ -148,7 +148,7 @@ const BiocapilarFunciona: React.FC = () => {
               <img 
                 src="/formula1.png" 
                 alt="Fórmula Biocapilar - Como Funciona" 
-                className="w-full max-w-sm h-auto object-contain"
+                className="w-full max-w-[280px] h-auto object-contain"
               />
             </div>
           </div>
