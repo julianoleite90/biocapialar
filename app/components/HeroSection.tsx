@@ -299,7 +299,7 @@ const HeroSection = () => {
             {/* Right Side - ANVISA Logo */}
             <div className="w-full flex justify-center lg:justify-end lg:w-auto lg:pr-8">
               <img 
-                src="/adra.png" 
+                src="/adra.png?v=2" 
                 alt="ANVISA Logo" 
                 className="w-[28rem] h-[28rem] lg:w-[32rem] lg:h-[32rem] object-contain ml-8 lg:ml-0"
               />
